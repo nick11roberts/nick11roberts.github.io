@@ -1,11 +1,15 @@
 * {
-   margin: 0px;
-   padding: 0px;
-}
-
-p {
+	margin: 0px;
+	padding: 0px;
 	line-height:250%
 }
+
+
+p{
+	padding-left:50px;
+	text-align: justify;
+}
+
 
 .buttons{
 	position:absolute;
@@ -57,6 +61,11 @@ p {
 
 #logoImg:hover{
 	background-image:url('../images/tile.png');
+	
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px; /* future proofing */
+	-khtml-border-radius: 20px; /* for old Konqueror browsers */
 	
 }
 
@@ -114,9 +123,30 @@ body{
 
 	z-index:-1;
 	opacity:1;
-	-moz-box-shadow:    -15px 0px 0px 0px #5bd4ac;
-  	-webkit-box-shadow: -15px 0px 0px 0px #5bd4ac;
- 	 box-shadow:         -15px 0px 0px 0px #5bd4ac;
+	-moz-box-shadow:    -20px 0px 0px 0px #5bd4ac;
+  	-webkit-box-shadow: -20px 0px 0px 0px #5bd4ac;
+ 	 box-shadow:         -20px 0px 0px 0px #5bd4ac;
+}
+
+.bannerHeading{
+	position:relative;
+	background-image:url('../images/invertTile.png');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	text-align:right;
+	font-size:16;
+	letter-spacing:5px;
+	word-spacing:44px;
+	padding-top:30px;
+	padding-bottom:25px;
+	padding-right:30px;
+	padding-left:30px;
+	margin-left:00px;
+	margin-right:00px;
+	
+	-moz-box-shadow:    -2px 0px 0px 0px #D60000;
+  	-webkit-box-shadow: -2px 0px 0px 0px #D60000;
+ 	 box-shadow:         -2px 0px 0px 0px #D60000;
 }
 
 .footer{
@@ -128,7 +158,6 @@ body{
 	padding-top:30px;
 	padding-bottom:25px;
 	padding-left:30px:
-	padding-bottom:30px;
 	margin-left:00px;
 	margin-right:00px;
 	

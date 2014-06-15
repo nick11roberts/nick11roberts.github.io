@@ -27,13 +27,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="153.04569"
-     inkscape:cy="607.6049"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="597.68275"
+     inkscape:cy="520.63686"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     showguides="false"
+     showguides="true"
      inkscape:window-width="1600"
      inkscape:window-height="852"
      inkscape:window-x="0"
@@ -144,5 +144,52 @@
        style="fill:#424242;fill-opacity:1;stroke:none"
        sodipodi:type="arc"
        transform="matrix(0.12500001,0,0,0.12500001,307.50002,458.33477)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2991"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ani;-inkscape-font-specification:Bitstream Charter Bold"
+       transform="matrix(4.2122692,0,0,3.9315239,-1213.3902,-979.1166)"><flowRegion
+         id="flowRegion2993"><rect
+           id="rect2995"
+           width="371.73615"
+           height="222.23357"
+           x="375.77673"
+           y="337.17419"
+           style="font-weight:bold;-inkscape-font-specification:Bitstream Charter Bold" /></flowRegion><flowPara
+         id="flowPara2997"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Jamrul;-inkscape-font-specification:Jamrul Bold">Button</flowPara></flowRoot>    <path
+       style="fill:#d60000;fill-opacity:1;stroke:none"
+       d="m 405,517.36218 5,0 0,0 5,0 0,-25 195,0 0,55 265,0 0,-30 -5,0 0,0 -5,0 0,0 -5,0 0,20 -240,0 0,-55 -220,0 0,35 z"
+       id="path3779"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccc" />
+    <rect
+       style="fill:#979797;fill-opacity:1;stroke:none"
+       id="rect3783"
+       width="5"
+       height="20.149736"
+       x="405"
+       y="517.36218" />
+    <rect
+       style="fill:#979797;fill-opacity:1;stroke:none"
+       id="rect3785"
+       width="5"
+       height="20"
+       x="865"
+       y="497.36218" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3787"
+       width="15"
+       height="35"
+       x="400"
+       y="482.36218" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3789"
+       width="15"
+       height="30"
+       x="860"
+       y="517.36218" />
   </g>
 </svg>
