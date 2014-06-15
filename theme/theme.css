@@ -7,6 +7,42 @@ p {
 	line-height:250%
 }
 
+.buttons{
+	position:absolute;
+	width:50px;
+}
+
+
+
+
+.buttonImgs{
+	min-height:15px;
+	max-height:55px;
+	opacity: 0.65;
+    filter: alpha(opacity=65); /* For IE8 and earlier */   
+}
+
+.buttonImgs:hover{
+	opacity: .9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */   
+}
+
+#button1{
+	
+}
+
+#button2{
+	margin-left:200px;
+}
+
+#button3{
+	margin-left:400px;
+}
+
+
+
+
+
 #logoContainer{padding-right:200px;}
 
 #logoImg{
@@ -16,8 +52,7 @@ p {
 	max-height:65px;
     margin-right:10px;
     opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
-    
+    filter: alpha(opacity=40); /* For IE8 and earlier */   
 }
 
 #logoImg:hover{
