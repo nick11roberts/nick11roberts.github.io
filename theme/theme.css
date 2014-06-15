@@ -7,6 +7,8 @@ p {
 	line-height:250%
 }
 
+#logoContainer{padding-right:200px;}
+
 #logoImg{
 	position:relative;
     float:right;
@@ -15,7 +17,7 @@ p {
     margin-right:10px;
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
-    padding-right:200px;
+    
 }
 
 #logoImg:hover{
@@ -64,8 +66,8 @@ body{
 .bodyContent{
 	position:relative;
 	top:100px;
-	margin-left:100px;
-	margin-right:100px;
+	margin-left:200px;
+	margin-right:200px;
 	background-color:#efe8e3;
 	padding-top:45px;
 	padding-left:45px;
