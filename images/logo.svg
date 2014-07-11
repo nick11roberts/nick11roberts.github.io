@@ -16,8 +16,8 @@
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="logo.svg"
    inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/logo.png"
-   inkscape:export-xdpi="938.88727"
-   inkscape:export-ydpi="938.88727">
+   inkscape:export-xdpi="2067.6707"
+   inkscape:export-ydpi="2067.6707">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -27,17 +27,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.0933035"
-     inkscape:cx="88.411295"
-     inkscape:cy="772.61392"
+     inkscape:zoom="20.373214"
+     inkscape:cx="42.564773"
+     inkscape:cy="766.00186"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-width="1600"
      inkscape:window-height="852"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3818" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -55,17 +59,6 @@
      inkscape:groupmode="layer"
      id="layer1">
     <flowRoot
-       xml:space="preserve"
-       id="flowRoot2985"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold;stroke-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:0.50000000000000000, 0.50000000000000000;stroke-dashoffset:0"><flowRegion
-         id="flowRegion2987"><rect
-           id="rect2989"
-           width="908.57141"
-           height="437.14285"
-           x="22.857143"
-           y="243.79076"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold;stroke:#000000;stroke-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:0.50000000000000000, 0.50000000000000000;stroke-dashoffset:0" /></flowRegion><flowPara
-         id="flowPara2991">N</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot2993"
        style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Ani;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Ani;font-stretch:normal;font-variant:normal"><flowRegion
@@ -85,46 +78,7 @@
            height="66.164993"
            x="121.21831"
            y="247.77568" /></flowRegion><flowPara
-         id="flowPara3007" /></flowRoot>    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
-       x="54.548237"
-       y="269.74649"
-       id="text3009"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3011"
-         x="54.548237"
-         y="269.74649">I</tspan></text>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3013"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
-       transform="matrix(0.96767484,0.25220109,-0.25220109,0.96767484,-92.44381,-88.690547)"
-       inkscape:transform-center-x="-4.8313076"
-       inkscape:transform-center-y="-10.702538"><flowRegion
-         id="flowRegion3015"><rect
-           id="rect3017"
-           width="176.7767"
-           height="72.73098"
-           x="248.49753"
-           y="272.01935"
-           style="font-style:normal;font-weight:normal;-inkscape-font-specification:Bitstream Charter" /></flowRegion><flowPara
-         id="flowPara3019">C</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3021"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
-       transform="matrix(0.71585547,0.69824848,-0.69824848,0.71585547,236.92808,-136.64776)"
-       inkscape:transform-center-x="-16.557206"
-       inkscape:transform-center-y="-1.6865226"><flowRegion
-         id="flowRegion3023"><rect
-           id="rect3025"
-           width="185.86807"
-           height="102.02541"
-           x="190.41376"
-           y="363.94324"
-           style="font-style:normal;font-weight:normal;-inkscape-font-specification:Bitstream Charter" /></flowRegion><flowPara
-         id="flowPara3027">K</flowPara></flowRoot>    <flowRoot
+         id="flowPara3007" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3029"
        style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Bitstream Charter;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Bitstream Charter;font-stretch:normal;font-variant:normal"><flowRegion
@@ -135,14 +89,7 @@
            x="45.456863"
            y="228.0777"
            style="font-style:normal;-inkscape-font-specification:Bitstream Charter" /></flowRegion><flowPara
-         id="flowPara3035" /></flowRoot>    <rect
-       style="fill:#36e2ff;fill-opacity:1;stroke:none"
-       id="rect3037"
-       width="21.970818"
-       height="1.7677612"
-       x="50.255089"
-       y="272.63037" />
-    <flowRoot
+         id="flowPara3035" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3807"
        style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Bitstream Charter;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Bitstream Charter;font-stretch:normal;font-variant:normal"><flowRegion
@@ -152,23 +99,20 @@
            height="66.670067"
            x="12.879445"
            y="220.50156" /></flowRegion><flowPara
-         id="flowPara3813" /></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3817"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
-       transform="translate(-1.2626907,-9.8489873)"><flowRegion
-         id="flowRegion3819"><rect
-           id="rect3821"
-           width="46.719555"
-           height="46.467026"
-           x="51.265244"
-           y="274.54471" /></flowRegion><flowPara
-         id="flowPara3823">Rr</flowPara></flowRoot>    <rect
-       style="fill:#efe8e3;fill-opacity:1;stroke:#878787;stroke-width:0.4777489;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect3018"
-       width="43.022251"
-       height="0.36236784"
-       x="50.810307"
-       y="306.92249" />
+         id="flowPara3813" /></flowRoot>    <path
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="M 54 272.1875 L 54 274.375 L 54.625 274.375 L 54.625 279.375 L 54 279.375 L 54 292.375 L 54.625 292.375 L 54.625 297.375 L 54 297.375 L 54 301.34375 L 57.96875 301.34375 L 57.96875 289 L 62.25 289 C 63.812486 289.00001 65.039048 289.33074 65.9375 289.96875 C 66.848942 290.60678 67.786441 291.89063 68.75 293.84375 L 72.5 301.34375 L 76.71875 301.34375 L 72.71875 293.375 C 71.911437 291.73438 71.119771 290.43751 70.3125 289.5 C 69.51821 288.56251 68.690086 287.94272 67.84375 287.65625 C 69.471335 287.18751 70.716125 286.3672 71.5625 285.15625 C 72.421853 283.94533 72.843727 282.39846 72.84375 280.5625 C 72.843727 277.75002 72.015603 275.6745 70.375 274.28125 C 68.734356 272.88805 66.239567 272.18753 62.90625 272.1875 L 54 272.1875 z M 57.96875 275.40625 L 62.90625 275.40625 C 64.807277 275.40628 66.255192 275.84638 67.21875 276.71875 C 68.195294 277.57815 68.687481 278.85679 68.6875 280.5625 C 68.687481 282.26825 68.195294 283.58335 67.21875 284.46875 C 66.255192 285.34116 64.807277 285.78127 62.90625 285.78125 L 57.96875 285.78125 L 57.96875 275.40625 z "
+       id="flowRoot3817" />
+    <path
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       d="M 29.9375 272.375 L 29.9375 301.53125 L 33.75 301.53125 L 33.75 277.125 L 46.6875 301.53125 L 52 301.53125 L 52 297.375 L 50.9375 297.375 L 50.9375 292.375 L 52 292.375 L 52 279.375 L 50.9375 279.375 L 50.9375 274.375 L 52 274.375 L 52 272.375 L 48.1875 272.375 L 48.1875 296.75 L 35.25 272.375 L 29.9375 272.375 z "
+       id="flowRoot3018" />
+    <rect
+       y="301.09561"
+       x="26.698231"
+       height="0.36401591"
+       width="52.342907"
+       id="rect3794"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.5281623;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
   </g>
 </svg>
