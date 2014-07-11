@@ -143,11 +143,11 @@ body{
 	background-repeat: repeat;
 	background-attachment: fixed;
 	text-align:right;
-	font-size:16;
+	font-size:36px;
 	letter-spacing:5px;
 	word-spacing:44px;
-	padding-top:30px;
-	padding-bottom:25px;
+	padding-top:10px;
+	padding-bottom:10px;
 	padding-right:30px;
 	padding-left:30px;
 	margin-left:00px;
