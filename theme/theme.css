@@ -60,12 +60,19 @@ p{
 }
 
 #logoImg:hover{
+	/*
 	background-image:url('../images/tile.png');
 	
     -moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
-	border-radius: 20px; /* future proofing */
-	-khtml-border-radius: 20px; /* for old Konqueror browsers */
+	border-radius: 20px; 
+	-khtml-border-radius: 20px; 
+	*/
+	
+	/*same as others*/
+	opacity: .9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+    
 	
 }
 
@@ -117,15 +124,15 @@ body{
 	padding-left:45px;
 	padding-right:45px;
 	padding-bottom:25px;
-	border-color:#5bd4ac;
+	border-color:#2aa198;
 	border-width:3px;
 	border-style:dashed;
 
 	z-index:-1;
 	opacity:1;
-	-moz-box-shadow:    -20px 0px 0px 0px #5bd4ac;
-  	-webkit-box-shadow: -20px 0px 0px 0px #5bd4ac;
- 	 box-shadow:         -20px 0px 0px 0px #5bd4ac;
+	-moz-box-shadow:    -20px 0px 0px 0px #2aa198;
+  	-webkit-box-shadow: -20px 0px 0px 0px #2aa198;
+ 	 box-shadow:         -20px 0px 0px 0px #2aa198;
 }
 
 .bannerHeading{
@@ -144,9 +151,9 @@ body{
 	margin-left:00px;
 	margin-right:00px;
 	
-	-moz-box-shadow:    -2px 0px 0px 0px #D60000;
-  	-webkit-box-shadow: -2px 0px 0px 0px #D60000;
- 	 box-shadow:         -2px 0px 0px 0px #D60000;
+	-moz-box-shadow:    -2px 0px 0px 0px #dc322f;
+  	-webkit-box-shadow: -2px 0px 0px 0px #dc322f;
+ 	 box-shadow:         -2px 0px 0px 0px #dc322f;
 }
 
 .footer{

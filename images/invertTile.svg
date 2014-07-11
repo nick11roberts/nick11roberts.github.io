@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="invertTile.svg"
-   inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/invertTile.png"
+   inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io_colors_branch/images/invertTile.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="-25.741719"
-     inkscape:cy="18.388677"
+     inkscape:zoom="11.2"
+     inkscape:cx="30.549766"
+     inkscape:cy="11.280418"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -69,21 +69,8 @@
        height="50"
        width="50"
        id="rect3929"
-       style="fill:#5bd4ac;fill-opacity:1;stroke:none" />
-    <path
-       style="fill:none;stroke:#5bd4ac;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:0.61538464000000004;fill-opacity:0.85576922000000000;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 0,0 50,50 z"
-       id="path3823"
-       inkscape:connector-curvature="0"
-       transform="translate(0,1002.3622)" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path3931"
-       d="M 0,0 50,50 z"
-       style="fill:none;stroke:#efe8e3;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       transform="translate(0,1002.3622)"
-       inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/tile.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
+       style="fill:#93a1a1;fill-opacity:1;stroke:none"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
