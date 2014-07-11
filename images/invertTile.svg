@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="invertTile.svg"
-   inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io_colors_branch/images/invertTile.png"
+   inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/invertTile.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.2"
-     inkscape:cx="30.549766"
-     inkscape:cy="11.280418"
+     inkscape:zoom="16"
+     inkscape:cx="38.705722"
+     inkscape:cy="4.3635192"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -63,6 +63,15 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-1002.3622)">
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       style="fill:#efe8e3;fill-opacity:1;stroke:none"
+       id="rect2984"
+       width="52.363281"
+       height="51.402344"
+       x="-1.2390542"
+       y="1001.6827" />
     <rect
        y="1002.6655"
        x="0.15101275"

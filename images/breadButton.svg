@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="597.68275"
-     inkscape:cy="520.63686"
+     inkscape:zoom="15.839192"
+     inkscape:cx="938.59983"
+     inkscape:cy="574.52614"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -59,96 +59,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#979797;fill-opacity:1;stroke:none"
-       id="rect3759"
-       width="20"
-       height="240"
-       x="200"
-       y="332.36218" />
-    <rect
-       y="332.36218"
-       x="340"
-       height="240"
-       width="20"
-       id="rect3761"
-       style="fill:#979797;fill-opacity:1;stroke:none" />
-    <rect
-       style="fill:#b7b7b7;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0;fill-opacity:1"
-       id="rect2987"
-       width="160"
-       height="160"
-       x="200"
-       y="372.36218" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#424242;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0"
-       id="path3757"
-       sodipodi:cx="280"
-       sodipodi:cy="452.36218"
-       sodipodi:rx="60"
-       sodipodi:ry="60"
-       d="m 340,452.36218 a 60,60 0 1 1 -10e-5,-0.11169"
-       sodipodi:start="0"
-       sodipodi:end="6.2813237"
-       sodipodi:open="true" />
-    <path
-       sodipodi:open="true"
-       sodipodi:end="6.2813237"
-       sodipodi:start="0"
-       d="m 340,452.36218 a 60,60 0 1 1 -10e-5,-0.11169"
-       sodipodi:ry="60"
-       sodipodi:rx="60"
-       sodipodi:cy="452.36218"
-       sodipodi:cx="280"
-       id="path3763"
-       style="fill:#424242;fill-opacity:1;stroke:none"
-       sodipodi:type="arc"
-       transform="matrix(0.12500001,0,0,0.125,182.50002,333.31691)" />
-    <path
-       transform="matrix(0.12500001,0,0,0.12500001,307.50002,333.31691)"
-       sodipodi:type="arc"
-       style="fill:#424242;fill-opacity:1;stroke:none"
-       id="path3765"
-       sodipodi:cx="280"
-       sodipodi:cy="452.36218"
-       sodipodi:rx="60"
-       sodipodi:ry="60"
-       d="m 340,452.36218 a 60,60 0 1 1 -10e-5,-0.11169"
-       sodipodi:start="0"
-       sodipodi:end="6.2813237"
-       sodipodi:open="true" />
-    <path
-       transform="matrix(0.12500001,0,0,0.125,182.50002,458.33477)"
-       sodipodi:type="arc"
-       style="fill:#424242;fill-opacity:1;stroke:none"
-       id="path3767"
-       sodipodi:cx="280"
-       sodipodi:cy="452.36218"
-       sodipodi:rx="60"
-       sodipodi:ry="60"
-       d="m 340,452.36218 a 60,60 0 1 1 -10e-5,-0.11169"
-       sodipodi:start="0"
-       sodipodi:end="6.2813237"
-       sodipodi:open="true" />
-    <path
-       sodipodi:open="true"
-       sodipodi:end="6.2813237"
-       sodipodi:start="0"
-       d="m 340,452.36218 a 60,60 0 1 1 -10e-5,-0.11169"
-       sodipodi:ry="60"
-       sodipodi:rx="60"
-       sodipodi:cy="452.36218"
-       sodipodi:cx="280"
-       id="path3769"
-       style="fill:#424242;fill-opacity:1;stroke:none"
-       sodipodi:type="arc"
-       transform="matrix(0.12500001,0,0,0.12500001,307.50002,458.33477)" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot2991"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ani;-inkscape-font-specification:Bitstream Charter Bold"
-       transform="matrix(4.2122692,0,0,3.9315239,-1213.3902,-979.1166)"><flowRegion
+       transform="matrix(4.2122692,0,0,3.9315239,-1213.3902,-1005.1166)"><flowRegion
          id="flowRegion2993"><rect
            id="rect2995"
            width="371.73615"
@@ -157,39 +72,14 @@
            y="337.17419"
            style="font-weight:bold;-inkscape-font-specification:Bitstream Charter Bold" /></flowRegion><flowPara
          id="flowPara2997"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Jamrul;-inkscape-font-specification:Jamrul Bold">Button</flowPara></flowRoot>    <path
-       style="fill:#d60000;fill-opacity:1;stroke:none"
-       d="m 405,517.36218 5,0 0,0 5,0 0,-25 195,0 0,55 265,0 0,-30 -5,0 0,0 -5,0 0,0 -5,0 0,20 -240,0 0,-55 -220,0 0,35 z"
-       id="path3779"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccccc" />
-    <rect
-       style="fill:#979797;fill-opacity:1;stroke:none"
-       id="rect3783"
-       width="5"
-       height="20.149736"
-       x="405"
-       y="517.36218" />
-    <rect
-       style="fill:#979797;fill-opacity:1;stroke:none"
-       id="rect3785"
-       width="5"
-       height="20"
-       x="865"
-       y="497.36218" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect3787"
-       width="15"
-       height="35"
-       x="400"
-       y="482.36218" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect3789"
-       width="15"
-       height="30"
-       x="860"
-       y="517.36218" />
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">Button</flowPara></flowRoot>    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3000"
+       width="597.16144"
+       height="5"
+       x="362.84772"
+       y="477.36218"
+       inkscape:export-xdpi="281.25"
+       inkscape:export-ydpi="281.25" />
   </g>
 </svg>

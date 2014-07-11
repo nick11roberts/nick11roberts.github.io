@@ -13,7 +13,9 @@ p{
 
 .buttons{
 	position:absolute;
-	width:50px;
+	width:30px;
+	padding:25px;
+	margin-right:10px;
 }
 
 
@@ -21,9 +23,9 @@ p{
 
 .buttonImgs{
 	min-height:15px;
-	max-height:55px;
-	opacity: 0.65;
-    filter: alpha(opacity=65); /* For IE8 and earlier */   
+	max-height:40px;
+	opacity: 0.40;
+    filter: alpha(opacity=40); /* For IE8 and earlier */   
 }
 
 .buttonImgs:hover{
