@@ -15,9 +15,9 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="tile.svg"
-   inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/tile.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io_colors_branch/images/tile.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="-28.2671"
-     inkscape:cy="20.914058"
+     inkscape:zoom="5.6"
+     inkscape:cx="-27.771586"
+     inkscape:cy="18.666256"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -54,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -135,27 +135,9 @@
        transform="translate(0,1002.3622)" />
     <path
        inkscape:connector-curvature="0"
-       id="path3931"
-       d="M 0,0 50,50 z"
-       style="fill:none;stroke:#36e2ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       transform="translate(0,1002.3622)"
-       inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/tile.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <path
-       inkscape:connector-curvature="0"
        id="path3933"
        d="M 10,0 50,40 z"
-       style="fill:none;stroke:#5bd4ac;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.61538464000000004;fill-opacity:0.85576922000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       transform="translate(0,1002.3622)"
-       inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/tile.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path3935"
-       d="M 20,0 50,30 z"
-       style="fill:none;stroke:#5bd4ac;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.61538464000000004;fill-opacity:0.85576922000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#93a1a1;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.85576922000000000;stroke-miterlimit:2;stroke-dasharray:none;stroke-dashoffset:0;marker-start:none"
        transform="translate(0,1002.3622)"
        inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/tile.png"
        inkscape:export-xdpi="85.714287"
@@ -164,7 +146,7 @@
        inkscape:connector-curvature="0"
        id="path3937"
        d="M 30,0 50,20 z"
-       style="fill:none;stroke:#5bd4ac;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.61538464000000004;fill-opacity:0.85576922000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#93a1a1;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.85576922000000000;stroke-miterlimit:2;stroke-dasharray:none;stroke-dashoffset:0;marker-start:none"
        transform="translate(0,1002.3622)"
        inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/tile.png"
        inkscape:export-xdpi="85.714287"
@@ -173,7 +155,7 @@
        inkscape:connector-curvature="0"
        id="path3939"
        d="M 40,0 50,10 z"
-       style="fill:none;stroke:#5bd4ac;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.61538464000000004;fill-opacity:0.85576922000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#93a1a1;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.85576922000000000;stroke-miterlimit:2;stroke-dasharray:none;stroke-dashoffset:0;marker-start:none"
        transform="translate(0,1002.3622)"
        inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/tile.png"
        inkscape:export-xdpi="85.714287"
@@ -182,7 +164,7 @@
        inkscape:connector-curvature="0"
        id="path3941"
        d="M 0,10 40,50 z"
-       style="fill:none;stroke:#5bd4ac;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.61538464000000004;fill-opacity:0.85576922000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#93a1a1;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.85576922000000000;stroke-miterlimit:2;stroke-dasharray:none;stroke-dashoffset:0;marker-start:none"
        transform="translate(0,1002.3622)"
        inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/tile.png"
        inkscape:export-xdpi="85.714287"
@@ -191,16 +173,7 @@
        inkscape:connector-curvature="0"
        id="path3943"
        d="M 0,20 30,50 z"
-       style="fill:none;stroke:#5bd4ac;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.61538464000000004;fill-opacity:0.85576922000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       transform="translate(0,1002.3622)"
-       inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/tile.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path3945"
-       d="M 0,30 20,50 z"
-       style="fill:none;stroke:#5bd4ac;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.61538464000000004;fill-opacity:0.85576922000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#93a1a1;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.85576922000000000;stroke-miterlimit:2;stroke-dasharray:none;stroke-dashoffset:0;marker-start:none"
        transform="translate(0,1002.3622)"
        inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/tile.png"
        inkscape:export-xdpi="85.714287"
@@ -209,7 +182,7 @@
        inkscape:connector-curvature="0"
        id="path3947"
        d="M 0,40 10,50 z"
-       style="fill:none;stroke:#5bd4ac;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.61538464000000004;fill-opacity:0.85576922000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#93a1a1;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.85576922000000000;stroke-miterlimit:2;stroke-dasharray:none;stroke-dashoffset:0;marker-start:none"
        transform="translate(0,1002.3622)"
        inkscape:export-filename="/home/nikka/Desktop/nick11roberts.github.io/images/tile.png"
        inkscape:export-xdpi="85.714287"
