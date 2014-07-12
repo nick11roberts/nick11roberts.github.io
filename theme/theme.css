@@ -42,13 +42,9 @@ p{
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */ 
     
-    transition: background .25s ease-in-out;
-    -moz-transition: background .25s ease-in-out;
-   	-webkit-transition: background .25s ease-in-out;
-   
-   	transition: box-shadow .25s ease-in-out;
-  	-moz-transition: -moz-box-shadow .25s ease-in-out;
-   	-webkit-transition: -webkit-box-shadow .25s ease-in-out;  
+    transition: box-shadow .25s ease-in-out, background .1s ease-in-out;
+  	-moz-transition: -moz-box-shadow .25s ease-in-out, background .1s ease-in-out;
+   	-webkit-transition: -webkit-box-shadow .25s ease-in-out, background .1s ease-in-out;  
 }
 
 #logoImg:hover{
@@ -131,14 +127,10 @@ p{
 	max-height:40px;
 	opacity: 0.40;
     filter: alpha(opacity=40); /* For IE8 and earlier */   
-    
-    transition: background .25s ease-in-out;
-    -moz-transition: background .25s ease-in-out;
-   	-webkit-transition: background .25s ease-in-out;
    
-   	transition: box-shadow .25s ease-in-out;
-  	-moz-transition: -moz-box-shadow .25s ease-in-out;
-   	-webkit-transition: -webkit-box-shadow .25s ease-in-out;
+   	transition: box-shadow .25s ease-in-out, background .1s ease-in-out;
+  	-moz-transition: -moz-box-shadow .25s ease-in-out, background .1s ease-in-out;
+   	-webkit-transition: -webkit-box-shadow .25s ease-in-out, background .1s ease-in-out;
 }
 
 .buttonLinks{
