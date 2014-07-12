@@ -4,33 +4,15 @@
 	line-height:250%
 }
 
+body{
+	background-image:url('../images/tile.png');
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
 
 p{
 	padding-left:50px;
 	text-align: justify;
-}
-
-
-.buttons{
-	position:absolute;
-	width:30px;
-	padding:25px;
-	margin-right:10px;
-}
-
-
-
-
-.buttonImgs{
-	min-height:15px;
-	max-height:40px;
-	opacity: 0.40;
-    filter: alpha(opacity=40); /* For IE8 and earlier */   
-}
-
-.buttonImgs:hover{
-	opacity: .9;
-    filter: alpha(opacity=90); /* For IE8 and earlier */   
 }
 
 #button1{
@@ -45,11 +27,9 @@ p{
 	margin-left:400px;
 }
 
-
-
-
-
-#logoContainer{padding-right:200px;}
+#logoContainer{
+	padding-right:200px;
+}
 
 #logoImg{
 	position:relative;
@@ -62,31 +42,16 @@ p{
 }
 
 #logoImg:hover{
-	/*
-	background-image:url('../images/tile.png');
 	
-    -moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-	border-radius: 20px; 
-	-khtml-border-radius: 20px; 
-	*/
-	
-	/*same as others*/
-	opacity: .9;
-    filter: alpha(opacity=90); /* For IE8 and earlier */
+	background:#2aa198;
+	-moz-box-shadow:    -2px 0px 0px 0px #dc322f;
+  	-webkit-box-shadow: -2px 0px 0px 0px #dc322f;
+	box-shadow:         -2px 0px 0px 0px #dc322f;
     
 	
 }
 
-
-
-body{
-	background-image:url('../images/tile.png');
-	background-repeat: repeat;
-	background-attachment: fixed;
-}
-
-.mainContainer{
+#mainContainer{
 	position:relative;
 	top:auto;
 	left:auto;
@@ -95,7 +60,7 @@ body{
 	
 }
 
-.menuBar{
+#menuBar{
 	position:fixed;
 	width:100%;
 	height: 55px;
@@ -116,11 +81,12 @@ body{
 }
 
 
-.bodyContent{
+#bodyContent{
 	position:relative;
 	top:100px;
 	margin-left:200px;
 	margin-right:200px;
+	margin-bottom:225px;
 	background-color:#efe8e3;
 	padding-top:45px;
 	padding-left:45px;
@@ -135,6 +101,36 @@ body{
 	-moz-box-shadow:    -20px 0px 0px 0px #2aa198;
   	-webkit-box-shadow: -20px 0px 0px 0px #2aa198;
  	 box-shadow:         -20px 0px 0px 0px #2aa198;
+}
+
+.buttons{
+	position:absolute;
+	width:30px;
+	height:70px;
+	margin-right:10px;
+	padding-left:35.5px;
+	padding-top:0px;
+}
+
+
+.buttonImgs{
+	position:relative;
+	padding-top:25px;
+	padding-bottom:0px;
+	min-height:15px;
+	max-height:40px;
+	opacity: 0.40;
+    filter: alpha(opacity=40); /* For IE8 and earlier */   
+}
+
+.buttonLinks{
+}
+
+.buttonImgs:hover{
+	background:#2aa198;
+	-moz-box-shadow:    -2px 0px 0px 0px #dc322f;
+  	-webkit-box-shadow: -2px 0px 0px 0px #dc322f;
+	box-shadow:         -2px 0px 0px 0px #dc322f;
 }
 
 .bannerHeading{
@@ -170,11 +166,16 @@ body{
 	background-attachment: fixed;
 	text-align:right;
 	padding-top:30px;
-	padding-bottom:25px;
+	padding-bottom:30px;
 	padding-left:30px:
 	margin-left:00px;
 	margin-right:00px;
 	
 	
 }
+
+
+
+
+
 
