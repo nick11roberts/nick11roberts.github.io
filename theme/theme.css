@@ -29,12 +29,12 @@ p{
 }
 
 #logoContainer{
-	padding-right:200px;
+	padding-left:1286px;
 }
 
 #logoImg{
 	position:relative;
-    float:right;
+    float:left;
     min-height:15px;
 	max-height:65px;
 	width:99px;
