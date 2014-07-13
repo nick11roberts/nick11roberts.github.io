@@ -1,6 +1,9 @@
+
+// Use the function... 
 window.onscroll = scroll;
 	
-// JS scroll effects... 		
+// JS scroll effects... 
+// Called immediately		
 function scroll () {
 	
 	var isScroll;
@@ -28,6 +31,7 @@ function scroll () {
 	
 }
 
+// Called on mouseover... 
 function ifScrolledOpacityShift () {
 	
 	if(scroll()){
