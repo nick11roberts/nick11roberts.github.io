@@ -28,7 +28,7 @@ p{
 }
 
 #logoContainer{
-	padding-right:200px;
+	padding-right:11.3%;
 }
 
 #logoImg{
@@ -36,7 +36,7 @@ p{
     float:right;
     min-height:15px;
 	max-height:65px;
-	width:99px;
+	width:97px;
     margin-right:0px;
     margin-top:10px;
     opacity: 0.4;
@@ -78,6 +78,7 @@ p{
 	background-image:url('../images/invertTile.png');
 	background-repeat: repeat;
 	background-attachment: fixed;
+	background-size:3.125%;
 	border-bottom: 10px #efe8e3 solid;
 	border-bottom-width: 10px;
 	border-bottom-style: solid;
