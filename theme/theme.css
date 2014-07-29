@@ -6,7 +6,6 @@
 
 body{
 	background-image:url('../images/tile.png');
-
 	background-repeat: repeat;
 	background-attachment: fixed;
 }
@@ -29,18 +28,12 @@ p{
 }
 
 #logoContainer{
-	/*padding-right:200px;*/
-	
-	
 	
 }
 
 #logoLink{
-	
-	
 	position:relative;
     float:right;
-
     margin-right:10px;
     margin-top:0px;
     display: inline-block; 
@@ -49,48 +42,30 @@ p{
 	padding-right:13.5px; 
 	color: #a7a29e; 
 	text-decoration: none; 
-	
 	line-height:100%;
 	font-size:36px;
 	letter-spacing:5px;
-	
 	background-image:url('../images/tile.png');
-
 	background-repeat: repeat;
 	background-attachment: fixed;
-	
-	/*-moz-box-shadow:    -5px -1px 0px 0px #2aa198;
-  	-webkit-box-shadow: -5px -1px 0px 0px #2aa198;
- 	 box-shadow:        -5px -1px 0px 0px #2aa198;*/
- 	 
  	border-left: 5px #2aa198 solid;
 	border-left-width: 5px;
 	border-left-style: solid;
-	border-left-color: #2aa198;	
-	
+	border-left-color: #2aa198;		
 	border-top: 3px #2aa198 solid;
 	border-top-width: 3px;
 	border-top-style: solid;
 	border-top-color: #2aa198;	
-	
-
-	
 	transition: border-top .25s ease-in-out, border-left .25s ease-in-out;
   	-moz-transition: border-top .25s ease-in-out, border-left .25s ease-in-out;
-   	-webkit-transition: border-top .25s ease-in-out, border-left .25s ease-in-out;
-    
+   	-webkit-transition: border-top .25s ease-in-out, border-left .25s ease-in-out;  
 }
 
-#logoImg:hover{
-	
+#logoImg:hover{	
 	background:#d7d0cc;
-	
-	
     transition: background .25s ease-in-out;
   	-moz-transition: background .25s ease-in-out;
-   	-webkit-transition: background .25s ease-in-out;
-    
-	
+   	-webkit-transition: background .25s ease-in-out;	
 }
 
 #mainContainer{
@@ -99,8 +74,6 @@ p{
 	left:auto;
 	right:auto;
 	width:100%;
-	
-	
 }
 
 #menuBar{
@@ -112,18 +85,13 @@ p{
 	padding-bottom: 8px;
 	padding-left: 15px;
 	background: #efe8e3;
-	/*background:url('../images/invertTile.png')50% 0%;
-	background-repeat: repeat;
-	background-attachment: fixed;*/
 	border-bottom: 11px #2aa198 solid;
 	border-bottom-width: 11px;
 	border-bottom-style: solid;
 	border-bottom-color: #2aa198;	
-	
 	transition: opacity .25s ease-in-out, border-bottom .25s ease-in-out;
   	-moz-transition: opacity .25s ease-in-out, border-bottom .25s ease-in-out;
    	-webkit-transition: opacity .25s ease-in-out, border-bottom .25s ease-in-out;
-	
 }
 
 #bodyContent{
@@ -140,7 +108,6 @@ p{
 	border-color:#2aa198;
 	border-width:3px;
 	border-style:dashed;
-
 	z-index:-1;
 	opacity:1;
 	-moz-box-shadow:    -20px 0px 0px 0px #2aa198;
@@ -148,66 +115,65 @@ p{
  	 box-shadow:         -20px 0px 0px 0px #2aa198;
 }
 
+th, td { 
+	padding: 15px; 
+}
 
 
-th, td { padding: 15px; }
+table { 
+	border-collapse: separate; 
+	border-spacing: 15px; 
+} 
 
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0; 
+}   
 
-table { border-collapse: separate; border-spacing: 15px; } 
-table { border-collapse: collapse; border-spacing: 0; }   
+th, td { 
+	vertical-align: top; 
+}
 
-
-th, td { vertical-align: top; }
-
-
-table { margin: 0 auto; }
-
+table { 
+	margin: 0 auto; 
+}
 
 .navigation {
-	list-style-type: none; margin: 0; padding: 0px; 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0px; 
 }
+
 .navigation li { 
-	display: inline; margin: 0 0 0 0; 
+	display: inline; 
+	margin: 0 0 0 0; 
 }
+
 .navigation li a { 
 	display: inline-block; 
 	padding-top:27px; 
 	padding-left:28.5px; 
 	padding-right:28.5px; 
-	
 	color: #a7a29e; 
 	text-decoration: none; 
-	
 	line-height:100%;
 	font-size:36px;
 	letter-spacing:5px;
-	
 	background:#EFE8E3;
-	
 	transition: background .25s ease-in-out;
   	-moz-transition: background .25s ease-in-out;
-   	-webkit-transition: background .25s ease-in-out;
-   	
-   	
-   	
+   	-webkit-transition: background .25s ease-in-out;	
 }
+
 .navigation li a:hover { 
 	background:#d7d0cc;
-	
-	
     transition: background .25s ease-in-out;
   	-moz-transition: background .25s ease-in-out;
    	-webkit-transition: background .25s ease-in-out;
 }
 
-
-
-
 .bannerHeading{
 	position:relative;
-	/*background-image:url('../images/tile.png');
-	background-repeat: repeat;
-	background-attachment: fixed;*/
 	background:#EFE8E3;
 	text-align:right;
 	font-size:36px;
@@ -219,7 +185,6 @@ table { margin: 0 auto; }
 	padding-left:30px;
 	margin-left:00px;
 	margin-right:00px;
-	
 	-moz-box-shadow:    3px 1px 0px 0px #dc322f;
   	-webkit-box-shadow: 3px 1px 0px 0px #dc322f;
  	 box-shadow:        3px 1px 0px 0px #dc322f;
@@ -232,22 +197,11 @@ table { margin: 0 auto; }
 
 .footer{
 	position:relative;
-	/*background-image:url('../images/invertTile.png');
-	background-repeat: repeat;
-	background-attachment: fixed;*/
 	background:#EFE8E3;
 	text-align:right;
 	padding-top:30px;
 	padding-bottom:30px;
-	padding-left:30px:
 	margin-left:00px;
 	margin-right:00px;
-	
-	
+
 }
-
-
-
-
-
-
