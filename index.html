@@ -15,7 +15,7 @@
 		
 		<style>
 		
-		  .bannerHeading {
+		  .bannerHeading, .buttonLinks, #logoLink{
 		    font-family: 'Sacramento', serif;
 		    
 		  }
@@ -30,15 +30,15 @@
 		
 		<script type="text/javascript" src= "js/headereffects.js"></script>
 		
+		<script type="text/javascript" src= "js/logoplacement.js"></script>
+		
 		<title>Home</title>
 		
 	</head>
 
-	<body>
+	<body onload="logoPlacement()">
 	
 		<div id="mainContainer">
-			
-			<!--<script type="text/javascript" src= "js/logoplacement.js"></script>-->
 			
 			<div id="menuBar" onmouseover="ifScrolledOpacityShift ()" onmouseout="scroll ()" >
 				
@@ -46,7 +46,7 @@
 				
 					<a id="logoLink" href="index.html">
 					
-						<img id="logoImg" src= "images/logo.png"  />
+						Nicholas Roberts
 						
 					</a>
 					
@@ -56,37 +56,39 @@
 
 
 				<!-------------------------------------------------------------------- BUTTONS -->
-				
-				<div class="buttons" id="button1">
-				
-					<a class="buttonLinks" id="buttonLink1" href="#">
+				<ul class="navigation" id="buttons">
+					<li id="button1">
 					
-						<img class="buttonImgs" id="buttonImg1" src= "images/breadButton.png"  />
+						<a class="buttonLinks" id="buttonLink1" href="#">
+							
+							Projects
+							
+							<!--<img class="buttonImgs" id="buttonImg1" src= "images/breadButton.png"  />-->
+							
+						</a>
 						
-					</a>
+					</li>
 					
-				</div>
-				
-				<div class="buttons" id="button2">
-				
-					<a class="buttonLinks" id="buttonLink2" href="#">
+					<li id="button2">
 					
-						<img class="buttonImgs" id="buttonImg2" src="images/breadButton.png"  />
+						<a class="buttonLinks" id="buttonLink2" href="#">
 						
-					</a>
-					
-				</div>
-				
-				<div class="buttons" id="button3">
-				
-					<a class="buttonLinks" id="buttonLink3" href="#">
-					
-						<img class="buttonImgs" id="buttonImg3" src="images/breadButton.png"  />
+							Kitchen
+							
+						</a>
 						
-					</a>
+					</li>
 					
-				</div>
-
+					<li id="button3">
+					
+						<a class="buttonLinks" id="buttonLink3" href="#">
+						
+							About
+							
+						</a>
+						
+					</li>
+				</ul>
 				<!-------------------------------------------------------------------- /BUTTONS -->
 
 

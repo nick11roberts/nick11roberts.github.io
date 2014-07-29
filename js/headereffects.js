@@ -14,6 +14,11 @@ function scroll () {
 		element.style.opacity = "0.6";
 		element.style.filter  = 'alpha(opacity=60)'; // IE fallback
 		element.style.borderBottomWidth = "0px";	
+
+		
+		var elementLogo = document.getElementById('logoLink');
+		elementLogo.style.borderLeftWidth = "0px";
+		elementLogo.style.borderTopWidth = "0";
 		isScroll = true;
 		
 	}
@@ -21,7 +26,11 @@ function scroll () {
 		var element = document.getElementById('menuBar');
 		element.style.opacity = "1.0";
 		element.style.filter  = 'alpha(opacity=100)'; // IE fallback
-		element.style.borderBottomWidth = "10px";	
+		element.style.borderBottomWidth = "11px";	
+		
+		var elementLogo = document.getElementById('logoLink');	
+		elementLogo.style.borderLeftWidth = "5px";
+		elementLogo.style.borderTopWidth = "3px";
 		
 		isScroll = false; 
 		
@@ -38,7 +47,12 @@ function ifScrolledOpacityShift () {
 		var element = document.getElementById('menuBar');
 		element.style.opacity = "1.0";
 		element.style.filter  = 'alpha(opacity=100)'; // IE fallback
-		element.style.borderBottomWidth = "10px";	
+		element.style.borderBottomWidth = "11px";	
+		
+		var elementLogo = document.getElementById('logoLink');	
+		elementLogo.style.borderLeftWidth = "5px";
+		elementLogo.style.borderTopWidth = "3px";
+		
 	}
 	else{
 		scroll();

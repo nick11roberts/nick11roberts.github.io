@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="938.59983"
-     inkscape:cy="574.52614"
+     inkscape:zoom="1.979899"
+     inkscape:cx="657.72538"
+     inkscape:cy="562.94317"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -72,14 +72,5 @@
            y="337.17419"
            style="font-weight:bold;-inkscape-font-specification:Bitstream Charter Bold" /></flowRegion><flowPara
          id="flowPara2997"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">Button</flowPara></flowRoot>    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect3000"
-       width="597.16144"
-       height="5"
-       x="362.84772"
-       y="477.36218"
-       inkscape:export-xdpi="281.25"
-       inkscape:export-ydpi="281.25" />
-  </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">Button</flowPara></flowRoot>  </g>
 </svg>

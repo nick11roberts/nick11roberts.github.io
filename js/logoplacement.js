@@ -1,3 +1,7 @@
-var htmlWidth = $( document ).width();
+//var htmlWidth = $( document ).width();
 		
-document.getElementById("logoContainer").style.paddingLeft="500px";
+function logoPlacement(){
+	var logoContainer = document.getElementById('logoContainer');
+
+	logoContainer.style.paddingLeft = '200px';
+} 
