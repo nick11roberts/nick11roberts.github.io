@@ -42,9 +42,9 @@ p{
     float:right;
 
     margin-right:10px;
-    margin-top:8px;
+    margin-top:0px;
     display: inline-block; 
-	padding-top:27px; 
+	padding-top:35px; 
 	padding-left:13.5px; 
 	padding-right:13.5px; 
 	color: #a7a29e; 
@@ -73,7 +73,7 @@ p{
 	border-top-style: solid;
 	border-top-color: #2aa198;	
 	
-	z-index:-1;
+
 	
 	transition: border-top .25s ease-in-out, border-left .25s ease-in-out;
   	-moz-transition: border-top .25s ease-in-out, border-left .25s ease-in-out;
@@ -100,7 +100,6 @@ p{
 	right:auto;
 	width:100%;
 	
-	z-index: 1;
 	
 }
 
