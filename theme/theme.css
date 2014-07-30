@@ -92,6 +92,7 @@ p{
 	transition: opacity .25s ease-in-out, border-bottom .25s ease-in-out;
   	-moz-transition: opacity .25s ease-in-out, border-bottom .25s ease-in-out;
    	-webkit-transition: opacity .25s ease-in-out, border-bottom .25s ease-in-out;
+   	z-index:2;
 }
 
 #bodyContent{
@@ -108,7 +109,7 @@ p{
 	border-color:#2aa198;
 	border-width:3px;
 	border-style:dashed;
-	z-index:-1;
+	z-index:1;
 	opacity:1;
 	-moz-box-shadow:    -20px 0px 0px 0px #2aa198;
   	-webkit-box-shadow: -20px 0px 0px 0px #2aa198;
