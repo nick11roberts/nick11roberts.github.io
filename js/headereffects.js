@@ -15,6 +15,9 @@ function scroll () {
 		element.style.filter  = 'alpha(opacity=60)'; // IE fallback
 		element.style.borderBottomWidth = "0px";	
 
+		var element = document.getElementById('githubForkRibbon');
+		element.style.opacity = "0.6";
+		element.style.filter  = 'alpha(opacity=60)'; // IE fallback
 		
 		var elementLogo = document.getElementById('logoLink');
 		elementLogo.style.borderLeftWidth = "0px";
@@ -27,6 +30,10 @@ function scroll () {
 		element.style.opacity = "1.0";
 		element.style.filter  = 'alpha(opacity=100)'; // IE fallback
 		element.style.borderBottomWidth = "11px";	
+		
+		var element = document.getElementById('githubForkRibbon');
+		element.style.opacity = "1.0";
+		element.style.filter  = 'alpha(opacity=100)'; // IE fallback
 		
 		var elementLogo = document.getElementById('logoLink');	
 		elementLogo.style.borderLeftWidth = "5px";
@@ -48,6 +55,10 @@ function ifScrolledOpacityShift () {
 		element.style.opacity = "1.0";
 		element.style.filter  = 'alpha(opacity=100)'; // IE fallback
 		element.style.borderBottomWidth = "11px";	
+		
+		var element = document.getElementById('githubForkRibbon');
+		element.style.opacity = "1.0";
+		element.style.filter  = 'alpha(opacity=100)'; // IE fallback
 		
 		var elementLogo = document.getElementById('logoLink');	
 		elementLogo.style.borderLeftWidth = "5px";
