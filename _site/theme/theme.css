@@ -15,6 +15,28 @@ p{
 	text-align: justify;
 }
 
+a:link {
+    color: #2AA198;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #DC322F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EFE8E3;
+    background-color: #2AA198;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #EFE8E3;
+    background-color: #DC322F;
+    text-decoration: underline;
+}
+
 #logoLink{
 	position:relative;
     float:right;
