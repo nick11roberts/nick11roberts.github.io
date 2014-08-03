@@ -15,23 +15,23 @@ p{
 	text-align: justify;
 }
 
-a:link {
+a:link:not(.socialIconLinks, .sideNav) {
     color: #2AA198;
     text-decoration: none;
 }
 
-a:visited {
+a:visited:not(.socialIconLinks, .sideNav) {
     color: #DC322F;
     text-decoration: none;
 }
 
-a:hover {
+a:hover:not(.socialIconLinks, .sideNav) {
     color: #EFE8E3;
     background-color: #2AA198;
     text-decoration: underline;
 }
 
-a:active {
+a:active:not(.socialIconLinks, .sideNav) {
     color: #EFE8E3;
     background-color: #DC322F;
     text-decoration: underline;
