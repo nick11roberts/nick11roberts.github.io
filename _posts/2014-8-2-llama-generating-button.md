@@ -1,6 +1,6 @@
 ---
 title: Llama Generating Button
-layout: default
+layout: full_post
 ---
 
 <br/>

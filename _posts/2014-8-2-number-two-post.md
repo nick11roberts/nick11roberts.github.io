@@ -1,6 +1,6 @@
 ---
 title: Consectetur Elit
-layout: default
+layout: full_post
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum tellus eget libero ullamcorper feugiat sit amet nec nunc. Nam lobortis ante quam, fermentum pretium nisl feugiat non. Integer eu justo ac tellus tincidunt hendrerit. Vivamus ornare justo sed ipsum consequat, sed pharetra sapien ultrices. Donec id urna a enim tincidunt scelerisque aliquet a arcu. Vestibulum quam augue, interdum suscipit convallis vel, mollis id ligula. Donec ut viverra nibh, accumsan porttitor risus.
