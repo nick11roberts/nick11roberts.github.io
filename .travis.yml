@@ -6,8 +6,7 @@ script: jekyll build && htmlproof ./_site
 # branch whitelist
 branches:
   only:
-  - gh-pages     # test the gh-pages branch
-  - /pages-(.*)/ # test every branch which starts with "pages-"
+  - master
 
 env:
   global:
