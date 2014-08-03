@@ -153,7 +153,7 @@
 					<p>
 						{% if post.content.size > 200 %}
 							{{ post.content | strip_html | truncatewords:200}}<br>
-								<a href="{{ post.url }}">Read more...</a><br>
+								<a class="aLink" href="{{ post.url }}">Read more...</a><br>
 							{% else %}
 						      	{{ post.content }}
 						   	{% endif %}
@@ -164,7 +164,7 @@
 				{% endfor %}
 				
 				
-				<br /><a href="#">Older posts...</a><br>
+				<br /><a class="aLink" href="#">Older posts...</a><br>
 				<!--  -->
 					
 					

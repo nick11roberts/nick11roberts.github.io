@@ -15,26 +15,38 @@ p{
 	text-align: justify;
 }
 
-a:link:not(.socialIconLinks, .sideNav) {
+.aLink:link {
     color: #2AA198;
     text-decoration: none;
+    transition: color .25s ease-in-out, background-color .25s ease-in-out;
+  	-moz-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+   	-webkit-transition: color .25s ease-in-out, background-color .25s ease-in-out;  
 }
 
-a:visited:not(.socialIconLinks, .sideNav) {
+.aLink:visited {
     color: #DC322F;
     text-decoration: none;
+    transition: color .25s ease-in-out, background-color .25s ease-in-out;
+  	-moz-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+   	-webkit-transition: color .25s ease-in-out, background-color .25s ease-in-out; 
 }
 
-a:hover:not(.socialIconLinks, .sideNav) {
+.aLink:hover {
     color: #EFE8E3;
     background-color: #2AA198;
     text-decoration: underline;
+    transition: color .25s ease-in-out, background-color .25s ease-in-out;
+  	-moz-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+   	-webkit-transition: color .25s ease-in-out, background-color .25s ease-in-out; 
 }
 
-a:active:not(.socialIconLinks, .sideNav) {
+.aLink:active {
     color: #EFE8E3;
     background-color: #DC322F;
     text-decoration: underline;
+    transition: color .25s ease-in-out, background-color .25s ease-in-out;
+  	-moz-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+   	-webkit-transition: color .25s ease-in-out, background-color .25s ease-in-out; 
 }
 
 #logoLink{
