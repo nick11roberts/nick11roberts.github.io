@@ -4,7 +4,7 @@
 	line-height:250%
 }
 
-html, body{
+body{
 	background-image:url('../images/tile.png');
 	background-repeat: repeat;
 	background-attachment: fixed;
@@ -50,6 +50,40 @@ p{
 
 .aLink:active {
     color: #EFE8E3;
+    background-color: #DC322F;
+    text-decoration: underline;
+    transition: color .25s ease-in-out, background-color .25s ease-in-out;
+  	-moz-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+   	-webkit-transition: color .25s ease-in-out, background-color .25s ease-in-out; 
+}
+
+.aLinkSacramento:link {
+    color: #2AA198;
+    text-decoration: none;
+    transition: color .25s ease-in-out, background-color .25s ease-in-out;
+  	-moz-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+   	-webkit-transition: color .25s ease-in-out, background-color .25s ease-in-out;  
+}
+
+.aLinkSacramento:visited {
+    color: #2AA198;
+    text-decoration: none;
+    transition: color .25s ease-in-out, background-color .25s ease-in-out;
+  	-moz-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+   	-webkit-transition: color .25s ease-in-out, background-color .25s ease-in-out; 
+}
+
+.aLinkSacramento:hover {
+    color: #EFE8E3;
+    background-color: #2AA198;
+    text-decoration: underline;
+    transition: color .25s ease-in-out, background-color .25s ease-in-out;
+  	-moz-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+   	-webkit-transition: color .25s ease-in-out, background-color .25s ease-in-out; 
+}
+
+.aLinkSacramento:active {
+    color: #2AA198;
     background-color: #DC322F;
     text-decoration: underline;
     transition: color .25s ease-in-out, background-color .25s ease-in-out;
@@ -154,6 +188,10 @@ p{
  	 box-shadow:         -20px 0px 0px 0px #2aa198;
 }
 
+#noPostContentView{
+	text-align:center;
+}
+
 #layoutTable { 
 	border-collapse: collapse; 
 	border-spacing: 0; 
@@ -214,7 +252,48 @@ p{
 	margin-right:00px;
 	-moz-box-shadow:    3px 1px 0px 0px #dc322f;
   	-webkit-box-shadow: 3px 1px 0px 0px #dc322f;
- 	 box-shadow:        3px 1px 0px 0px #dc322f;
+ 	box-shadow:        3px 1px 0px 0px #dc322f;
+ 	color:#A7A29E;
+}
+
+.noPostBannerHeading{
+	position:relative;
+	background:#EFE8E3;
+
+	font-size:36px;
+
+	
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-right:30px;
+	padding-left:30px;
+	margin-top:10px;
+	margin-left:110px;
+	margin-right:110px;
+	
+ 	border-right: 0px #dc322f solid;
+	border-right-width: 0px;
+	border-right-style: solid;
+	border-right-color: #dc322f;		
+	border-bottom: 0px #dc322f solid;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #dc322f;
+	border-top: 3px #dc322f dashed;
+	border-top-width: 3px;
+	border-top-style: dashed;
+	border-top-color: #dc322f;
+	border-left: 3px #dc322f dashed;
+	border-left-width: 3px;
+	border-left-style: dashed;
+	border-left-color: #dc322f;
+	color:#A7A29E;
+}
+
+.noPostContentView{
+	font-size:24px;
+	text-align:center;
+	color:#A7A29E;
 }
 
 .postContent{
