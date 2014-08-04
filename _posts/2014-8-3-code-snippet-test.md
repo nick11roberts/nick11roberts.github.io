@@ -6,21 +6,5 @@ category: projects
 
 This is a test of some code snippets! 
 
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-
-
-
-{% highlight c++ %}
-#include iostream
-using namespace std;
-
-int main(){
-	int i = 0;
-	for(i=0; i<=9; i++)
-		cout<<"Testing 123!"<<endl;
-}
-{% endhighlight %}
+<script src="https://gist.github.com/daschl/16ee6a6ba59367aeabe6.js">
+</script>
