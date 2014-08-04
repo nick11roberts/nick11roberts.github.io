@@ -1,6 +1,7 @@
 ---
 title: Llama Generating Button
 layout: full_post
+category: projects
 ---
 
 <br/>

@@ -1,22 +1,5 @@
 <div id = "bodyContent">	
-	{% for post in site.posts limit: 5 %}
-	<div class = "bannerHeading">
-		{{post.title}}				
-	</div>	
-	<div class = "postContent">	
-		<p>
-			{% if post.content.size > 200 %}
-				{{ post.content | strip_html | truncatewords:200}}<br>
-					<a class="aLink" href="{{ post.url }}">Read more...</a><br>
-				{% else %}
-			      	{{ post.content }}
-			   	{% endif %}	
-		</p>	
-	</div>
-	{% endfor %}
-	<br />
-	<a class="aLink" href="#">Older posts...</a>
-	<br>
+	
 	
 	
 

@@ -1,6 +1,7 @@
 ---
 title: Lorem Ipsum Dolor Sit Amet
 layout: full_post
+category: kitchen
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis mollis ante nec ultricies. Pellentesque aliquet viverra porta. Phasellus eu gravida arcu. In hac habitasse platea dictumst. Nunc id auctor justo, nec condimentum ante. Nullam eget rhoncus augue. Aenean egestas dui vel lorem facilisis, ut pharetra velit pretium. Quisque odio neque, scelerisque ac dolor sit amet, euismod venenatis urna. Nullam auctor enim eu nisi venenatis, et aliquet ipsum tempus. Curabitur a tristique risus, a pulvinar neque.

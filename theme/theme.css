@@ -4,10 +4,18 @@
 	line-height:250%
 }
 
-body{
+html, body{
 	background-image:url('../images/tile.png');
 	background-repeat: repeat;
 	background-attachment: fixed;
+	margin:0;
+    padding:0;
+    height:100%;
+}
+
+#body {
+   padding:10px;
+   padding-bottom:100px;   /* Height of the footer */
 }
 
 p{
@@ -92,6 +100,8 @@ p{
 	left:auto;
 	right:auto;
 	width:100%;
+	min-height:100%;
+
 }
 
 #menuBar{
@@ -116,6 +126,7 @@ p{
 #bodyContent{
 	position:relative;
 	top:100px;
+	min-height:600px;
 	margin-left:100px;
 	margin-right:100px;
 	margin-bottom:225px;
@@ -314,12 +325,20 @@ p{
 }
 
 .footer{
-	position:relative;
+	position:bottom: auto;
+	top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-THE HEIGHT OF THIS THING IN PIXELS));
+	left: expression(eval(document.documentElement.scrollLeft));
+	width: expression(eval(document.documentElement.clientWidth));
+	float:bottom;
+	bottom:0px;
+	left:0px;
+	width:100%;
 	background:#EFE8E3;
 	text-align:right;
 	padding-top:30px;
 	padding-bottom:30px;
 	margin-left:00px;
 	margin-right:00px;
+	height:100px;
 
 }

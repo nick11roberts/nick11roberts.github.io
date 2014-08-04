@@ -7,8 +7,41 @@
 		{% assign nextPage = '/kitchen.html' %}
 	{% when 'Kitchen' %}
 		{% assign nextPage = '/about.html' %}
-	{% else %}
-		{% assign nextPage = page.next.url %}
+	{% else %} <!-- DOESN'T WORK YET --> <!--
+		{% if page.post == site.categories.kitchen %}
+			{% for post in site.categories.kitchen %}
+		        {% if post.url == page.url %}
+		            {% assign post_index0 = forloop.index0 %}
+		            {% assign post_index1 = forloop.index %}
+		        {% endif %}
+		    {% endfor %}
+		    {% for post in site.categories.kitchen %}
+		        {% if post_index0 == forloop.index %}
+		            {% assign next_post = post.url %}
+		        {% endif %}
+		        {% if post_index1 == forloop.index0 %}
+		            {% assign prev_post = post.url %}
+		        {% endif %}
+		    {% endfor %}
+		
+		{% elsif page.post == site.categories.projects %}
+			{% for post in site.categories.projects %}
+		        {% if post.url == page.url %}
+		            {% assign post_index0 = forloop.index0 %}
+		            {% assign post_index1 = forloop.index %}
+		        {% endif %}
+		    {% endfor %}
+		    {% for post in site.categories.projects %}
+		        {% if post_index0 == forloop.index %}
+		            {% assign next_post = post.url %}
+		        {% endif %}
+		        {% if post_index1 == forloop.index0 %}
+		            {% assign prev_post = post.url %}
+		        {% endif %}
+		    {% endfor %}
+		{% endif %}
+		
+		{% assign nextPage = next_post %}-->
 {% endcase %}
 
 <div class="sideNav" id="rightSideNav">

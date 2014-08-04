@@ -1,6 +1,7 @@
 ---
 title: Code Snippet Test
 layout: full_post
+category: projects
 ---
 
 This is a test of some code snippets! 
