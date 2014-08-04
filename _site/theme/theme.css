@@ -263,6 +263,14 @@ p{
  	color:#A7A29E;
 }
 
+.bannerHeading .aLinkSacramento{
+	color:#A7A29E;
+}
+
+.bannerHeading .aLinkSacramento:hover{
+	color:#EFE8E3;
+}
+
 .noPostBannerHeading{
 	position:relative;
 	background:#EFE8E3;

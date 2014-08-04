@@ -1,0 +1,14 @@
+<div id = "bodyContent">
+  
+	{% for post in site.categories['kitchen'] %}
+	    <div class = "bannerHeading">
+			<a class="aLinkSacramento" href="{{ post.url }}">{{post.title}}</a>				
+		</div>	
+		<div class = "postContent">	
+			<p>
+				<br>
+			</p>
+		</div>
+	{% endfor %}
+	
+</div>
