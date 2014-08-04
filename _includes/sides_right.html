@@ -1,5 +1,18 @@
+{% assign nextPage = '' %}
+
+{% case page.title %}
+	{% when 'Home' %}
+		{% assign nextPage = '/projects.html' %}
+	{% when 'Projects' %}
+		{% assign nextPage = '/kitchen.html' %}
+	{% when 'Kitchen' %}
+		{% assign nextPage = '/about.html' %}
+	{% else %}
+		{% assign nextPage = page.next.url %}
+{% endcase %}
+
 <div class="sideNav" id="rightSideNav">
-	<a class="sideNavLinks" id="sideNavLinksRight" href="#">
+	<a class="sideNavLinks" id="sideNavLinksRight" href="{{nextPage}}">
 		<img class="sideNavImgs" src="/images/rightSideNav.png"/>
 	</a>
 </div>

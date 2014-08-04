@@ -74,9 +74,9 @@ p{
 	border-top-width: 3px;
 	border-top-style: solid;
 	border-top-color: #2aa198;	
-	transition: border-top .25s ease-in-out, border-left .25s ease-in-out;
-  	-moz-transition: border-top .25s ease-in-out, border-left .25s ease-in-out;
-   	-webkit-transition: border-top .25s ease-in-out, border-left .25s ease-in-out;  
+	transition: border-top .25s ease-in-out, border-left .25s ease-in-out, color .75s ease-in-out;
+  	-moz-transition: border-top .25s ease-in-out, border-left .25s ease-in-out, color .75s ease-in-out;
+   	-webkit-transition: border-top .25s ease-in-out, border-left .25s ease-in-out, color .75s ease-in-out;
 }
 
 #logoImg:hover{	
