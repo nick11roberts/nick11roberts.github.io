@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		
+<link rel="icon" href = "/favicon.ico" type = "image/x-icon" /> 
+
+<link rel="shortcut icon" href = "/favicon.ico" type = "image/x-icon"/>
+
+<link rel="stylesheet" href = "/theme/theme.css" type = "text/css" />
+
+<link rel="stylesheet" href = "/theme/syntax.css" type = "text/css" />
+
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sacramento"/>
+
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin%20Sans"/>
+
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css"/>
+
+<style>
+
+  .bannerHeading, .buttonLinks, #logoLink, .aLinkSacramento, .sacramento{
+    font-family: 'Sacramento', serif;
+    
+  }
+  .postContent, .footer, .aLink, .noPostContentView, .josefinSans {
+    font-family: 'Josefin Sans', serif;
+    
+  }
+  
+</style>
+
+
+<script type="text/javascript" src= "/js/headereffects.js"></script>
+
+<script>
+	function navHighlightSet(){
+		var navButton;
+		
+		if(document.title == 'Home'){
+			navButton = document.getElementById('logoLink');
+			navButton.style.color="#2aa198";
+		}
+		else if(document.title == 'Projects'){
+			navButton = document.getElementById('projectsButton');
+			navButton.style.backgroundColor="#2aa198";
+			navButton.style.color="#efe8e3";
+			navButton.style.backgroundClip("/images/tile.png");
+		}
+		else if(document.title == 'Kitchen'){
+			navButton = document.getElementById('kitchenButton');
+			navButton.style.backgroundColor="#2aa198";
+			navButton.style.color="#efe8e3";
+			navButton.style.backgroundClip("/images/tile.png");
+		}
+		else if(document.title == 'About'){
+			navButton = document.getElementById('aboutButton');
+			navButton.style.backgroundColor="#2aa198";
+			navButton.style.color="#efe8e3";
+			navButton.style.backgroundClip("/images/tile.png");
+		}
+		else{
+			
+		}
+	}
+	
+</script>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53407536-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+		<title>Atlas Scientific ENV-TMP on Arduino UNO</title>	
+	</head>
+	<body onload="navHighlightSet()">
+		<div id="mainContainer">	
+			<div id="menuBar" onmouseover="ifScrolledOpacityShift ()" onmouseout="scroll ()" >
+	
+	<div id="logoContainer">
+	
+		<a id="logoLink" href="/">
+		
+			Nicholas Roberts
+			
+		</a>
+		
+	</div>
+
+	<!--***************************************************************** BUTTONS -->
+	<ul class="navigation" id="buttons">
+		<li id="button1">
+		
+			<a class="buttonLinks" id="projectsButton" href="/projects.html">
+				
+				Projects
+
+			</a>
+			
+		</li>
+		
+		<li id="button2">
+		
+			<a class="buttonLinks" id="kitchenButton" href="/kitchen.html">
+			
+				Kitchen
+				
+			</a>
+			
+		</li>
+		
+		<li id="button3">
+		
+			<a class="buttonLinks" id="aboutButton" href="/about.html">
+			
+				About
+				
+			</a>
+			
+		</li>
+	</ul>
+	<!--***************************************************************** /BUTTONS -->
+
+
+</div>
+
+<a href="https://github.com/nick11roberts">
+	
+<img 
+	id="githubForkRibbon"
+	onmouseover="ifScrolledOpacityShift ()" onmouseout="scroll ()"
+	style=
+	"
+		transition: opacity .25s ease-in-out;
+		-moz-transition: opacity .25s ease-in-out;
+		-webkit-transition: opacity .25s ease-in-out;
+		z-index:2; 
+		position: fixed; 
+		top: 63px; 
+		left: 0; 
+		border: 0;
+	" 
+	src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" 
+	alt="Fork me on GitHub" 
+	data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"
+>
+</a>
+
+			<div id = "bodyContent">
+  
+	<div class = "bannerHeading">
+		
+		Atlas Scientific ENV-TMP on Arduino UNO
+			
+	</div>
+	
+	<div class = "postContent">
+		
+		<p>
+
+		    <p>
+After contemplating various Arduino projects, I stumbled across an amazing waterproof temperature sensor called the ENV-TMP by Atlas Scientific. 
+In addition to being waterproof, it has an outstanding range, and it is quite accurately as well. 
+Naturally, when I finally ordered it, and when it finally came in the mail, I was very eager to try it. 
+My setup ended up consisting of the ENV-TMP, another (non-waterproof) sensor that came with my Arduino Starter Kit, and an LCD display. 
+The code I wrote for it prints the values in degrees Fahrenheit of both sensors, updating every half second. 
+One unfortunate feature of the ENV-TMP is that it takes a while for it to heat up or cool down when it is suddenly immersed in hot or cold water.
+<br />
+Below, you will find the Arduino code that I ran with the sensors and the LCD. Change values as needed. 
+<br />
+This is also available as a forkable <a class="aLink" href="https://gist.github.com/nick11roberts/ff17b9890b35cc7a5136">gist</a>.
+<br /><br />
+</p>
+
+<div class="codeBox">
+
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#include &lt;LiquidCrystal.h&gt;</span>
+ 
+<span class="c1">// initialize the library with the numbers of the interface pins</span>
+<span class="n">LiquidCrystal</span> <span class="nf">lcd</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+<span class="c1">// initialize the temperature sensor pin at analog 0</span>
+<span class="kt">int</span> <span class="n">waterSensorPin</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">atmosSensorPin</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+ 
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">(){</span>
+  <span class="c1">// set up the LCD&#39;s number of columns and rows: </span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+  <span class="c1">// Print a message to the LCD.</span>
+  <span class="c1">// column 0, line 0</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;Water tmp sensor&quot;</span><span class="p">);</span>
+  <span class="c1">// column 0, line 1</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;-----start.-----&quot;</span><span class="p">);</span>
+  
+  <span class="c1">// wait three seconds...</span>
+  <span class="n">delay</span><span class="p">(</span><span class="mi">3000</span><span class="p">);</span>
+  
+  <span class="c1">//////// RESET THE LCD</span>
+  <span class="c1">// column 0, line 0</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;                &quot;</span><span class="p">);</span>
+  <span class="c1">// column 0, line 1</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;                &quot;</span><span class="p">);</span>
+  
+  <span class="n">pinMode</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
+<span class="p">}</span>
+ 
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">(){</span>
+  
+  <span class="kt">float</span> <span class="n">volt</span> <span class="o">=</span> <span class="n">readSensorVoltage</span><span class="p">(</span><span class="n">atmosSensorPin</span><span class="p">);</span>
+  <span class="kt">float</span> <span class="n">degreeC</span> <span class="o">=</span> <span class="n">readSensorDegreesC</span><span class="p">(</span><span class="n">atmosSensorPin</span><span class="p">);</span>
+  <span class="kt">float</span> <span class="n">degreeF</span> <span class="o">=</span> <span class="n">readSensorDegreesF</span><span class="p">(</span><span class="n">atmosSensorPin</span><span class="p">);</span>
+  <span class="kt">float</span> <span class="n">waterDegreeC</span> <span class="o">=</span> <span class="n">read_temp</span><span class="p">();</span>
+  <span class="kt">float</span> <span class="n">waterDegreeF</span> <span class="o">=</span> <span class="p">((</span><span class="mf">9.0</span><span class="o">/</span><span class="mf">5.0</span><span class="p">)</span> <span class="o">*</span> <span class="n">waterDegreeC</span><span class="p">)</span> <span class="o">+</span> <span class="mi">32</span><span class="p">;</span> 
+  
+  <span class="c1">// column 5, line 0</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">((</span><span class="kt">char</span><span class="p">)</span><span class="mi">223</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;F - atmos&quot;</span><span class="p">);</span>
+  
+  <span class="c1">// column 0, line 0</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">degreeF</span><span class="p">);</span>
+  
+  <span class="c1">// column 5, line 1</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">((</span><span class="kt">char</span><span class="p">)</span><span class="mi">223</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;F - water&quot;</span><span class="p">);</span>
+  
+  <span class="c1">// column 0, line 1</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">waterDegreeF</span><span class="p">);</span>
+  
+  <span class="c1">// Wait a second. </span>
+  <span class="n">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+<span class="p">}</span>
+ 
+<span class="kt">float</span> <span class="nf">readSensorVoltage</span><span class="p">(</span><span class="kt">int</span> <span class="n">pinNum</span><span class="p">){</span>
+  <span class="kt">float</span> <span class="n">voltage</span> <span class="o">=</span> <span class="n">analogRead</span><span class="p">(</span><span class="n">pinNum</span><span class="p">)</span> <span class="o">*</span> <span class="mf">5.0</span><span class="p">;</span>
+  <span class="n">voltage</span> <span class="o">/=</span> <span class="mf">1024.0</span><span class="p">;</span> 
+  <span class="k">return</span> <span class="n">voltage</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="kt">float</span> <span class="nf">readSensorDegreesC</span><span class="p">(</span><span class="kt">int</span> <span class="n">pinNum</span><span class="p">){</span>
+  <span class="kt">float</span> <span class="n">degC</span> <span class="o">=</span> <span class="p">(</span><span class="n">readSensorVoltage</span><span class="p">(</span><span class="n">pinNum</span><span class="p">)</span> <span class="o">-</span> <span class="mf">0.5</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span> <span class="p">;</span>
+  <span class="k">return</span> <span class="n">degC</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="kt">float</span> <span class="nf">readSensorDegreesF</span><span class="p">(</span><span class="kt">int</span> <span class="n">pinNum</span><span class="p">){</span>
+  <span class="n">readSensorDegreesC</span><span class="p">(</span><span class="n">pinNum</span><span class="p">);</span>
+  <span class="kt">float</span> <span class="n">degF</span> <span class="o">=</span> <span class="p">(</span><span class="n">readSensorDegreesC</span><span class="p">(</span><span class="n">pinNum</span><span class="p">)</span> <span class="o">*</span> <span class="mf">9.0</span> <span class="o">/</span> <span class="mf">5.0</span><span class="p">)</span> <span class="o">+</span> <span class="mf">32.0</span><span class="p">;</span>
+  <span class="k">return</span> <span class="n">degF</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="kt">float</span> <span class="nf">read_temp</span><span class="p">(</span><span class="kt">void</span><span class="p">){</span>
+  <span class="kt">float</span> <span class="n">v_out</span><span class="p">;</span> 
+  <span class="kt">float</span> <span class="n">temp</span><span class="p">;</span>
+  <span class="n">digitalWrite</span><span class="p">(</span><span class="n">A0</span><span class="p">,</span> <span class="n">LOW</span><span class="p">);</span> 
+  <span class="n">digitalWrite</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
+  <span class="n">delay</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span> 
+  <span class="n">v_out</span> <span class="o">=</span> <span class="n">analogRead</span><span class="p">(</span><span class="n">waterSensorPin</span><span class="p">);</span> 
+  <span class="n">digitalWrite</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="n">LOW</span><span class="p">);</span>
+  <span class="n">v_out</span><span class="o">*=</span><span class="mf">.0048</span><span class="p">;</span> 
+  <span class="n">v_out</span><span class="o">*=</span><span class="mi">1000</span><span class="p">;</span> 
+  <span class="n">temp</span><span class="o">=</span> <span class="mf">0.0512</span> <span class="o">*</span> <span class="n">v_out</span> <span class="o">-</span><span class="mf">20.5128</span><span class="p">;</span>
+  <span class="k">return</span> <span class="n">temp</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+
+</div>
+
+			
+		</p>	
+				
+	</div>
+	
+</div>	
+			
+			<div id="socialIconContainer">
+					
+	<a class="socialIconLinks" href="https://github.com/nick11roberts" alt="GitHub">
+		<img class="socialIconImgs" id="socialIconImgsGitHub" src="/images/socialIcons/2AA198/github.png"/>
+	</a>
+	
+	<a class="socialIconLinks" href="https://twitter.com/NikolaiRoberts" alt="Twitter">
+		<img class="socialIconImgs" id="socialIconImgsTwitter" src="/images/socialIcons/2AA198/twitter.png"/>
+	</a>
+	
+	<a class="socialIconLinks" href="https://plus.google.com/u/0/116517599404058403172/posts" alt="Google+">
+		<img class="socialIconImgs" id="socialIconImgsGooglePlus" src="/images/socialIcons/2AA198/googlePlus.png"/>
+	</a>
+	
+	<a class="socialIconLinks" href="https://play.google.com/store/apps/developer?id=Nicholas+Roberts" alt="Google Play">
+		<img class="socialIconImgs" id="socialIconImgsAndroid" src="/images/socialIcons/2AA198/android.png"/>
+	</a>
+	
+	<a class="socialIconLinks" href="#" alt="HTML5 Valid"> <!-- url for validator -->
+		<img class="socialIconImgs" id="socialIconImgsHtml" src="/images/socialIcons/2AA198/html5.png"/>
+	</a>
+	
+	<a class="socialIconLinks" href="#" alt="CSS3 Valid"> <!-- url for validator -->
+		<img class="socialIconImgs" id="socialIconImgsCss" src="/images/socialIcons/2AA198/css3.png"/>
+	</a>
+	
+</div>
+			
+			
+			<div class = "footer">
+
+	
+	
+	<br/>
+	
+	
+	
+	Built with &#9825; by Nicholas Roberts 2014
+	
+	<!--Social icons adapted from an icon set by <a href="https://dribbble.com/AllanMcAvoy">Allan McAvoy</a>. -->
+	
+	
+</div>
+					
+		</div>	
+		
+	</body>
+</html>
