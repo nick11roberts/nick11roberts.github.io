@@ -15,6 +15,6 @@ https://help.github.com/articles/using-jekyll-with-pages
 
 **To run**
 
-  bundle exec jekyll serve
+    bundle exec jekyll serve
 
 and then go to http://0.0.0.0:4000/ to take a look at it. 
