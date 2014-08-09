@@ -7,7 +7,7 @@ This is my portfolio website which I designed from scratch.
 
 Have a look at it: http://nick11roberts.github.io/
 
-If you want to make a fork of this for your own website, you need to install Jekyll. 
+If you want to make a fork of this to make your own portfolio (or not portfolio) website, you need to install Jekyll. 
 
 **Instruction on installing Jekyll with GitHub Pages**
 
