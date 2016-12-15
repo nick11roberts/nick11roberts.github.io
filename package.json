@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "github-calendar": "^1.1.8",
+    "masonry-layout": "^4.1.1",
+    "rpolygon": "^0.4.4",
+    "typewriter": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Roberts <n3robert@ucsd.edu>",
+  "license": "MIT"
+}
