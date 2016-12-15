@@ -1,1 +1,0 @@
-jekyll build && htmlproof ["Images", "Scripts"] ./../_site
