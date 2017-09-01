@@ -1,0 +1,68 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: nick11roberts
+email: n3robert@ucsd.edu
+description: I'd like to code with you this Summer, drop me an email at n3robert@ucsd.edu.
+url: https://nick11roberts.github.io # the base hostname & protocol for your site
+keywords: ["Programming", "Deep Learning", "Python", "Data Science"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          United States/California
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Nicholas Roberts
+  avatar: avatar.jpg
+  job: "Student"
+  bio: "<b>UC San Diego</b> junior in <b>Computer Science</b>. <br/>Undergraduate <b>deep learning researcher</b> in <b>The Cottrell Lab</b>. <br/>Looking for <b>Summer 2018 software engineering internship</b>."
+  ext-bio: "Rising junior at UC San Diego pursuing a Bachelor's Degree in Computer Science. <br/>Undergraduate deep learning researcher in The Cottrell Lab. <br/>Looking for software engineering internships for Summer 2018, contact me if interested!"
+  email: n3robert@ucsd.edu
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-62251910-2
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: nick11roberts #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: nick11roberts #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  telegram: #username
