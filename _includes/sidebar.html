@@ -10,9 +10,29 @@
   <nav class="nav">
     <ul class="nav-list">
       <li class="nav-item">
-        <a href="{{ site.url }}/">home</a>
+        <a href="{{ site.url }}/">about</a>
         <span>/</span>
       </li>
+      <li class="nav-item">
+        <a href="/#experience">experience</a>
+        <span>/</span>
+      </li>
+      <li class="nav-item">
+        <a href="/#projects">projects</a>
+      </li>
+      <br/>
+      <li class="nav-item">
+        <a href="/#education">education</a>
+        <span>/</span>
+      </li>
+      <li class="nav-item">
+        <a href="/assets/nicholas-roberts-resume.pdf">resume</a>
+        <span>/</span>
+      </li>
+      <li class="nav-item">
+        <a href="/#contact">contact</a>
+      </li>
+      <!--
       {% for page in site.pages %} {% if page.title %}
       <li class="nav-item">
         <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
@@ -21,6 +41,7 @@
         {% endunless %}
       </li>
       {% endif %} {% endfor %}
+      -->
     </ul>
   </nav>
   {% include social-links.html %}
