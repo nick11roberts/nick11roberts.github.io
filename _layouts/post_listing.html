@@ -7,6 +7,10 @@ layout: default
   <header class="post-header">
     <p class="post-meta">
       <span class="post-date">
+        <i class="fa fa-info" aria-hidden="true"></i>
+      </span>
+      <!--
+      <span class="post-date">
         {{ post.date | date: "%-d %b %Y" | upcase }}
       </span>
       {% if post.categories.size > 0 %}
@@ -18,19 +22,26 @@ layout: default
         {% endunless %}
       {% endfor %}
       {% endif %}
+      -->
     </p>
     <h4>
+      <!--
       <a href="{{ site.url }}{{ post.url }}" class="post-title" title="{{ post.title }}">{{ post.title }}</a>
       {% if post.link %}
       <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-external-link"></i></a>
       {% endif %}
-    </h4>
+      -->
 
+      <a name="{{ post.link }}" class="post-title">{{ post.title }}</a>
+
+    </h4>
+    <!--
     {% if post.author %}
       {% assign author = site.data.authors[post.author] %}
     {% else %}
       {% assign author = site.owner %}
     {% endif %}
+    -->
 
     </header>
 
