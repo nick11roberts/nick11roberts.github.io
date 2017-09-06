@@ -5,6 +5,8 @@ date:   2017-09-03 15:07:19
 categories: [experience]
 link: experience
 comments: false
+icon: fa-briefcase
+tldr: Where I've worked
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

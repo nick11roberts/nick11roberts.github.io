@@ -5,6 +5,8 @@ date:   2017-09-01 15:07:19
 categories: [education]
 link: education
 comments: false
+icon: fa-graduation-cap
+tldr: Free time? What's that? (continued)
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

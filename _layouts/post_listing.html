@@ -6,20 +6,15 @@ layout: default
 <section class="post">
   <header class="post-header">
     <p class="post-meta">
-      <!--
+
       <span class="post-date">
-        {{ post.date | date: "%-d %b %Y" | upcase }}
+        <i class="fa {{ post.icon }}" aria-hidden="true"></i>
       </span>
-      {% if post.categories.size > 0 %}
+      {% if post.tldr %}
       •
-      {% for cat in post.categories %}
-        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
-        {% unless forloop.last %}
-        <span>/</span>
-        {% endunless %}
-      {% endfor %}
+      <a class="post-cat">{{ post.tldr }}</a>
       {% endif %}
-      -->
+
     </p>
     <h4>
       <!--
