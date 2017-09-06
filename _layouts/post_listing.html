@@ -11,8 +11,8 @@ layout: default
         <i class="fa {{ post.icon }}" aria-hidden="true"></i>
       </span>
       {% if post.tldr %}
-      •
-      <a class="post-cat">{{ post.tldr }}</a>
+      /
+      <a name="{{ post.link }}" class="post-cat">{{ post.title }}</a>
       {% endif %}
 
     </p>
@@ -24,7 +24,7 @@ layout: default
       {% endif %}
       -->
 
-      <a name="{{ post.link }}" class="post-title">{{ post.title }}</a>
+      <a class="post-title">{{ post.tldr }}</a>
 
     </h4>
     <!--

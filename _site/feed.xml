@@ -5,8 +5,8 @@
     <description>I'd like to code with you this Summer, drop me an email at n3robert@ucsd.edu.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Sep 2017 03:56:49 +0000</pubDate>
-    <lastBuildDate>Wed, 06 Sep 2017 03:56:49 +0000</lastBuildDate>
+    <pubDate>Wed, 06 Sep 2017 04:15:16 +0000</pubDate>
+    <lastBuildDate>Wed, 06 Sep 2017 04:15:16 +0000</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -32,22 +32,27 @@ I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;&
     
       <item>
         <title>Experience</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;h6 id=&quot;teradata&quot;&gt;Teradata&lt;/h6&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel tortor metus. Pellentesque vel arcu vitae risus pretium aliquam quis tincidunt lectus. Proin aliquam accumsan tincidunt. Nunc sem massa, cursus fermentum tempor at, consectetur eu justo. Proin ultricies, nulla ac volutpat porttitor, erat neque hendrerit massa, a sollicitudin erat diam vel ex. In suscipit ullamcorper ipsum quis hendrerit. Nulla hendrerit nisi vel lacus pretium tristique. Ut nibh justo, pulvinar vitae massa nec, dignissim finibus diam. Suspendisse eget pretium metus. Sed fringilla nulla ultricies dui varius vestibulum.&lt;/p&gt;
+
+&lt;h6 id=&quot;the-cottrell-lab&quot;&gt;The Cottrell Lab&lt;/h6&gt;
+
+&lt;p&gt;Vivamus lectus elit, luctus et ligula at, volutpat rutrum mi. Maecenas interdum libero a tellus blandit egestas. Fusce vehicula, felis nec tincidunt cursus, eros leo dapibus velit, a vulputate nunc justo at arcu. Sed sit amet molestie urna. Duis condimentum ultricies semper. Nullam purus lorem, pulvinar at felis nec, auctor venenatis justo. Mauris mollis, ligula non facilisis tincidunt, sapien mauris pellentesque lectus, vel eleifend tortor tellus tincidunt arcu. Praesent id interdum nisi. Quisque vehicula neque id elit porta dapibus. Suspendisse dictum non tortor in suscipit. Praesent aliquet gravida elit, non blandit urna tincidunt vel. Mauris fringilla, erat vitae elementum laoreet, sem augue vestibulum lorem, non cursus velit libero sit amet risus. Donec tincidunt varius urna, sed volutpat libero iaculis sed.&lt;/p&gt;
+
+&lt;h6 id=&quot;skqrl&quot;&gt;Skqrl&lt;/h6&gt;
+
+&lt;p&gt;In rhoncus mattis risus vitae volutpat. Donec nisi massa, pharetra vel fermentum eget, dictum in quam. Duis interdum laoreet nibh, id feugiat turpis efficitur scelerisque. Donec in tortor et dolor porttitor mollis nec sed nibh. Nunc massa mauris, tristique vitae placerat id, euismod vitae tortor. Pellentesque quis justo est. Suspendisse nec lacus vitae lorem faucibus laoreet. Suspendisse ut sem accumsan libero pulvinar volutpat. Fusce placerat, felis ac pharetra eleifend, metus nunc varius nunc, vel dignissim risus libero ut risus. Vestibulum et elementum mi. Mauris efficitur in nisl quis convallis.&lt;/p&gt;
+
+&lt;h6 id=&quot;modspot&quot;&gt;ModSpot&lt;/h6&gt;
+
+&lt;p&gt;Nulla facilisi. Sed venenatis, arcu vel ultrices ullamcorper, mauris libero interdum nisl, quis malesuada ipsum metus at arcu. Cras quis fermentum ante, sed hendrerit ligula. Ut sit amet vehicula ipsum, at auctor urna. Quisque felis orci, laoreet id fermentum ac, porttitor et est. Aenean sit amet sapien sodales, finibus ipsum eget, faucibus velit. Nunc eu tincidunt nulla. Cras non turpis mollis, maximus mi vel, pulvinar ante. Phasellus non lacinia nulla. Integer placerat elit id suscipit condimentum. Aenean eu nisl sit amet arcu hendrerit faucibus. Praesent pharetra pulvinar elementum.&lt;/p&gt;
+
+&lt;h6 id=&quot;the-comeback-community&quot;&gt;The Comeback Community&lt;/h6&gt;
+
+&lt;p&gt;Fusce sed lectus sit amet est consectetur lobortis. Maecenas tortor ante, bibendum sit amet nunc sed, commodo ultrices dui. Mauris mattis mi risus, in rhoncus enim commodo ut. Sed sed sem tristique mi commodo malesuada blandit quis lacus. Quisque accumsan congue blandit. Vestibulum imperdiet, nisi feugiat rhoncus finibus, mauris enim cursus tellus, id commodo mauris eros quis magna. Mauris tempor odio feugiat nisl aliquet sagittis. Pellentesque cursus pellentesque porttitor.&lt;/p&gt;
 
 &lt;!--more--&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
 </description>
         <pubDate>Sun, 03 Sep 2017 15:07:19 +0000</pubDate>
         <link>http://localhost:4000/articles/2017-09/experience</link>
@@ -60,22 +65,17 @@ I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;&
     
       <item>
         <title>Projects</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;h6 id=&quot;robotdoesx&quot;&gt;RobotDoesX&lt;/h6&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel tortor metus. Pellentesque vel arcu vitae risus pretium aliquam quis tincidunt lectus. Proin aliquam accumsan tincidunt. Nunc sem massa, cursus fermentum tempor at, consectetur eu justo. Proin ultricies, nulla ac volutpat porttitor, erat neque hendrerit massa, a sollicitudin erat diam vel ex. In suscipit ullamcorper ipsum quis hendrerit. Nulla hendrerit nisi vel lacus pretium tristique. Ut nibh justo, pulvinar vitae massa nec, dignissim finibus diam. Suspendisse eget pretium metus. Sed fringilla nulla ultricies dui varius vestibulum.&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;h6 id=&quot;uncertaintyscript&quot;&gt;Uncertaintyscript&lt;/h6&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Vivamus lectus elit, luctus et ligula at, volutpat rutrum mi. Maecenas interdum libero a tellus blandit egestas. Fusce vehicula, felis nec tincidunt cursus, eros leo dapibus velit, a vulputate nunc justo at arcu. Sed sit amet molestie urna. Duis condimentum ultricies semper. Nullam purus lorem, pulvinar at felis nec, auctor venenatis justo. Mauris mollis, ligula non facilisis tincidunt, sapien mauris pellentesque lectus, vel eleifend tortor tellus tincidunt arcu. Praesent id interdum nisi. Quisque vehicula neque id elit porta dapibus. Suspendisse dictum non tortor in suscipit. Praesent aliquet gravida elit, non blandit urna tincidunt vel. Mauris fringilla, erat vitae elementum laoreet, sem augue vestibulum lorem, non cursus velit libero sit amet risus. Donec tincidunt varius urna, sed volutpat libero iaculis sed.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h6 id=&quot;graph-speak&quot;&gt;Graph Speak&lt;/h6&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;In rhoncus mattis risus vitae volutpat. Donec nisi massa, pharetra vel fermentum eget, dictum in quam. Duis interdum laoreet nibh, id feugiat turpis efficitur scelerisque. Donec in tortor et dolor porttitor mollis nec sed nibh. Nunc massa mauris, tristique vitae placerat id, euismod vitae tortor. Pellentesque quis justo est. Suspendisse nec lacus vitae lorem faucibus laoreet. Suspendisse ut sem accumsan libero pulvinar volutpat. Fusce placerat, felis ac pharetra eleifend, metus nunc varius nunc, vel dignissim risus libero ut risus. Vestibulum et elementum mi. Mauris efficitur in nisl quis convallis.&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Sep 2017 15:07:19 +0000</pubDate>
         <link>http://localhost:4000/articles/2017-09/projects</link>
@@ -88,22 +88,9 @@ I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;&
     
       <item>
         <title>Education</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel tortor metus. Pellentesque vel arcu vitae risus pretium aliquam quis tincidunt lectus. Proin aliquam accumsan tincidunt. Nunc sem massa, cursus fermentum tempor at, consectetur eu justo. Proin ultricies, nulla ac volutpat porttitor, erat neque hendrerit massa, a sollicitudin erat diam vel ex. In suscipit ullamcorper ipsum quis hendrerit. Nulla hendrerit nisi vel lacus pretium tristique. Ut nibh justo, pulvinar vitae massa nec, dignissim finibus diam. Suspendisse eget pretium metus. Sed fringilla nulla ultricies dui varius vestibulum.&lt;/p&gt;
 
 &lt;!--more--&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
 </description>
         <pubDate>Fri, 01 Sep 2017 15:07:19 +0000</pubDate>
         <link>http://localhost:4000/articles/2017-09/education</link>
@@ -116,22 +103,9 @@ I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;&
     
       <item>
         <title>Contact</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel tortor metus. Pellentesque vel arcu vitae risus pretium aliquam quis tincidunt lectus. Proin aliquam accumsan tincidunt. Nunc sem massa, cursus fermentum tempor at, consectetur eu justo. Proin ultricies, nulla ac volutpat porttitor, erat neque hendrerit massa, a sollicitudin erat diam vel ex. In suscipit ullamcorper ipsum quis hendrerit. Nulla hendrerit nisi vel lacus pretium tristique. Ut nibh justo, pulvinar vitae massa nec, dignissim finibus diam. Suspendisse eget pretium metus. Sed fringilla nulla ultricies dui varius vestibulum.&lt;/p&gt;
 
 &lt;!--more--&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
 </description>
         <pubDate>Thu, 31 Aug 2017 15:07:19 +0000</pubDate>
         <link>http://localhost:4000/articles/2017-08/contact</link>
