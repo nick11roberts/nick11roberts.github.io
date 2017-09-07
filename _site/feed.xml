@@ -5,13 +5,13 @@
     <description>I'd like to code with you this Summer, drop me an email at n3robert@ucsd.edu.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Sep 2017 04:37:56 +0000</pubDate>
-    <lastBuildDate>Wed, 06 Sep 2017 04:37:56 +0000</lastBuildDate>
+    <pubDate>Thu, 07 Sep 2017 01:55:27 +0000</pubDate>
+    <lastBuildDate>Thu, 07 Sep 2017 01:55:27 +0000</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
         <title>About</title>
-        <description>&lt;p&gt;Hi there, I’m Nick!&lt;/p&gt;
+        <description>&lt;h3 id=&quot;hi-there-im-nick&quot;&gt;Hi there, I’m Nick!&lt;/h3&gt;
 
 &lt;p&gt;I am a &lt;a href=&quot;/#contact&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;UC San Diego&lt;/code&gt;&lt;/a&gt; junior pursuing a Bachelor’s Degree in &lt;code class=&quot;highlighter-rouge&quot;&gt;Computer Science&lt;/code&gt; with a minor in Mathematics. I have a strong interest in in data science and software engineering.
 I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Teradata&lt;/code&gt;&lt;/a&gt;, doing research in &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;The Cottrell Lab&lt;/code&gt;&lt;/a&gt;, and lending a technical hand to a nonprofit called &lt;a href=&quot;https://the-comeback-community.appspot.com/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;The Comeback Community&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -33,29 +33,84 @@ I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;&
       <item>
         <title>Experience</title>
         <description>&lt;h5&gt;Teradata&lt;/h5&gt;
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel tortor metus. Pellentesque vel arcu vitae risus pretium aliquam quis tincidunt lectus. Proin aliquam accumsan tincidunt. Nunc sem massa, cursus fermentum tempor at, consectetur eu justo. Proin ultricies, nulla ac volutpat porttitor, erat neque hendrerit massa, a sollicitudin erat diam vel ex. In suscipit ullamcorper ipsum quis hendrerit. Nulla hendrerit nisi vel lacus pretium tristique. Ut nibh justo, pulvinar vitae massa nec, dignissim finibus diam. Suspendisse eget pretium metus. Sed fringilla nulla ultricies dui varius vestibulum.
-&lt;br/&gt;&lt;br/&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+Developed open source Spark-Teradata connector forked from Databricks’ connector for AWS Redshift in Scala
+  &lt;/li&gt;
+  &lt;li&gt;
+Designed and implemented Teradata stored procedures in Java to mimic Redshift’s UNLOAD and COPY using S3
+  &lt;/li&gt;
+  &lt;li&gt;
+Improved training methodology and architecture of deep learning time series model used internally
+  &lt;/li&gt;
+  &lt;li&gt;
+Technologies used: Scala, SBT, Java, Maven, Teradata SQL, AWS, Python, Tensorflow, Flask
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
 
 &lt;h5&gt;The Cottrell Lab&lt;/h5&gt;
-
-Vivamus lectus elit, luctus et ligula at, volutpat rutrum mi. Maecenas interdum libero a tellus blandit egestas. Fusce vehicula, felis nec tincidunt cursus, eros leo dapibus velit, a vulputate nunc justo at arcu. Sed sit amet molestie urna. Duis condimentum ultricies semper. Nullam purus lorem, pulvinar at felis nec, auctor venenatis justo. Mauris mollis, ligula non facilisis tincidunt, sapien mauris pellentesque lectus, vel eleifend tortor tellus tincidunt arcu. Praesent id interdum nisi. Quisque vehicula neque id elit porta dapibus. Suspendisse dictum non tortor in suscipit. Praesent aliquet gravida elit, non blandit urna tincidunt vel. Mauris fringilla, erat vitae elementum laoreet, sem augue vestibulum lorem, non cursus velit libero sit amet risus. Donec tincidunt varius urna, sed volutpat libero iaculis sed.
-&lt;br/&gt;&lt;br/&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+Submitted, Journal of Nature Scientific Reports:
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+&quot;Small Molecule Accurate Recognition Technology to Enhance Natural Products Research&quot;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;
+Analyzed performance of deep learning system for natural products research with Scripps Institute of Oceanography
+  &lt;/li&gt;
+  &lt;li&gt;
+Explored the effects of artificial experimental noise added to the dataset and showed some noise resistance
+  &lt;/li&gt;
+  &lt;li&gt;
+Technologies used: Python, Tensorflow, Lasagne, Theano, SciPy, Jupyter Notebook, Matplotlib
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
 
 &lt;h5&gt;The Comeback Community&lt;/h5&gt;
-
-Fusce sed lectus sit amet est consectetur lobortis. Maecenas tortor ante, bibendum sit amet nunc sed, commodo ultrices dui. Mauris mattis mi risus, in rhoncus enim commodo ut. Sed sed sem tristique mi commodo malesuada blandit quis lacus. Quisque accumsan congue blandit. Vestibulum imperdiet, nisi feugiat rhoncus finibus, mauris enim cursus tellus, id commodo mauris eros quis magna. Mauris tempor odio feugiat nisl aliquet sagittis. Pellentesque cursus pellentesque porttitor.
-&lt;br/&gt;&lt;br/&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+Developed site in Go, gohtml, and CSS on Google App Engine
+  &lt;/li&gt;
+  &lt;li&gt;
+Mentored new developers on the team in web development
+  &lt;/li&gt;
+  &lt;li&gt;
+Technologies used: Go, Google App Engine, gohtml, HTML5, CSS3, JavaScript
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
 
 &lt;h5&gt;Skqrl&lt;/h5&gt;
-
-In rhoncus mattis risus vitae volutpat. Donec nisi massa, pharetra vel fermentum eget, dictum in quam. Duis interdum laoreet nibh, id feugiat turpis efficitur scelerisque. Donec in tortor et dolor porttitor mollis nec sed nibh. Nunc massa mauris, tristique vitae placerat id, euismod vitae tortor. Pellentesque quis justo est. Suspendisse nec lacus vitae lorem faucibus laoreet. Suspendisse ut sem accumsan libero pulvinar volutpat. Fusce placerat, felis ac pharetra eleifend, metus nunc varius nunc, vel dignissim risus libero ut risus. Vestibulum et elementum mi. Mauris efficitur in nisl quis convallis.
-&lt;br/&gt;&lt;br/&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+Developed web crawler to compile needfinding and product data using Scrapy and Selenium
+  &lt;/li&gt;
+  &lt;li&gt;
+Designed and implemented an extensible product search solution designed to handle future user search needs
+  &lt;/li&gt;
+  &lt;li&gt;
+Technologies used: Python, Scrapy, Selenium, Django, MySQL, JavaScript
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
 
 &lt;h5&gt;ModSpot&lt;/h5&gt;
-
-Nulla facilisi. Sed venenatis, arcu vel ultrices ullamcorper, mauris libero interdum nisl, quis malesuada ipsum metus at arcu. Cras quis fermentum ante, sed hendrerit ligula. Ut sit amet vehicula ipsum, at auctor urna. Quisque felis orci, laoreet id fermentum ac, porttitor et est. Aenean sit amet sapien sodales, finibus ipsum eget, faucibus velit. Nunc eu tincidunt nulla. Cras non turpis mollis, maximus mi vel, pulvinar ante. Phasellus non lacinia nulla. Integer placerat elit id suscipit condimentum. Aenean eu nisl sit amet arcu hendrerit faucibus. Praesent pharetra pulvinar elementum.
-
+&lt;ul&gt;
+  &lt;li&gt;
+Implemented new user account, edit profile, and login designs in Objective-C for iOS application
+  &lt;/li&gt;
+  &lt;li&gt;
+Refactored analytics code for gathering statistics on app usage, helping designers make more informed choices
+  &lt;/li&gt;
+  &lt;li&gt;
+Technologies used: Objective-C, Cocoa Touch, Flurry Analytics
+  &lt;/li&gt;
+&lt;/ul&gt;
 &lt;!--more--&gt;
 </description>
         <pubDate>Sun, 03 Sep 2017 15:07:19 +0000</pubDate>
@@ -70,18 +125,45 @@ Nulla facilisi. Sed venenatis, arcu vel ultrices ullamcorper, mauris libero inte
       <item>
         <title>Projects</title>
         <description>&lt;h5&gt;RobotDoesX&lt;/h5&gt;
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel tortor metus. Pellentesque vel arcu vitae risus pretium aliquam quis tincidunt lectus. Proin aliquam accumsan tincidunt. Nunc sem massa, cursus fermentum tempor at, consectetur eu justo. Proin ultricies, nulla ac volutpat porttitor, erat neque hendrerit massa, a sollicitudin erat diam vel ex. In suscipit ullamcorper ipsum quis hendrerit. Nulla hendrerit nisi vel lacus pretium tristique. Ut nibh justo, pulvinar vitae massa nec, dignissim finibus diam. Suspendisse eget pretium metus. Sed fringilla nulla ultricies dui varius vestibulum.
-&lt;br/&gt;&lt;br/&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+Built and trained a deep LSTM model using Keras and Tensorflow trained on YouTube transcripts
+  &lt;/li&gt;
+  &lt;li&gt;
+Designed a storage scheme for parallel training checkpoints using RethinkDB for real time updates
+  &lt;/li&gt;
+  &lt;li&gt;
+Technologies used: Python, Keras, Tensorflow, RethinkDB, Jupyter Notebook, Matplotlib
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
 
 &lt;h5&gt;Uncertaintyscript&lt;/h5&gt;
-
-Vivamus lectus elit, luctus et ligula at, volutpat rutrum mi. Maecenas interdum libero a tellus blandit egestas. Fusce vehicula, felis nec tincidunt cursus, eros leo dapibus velit, a vulputate nunc justo at arcu. Sed sit amet molestie urna. Duis condimentum ultricies semper. Nullam purus lorem, pulvinar at felis nec, auctor venenatis justo. Mauris mollis, ligula non facilisis tincidunt, sapien mauris pellentesque lectus, vel eleifend tortor tellus tincidunt arcu. Praesent id interdum nisi. Quisque vehicula neque id elit porta dapibus. Suspendisse dictum non tortor in suscipit. Praesent aliquet gravida elit, non blandit urna tincidunt vel. Mauris fringilla, erat vitae elementum laoreet, sem augue vestibulum lorem, non cursus velit libero sit amet risus. Donec tincidunt varius urna, sed volutpat libero iaculis sed.
-&lt;br/&gt;&lt;br/&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+Designed and implemented parser and lexer to use Bash-like syntax for quantum bit operators
+  &lt;/li&gt;
+  &lt;li&gt;
+Developed a REPL command line interface for running Uncertaintyscript simulations in a Unix shell
+  &lt;/li&gt;
+  &lt;li&gt;
+Technologies used: Scala, Gradle, ScalaNLP Breeze
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
 
 &lt;h5&gt;Graph Speak&lt;/h5&gt;
-
-In rhoncus mattis risus vitae volutpat. Donec nisi massa, pharetra vel fermentum eget, dictum in quam. Duis interdum laoreet nibh, id feugiat turpis efficitur scelerisque. Donec in tortor et dolor porttitor mollis nec sed nibh. Nunc massa mauris, tristique vitae placerat id, euismod vitae tortor. Pellentesque quis justo est. Suspendisse nec lacus vitae lorem faucibus laoreet. Suspendisse ut sem accumsan libero pulvinar volutpat. Fusce placerat, felis ac pharetra eleifend, metus nunc varius nunc, vel dignissim risus libero ut risus. Vestibulum et elementum mi. Mauris efficitur in nisl quis convallis.
+&lt;ul&gt;
+  &lt;li&gt;
+Designed and implemented a probabilistic graphical model for parsing and generating natural language
+  &lt;/li&gt;
+  &lt;li&gt;
+Developed dynamic front-end web interface for conversing with the Graph Speak model
+  &lt;/li&gt;
+  &lt;li&gt;
+Technologies used: Java, Google App Engine, Google Cloud Datastore, HTML/CSS, Javascript
+  &lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Sat, 02 Sep 2017 15:07:19 +0000</pubDate>
         <link>http://localhost:4000/articles/2017-09/projects</link>
