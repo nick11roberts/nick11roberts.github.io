@@ -5,8 +5,8 @@
     <description>I'd like to code with you this Summer, drop me an email at n3robert@ucsd.edu.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Sep 2017 01:59:08 +0000</pubDate>
-    <lastBuildDate>Thu, 07 Sep 2017 01:59:08 +0000</lastBuildDate>
+    <pubDate>Fri, 08 Sep 2017 05:23:22 +0000</pubDate>
+    <lastBuildDate>Fri, 08 Sep 2017 05:23:22 +0000</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -176,7 +176,9 @@ Technologies used: Java, Google App Engine, Google Cloud Datastore, HTML/CSS, Ja
     
       <item>
         <title>Education</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel tortor metus. Pellentesque vel arcu vitae risus pretium aliquam quis tincidunt lectus. Proin aliquam accumsan tincidunt. Nunc sem massa, cursus fermentum tempor at, consectetur eu justo. Proin ultricies, nulla ac volutpat porttitor, erat neque hendrerit massa, a sollicitudin erat diam vel ex. In suscipit ullamcorper ipsum quis hendrerit. Nulla hendrerit nisi vel lacus pretium tristique. Ut nibh justo, pulvinar vitae massa nec, dignissim finibus diam. Suspendisse eget pretium metus. Sed fringilla nulla ultricies dui varius vestibulum.&lt;/p&gt;
+        <description>&lt;h4 id=&quot;uc-san-diego&quot;&gt;UC San Diego&lt;/h4&gt;
+&lt;p&gt;B.S. Computer Science, Mathematics minor&lt;br /&gt;
+Major GPA: 3.9, Expected graduation: June 2019&lt;/p&gt;
 
 &lt;!--more--&gt;
 </description>
@@ -191,7 +193,30 @@ Technologies used: Java, Google App Engine, Google Cloud Datastore, HTML/CSS, Ja
     
       <item>
         <title>Contact</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel tortor metus. Pellentesque vel arcu vitae risus pretium aliquam quis tincidunt lectus. Proin aliquam accumsan tincidunt. Nunc sem massa, cursus fermentum tempor at, consectetur eu justo. Proin ultricies, nulla ac volutpat porttitor, erat neque hendrerit massa, a sollicitudin erat diam vel ex. In suscipit ullamcorper ipsum quis hendrerit. Nulla hendrerit nisi vel lacus pretium tristique. Ut nibh justo, pulvinar vitae massa nec, dignissim finibus diam. Suspendisse eget pretium metus. Sed fringilla nulla ultricies dui varius vestibulum.&lt;/p&gt;
+        <description>&lt;h4&gt;Find me at the following coordinates with respect to the internet basis&lt;/h4&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  // based on http://stackoverflow.com/a/10300743/280842
+  function gen_mail_to_link(hs, subject) {
+    var lhs,rhs;
+    var p = hs.split('@');
+    lhs = p[0];
+    rhs = p[1];
+    document.write(&quot;&lt;a class=\&quot;social-link-item\&quot; target=\&quot;_blank\&quot; href=\&quot;mailto&quot;);
+    document.write(&quot;:&quot; + lhs + &quot;@&quot;);
+    document.write(rhs + &quot;?subject=&quot; + subject + &quot;\&quot;&gt;&lt;i class=\&quot;fa fa-fw fa-envelope\&quot;&gt;&lt;/i&gt;&lt;\/a&gt;&quot;);
+  }
+&lt;/script&gt;
+&lt;div class=&quot;social-links&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+    &lt;script&gt;gen_mail_to_link('', 'Hello from website');&lt;/script&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://linkedin.com/in/&quot; class=&quot;social-link-item&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-fw fa-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://github.com/&quot; class=&quot;social-link-item&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-fw fa-github&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+
 
 &lt;!--more--&gt;
 </description>
