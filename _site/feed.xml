@@ -5,8 +5,8 @@
     <description>I'd like to code with you this Summer, drop me an email at n3robert@ucsd.edu.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Sep 2017 05:23:22 +0000</pubDate>
-    <lastBuildDate>Fri, 08 Sep 2017 05:23:22 +0000</lastBuildDate>
+    <pubDate>Fri, 08 Sep 2017 18:46:34 +0000</pubDate>
+    <lastBuildDate>Fri, 08 Sep 2017 18:46:34 +0000</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -193,8 +193,7 @@ Major GPA: 3.9, Expected graduation: June 2019&lt;/p&gt;
     
       <item>
         <title>Contact</title>
-        <description>&lt;h4&gt;Find me at the following coordinates with respect to the internet basis&lt;/h4&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
+        <description>&lt;script type=&quot;text/javascript&quot;&gt;
   // based on http://stackoverflow.com/a/10300743/280842
   function gen_mail_to_link(hs, subject) {
     var lhs,rhs;
