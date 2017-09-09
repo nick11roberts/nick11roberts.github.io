@@ -5,16 +5,18 @@
     <description>I'd like to code with you this Summer, drop me an email at n3robert@ucsd.edu.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Sep 2017 18:46:34 +0000</pubDate>
-    <lastBuildDate>Fri, 08 Sep 2017 18:46:34 +0000</lastBuildDate>
+    <pubDate>Sat, 09 Sep 2017 04:22:53 +0000</pubDate>
+    <lastBuildDate>Sat, 09 Sep 2017 04:22:53 +0000</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
         <title>About</title>
         <description>&lt;h4 id=&quot;hi-there-im-nick&quot;&gt;Hi there, I’m Nick!&lt;/h4&gt;
 
-&lt;p&gt;I am a &lt;a href=&quot;/#contact&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;UC San Diego&lt;/code&gt;&lt;/a&gt; junior pursuing a Bachelor’s Degree in &lt;code class=&quot;highlighter-rouge&quot;&gt;Computer Science&lt;/code&gt; with a minor in Mathematics. I have a strong interest in in data science and software engineering.
-I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Teradata&lt;/code&gt;&lt;/a&gt;, doing research in &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;The Cottrell Lab&lt;/code&gt;&lt;/a&gt;, and lending a technical hand to a nonprofit called &lt;a href=&quot;https://the-comeback-community.appspot.com/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;The Comeback Community&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am a &lt;a href=&quot;/#contact&quot;&gt;UC San Diego&lt;/a&gt; junior pursuing a Bachelor’s Degree in &lt;code class=&quot;highlighter-rouge&quot;&gt;Computer Science&lt;/code&gt; with a minor in Mathematics. I have a strong interest in in data science and software engineering.
+I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;Teradata&lt;/a&gt;, doing research in &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;The Cottrell Lab&lt;/a&gt;, and lending a technical hand to a nonprofit called &lt;a href=&quot;https://the-comeback-community.appspot.com/&quot;&gt;The Comeback Community&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In addition, I am the &lt;code class=&quot;highlighter-rouge&quot;&gt;data analyst&lt;/code&gt; for the &lt;a href=&quot;http://tesc.ucsd.edu/&quot;&gt;Triton Engineering Student Council&lt;/a&gt;, a &lt;code class=&quot;highlighter-rouge&quot;&gt;machine learning workshop facilitator&lt;/code&gt; for the &lt;a href=&quot;http://ds3.ucsd.edu/&quot;&gt;Data Science Student Society at UCSD&lt;/a&gt;, and a &lt;code class=&quot;highlighter-rouge&quot;&gt;house leader&lt;/code&gt; in &lt;a href=&quot;http://tbp.ucsd.edu/&quot;&gt;Tau Beta Pi, California Psi&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I am looking for &lt;code class=&quot;highlighter-rouge&quot;&gt;Summer 2018 software engineering internship&lt;/code&gt;, if you are interested, please &lt;a href=&quot;/#contact&quot;&gt;contact me&lt;/a&gt;!&lt;/p&gt;
 
@@ -33,6 +35,9 @@ I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;&
       <item>
         <title>Experience</title>
         <description>&lt;h4&gt;Teradata&lt;/h4&gt;
+  &lt;a href=&quot;http://www.teradata.com/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/teradata.png&quot;/&gt;
+&lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
 Developed open source Spark-Teradata connector forked from Databricks’ connector for AWS Redshift in Scala
@@ -44,15 +49,18 @@ Designed and implemented Teradata stored procedures in Java to mimic Redshift’
 Improved training methodology and architecture of deep learning time series model used internally
   &lt;/li&gt;
   &lt;li&gt;
-Technologies used: Scala, SBT, Java, Maven, Teradata SQL, AWS, Python, Tensorflow, Flask
+&lt;code&gt;Technologies used:&lt;/code&gt; Scala, SBT, Java, Maven, Teradata SQL, AWS, Python, Tensorflow, Flask
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
 
 &lt;h4&gt;The Cottrell Lab&lt;/h4&gt;
+  &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/guru.gif&quot;/&gt;
+&lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-Submitted, Journal of Nature Scientific Reports:
+Submitted, &lt;a href=&quot;https://www.nature.com/srep/&quot;&gt;Journal of Nature Scientific Reports&lt;/a&gt;:
   &lt;/li&gt;
   &lt;ul&gt;
     &lt;li&gt;
@@ -60,18 +68,21 @@ Submitted, Journal of Nature Scientific Reports:
     &lt;/li&gt;
   &lt;/ul&gt;
   &lt;li&gt;
-Analyzed performance of deep learning system for natural products research with Scripps Institute of Oceanography
+Analyzed performance of deep learning system for natural products research with &lt;a href=&quot;https://scripps.ucsd.edu/&quot;&gt;Scripps Institute of Oceanography&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
 Explored the effects of artificial experimental noise added to the dataset and showed some noise resistance
   &lt;/li&gt;
   &lt;li&gt;
-Technologies used: Python, Tensorflow, Lasagne, Theano, SciPy, Jupyter Notebook, Matplotlib
+&lt;code&gt;Technologies used:&lt;/code&gt; Python, Tensorflow, Lasagne, Theano, SciPy, Jupyter Notebook, Matplotlib
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
 
 &lt;h4&gt;The Comeback Community&lt;/h4&gt;
+  &lt;a href=&quot;https://the-comeback-community.appspot.com/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/comeback.png&quot;/&gt;
+&lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
 Developed site in Go, gohtml, and CSS on Google App Engine
@@ -80,12 +91,15 @@ Developed site in Go, gohtml, and CSS on Google App Engine
 Mentored new developers on the team in web development
   &lt;/li&gt;
   &lt;li&gt;
-Technologies used: Go, Google App Engine, gohtml, HTML5, CSS3, JavaScript
+&lt;code&gt;Technologies used:&lt;/code&gt; Go, Google App Engine, gohtml, HTML5, CSS3, JavaScript
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
 
 &lt;h4&gt;Skqrl&lt;/h4&gt;
+  &lt;a href=&quot;http://skqrl.com/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/skqrl.png&quot;/&gt;
+&lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
 Developed web crawler to compile needfinding and product data using Scrapy and Selenium
@@ -94,12 +108,15 @@ Developed web crawler to compile needfinding and product data using Scrapy and S
 Designed and implemented an extensible product search solution designed to handle future user search needs
   &lt;/li&gt;
   &lt;li&gt;
-Technologies used: Python, Scrapy, Selenium, Django, MySQL, JavaScript
+&lt;code&gt;Technologies used:&lt;/code&gt; Python, Scrapy, Selenium, Django, MySQL, JavaScript
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
 
 &lt;h4&gt;ModSpot&lt;/h4&gt;
+  &lt;a href=&quot;https://modspotapp.wordpress.com/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/modspot.jpg&quot;/&gt;
+&lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
 Implemented new user account, edit profile, and login designs in Objective-C for iOS application
@@ -108,7 +125,7 @@ Implemented new user account, edit profile, and login designs in Objective-C for
 Refactored analytics code for gathering statistics on app usage, helping designers make more informed choices
   &lt;/li&gt;
   &lt;li&gt;
-Technologies used: Objective-C, Cocoa Touch, Flurry Analytics
+&lt;code&gt;Technologies used:&lt;/code&gt; Objective-C, Cocoa Touch, Flurry Analytics
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--more--&gt;
@@ -133,7 +150,7 @@ Built and trained a deep LSTM model using Keras and Tensorflow trained on YouTub
 Designed a storage scheme for parallel training checkpoints using RethinkDB for real time updates
   &lt;/li&gt;
   &lt;li&gt;
-Technologies used: Python, Keras, Tensorflow, RethinkDB, Jupyter Notebook, Matplotlib
+&lt;code&gt;Technologies used:&lt;/code&gt; Python, Keras, Tensorflow, RethinkDB, Jupyter Notebook, Matplotlib
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
@@ -147,7 +164,7 @@ Designed and implemented parser and lexer to use Bash-like syntax for quantum bi
 Developed a REPL command line interface for running Uncertaintyscript simulations in a Unix shell
   &lt;/li&gt;
   &lt;li&gt;
-Technologies used: Scala, Gradle, ScalaNLP Breeze
+&lt;code&gt;Technologies used:&lt;/code&gt; Scala, Gradle, ScalaNLP Breeze
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
@@ -161,7 +178,7 @@ Designed and implemented a probabilistic graphical model for parsing and generat
 Developed dynamic front-end web interface for conversing with the Graph Speak model
   &lt;/li&gt;
   &lt;li&gt;
-Technologies used: Java, Google App Engine, Google Cloud Datastore, HTML/CSS, Javascript
+&lt;code&gt;Technologies used:&lt;/code&gt; Java, Google App Engine, Google Cloud Datastore, HTML/CSS, Javascript
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -176,9 +193,21 @@ Technologies used: Java, Google App Engine, Google Cloud Datastore, HTML/CSS, Ja
     
       <item>
         <title>Education</title>
-        <description>&lt;h4 id=&quot;uc-san-diego&quot;&gt;UC San Diego&lt;/h4&gt;
-&lt;p&gt;B.S. Computer Science, Mathematics minor&lt;br /&gt;
-Major GPA: 3.9, Expected graduation: June 2019&lt;/p&gt;
+        <description>&lt;h4&gt;UC San Diego&lt;/h4&gt;
+B.S. Computer Science, Mathematics minor&lt;br/&gt;
+Major GPA: 3.9, Expected graduation: June 2019
+&lt;h4&gt;Extracurricular&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    Data analyst, &lt;a href=&quot;http://tesc.ucsd.edu/&quot;&gt;Triton Engineering Student Council&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    Machine learning workshop facilitator, &lt;a href=&quot;http://ds3.ucsd.edu/&quot;&gt;Data Science Student Society at UCSD&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    House leader, &lt;a href=&quot;http://tbp.ucsd.edu/&quot;&gt;Tau Beta Pi, California Psi&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;!--more--&gt;
 </description>
