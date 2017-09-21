@@ -5,8 +5,8 @@
     <description>I'd like to code with you this Summer, drop me an email at n3robert@ucsd.edu.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Sep 2017 05:11:18 +0000</pubDate>
-    <lastBuildDate>Thu, 21 Sep 2017 05:11:18 +0000</lastBuildDate>
+    <pubDate>Thu, 21 Sep 2017 06:21:44 +0000</pubDate>
+    <lastBuildDate>Thu, 21 Sep 2017 06:21:44 +0000</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -38,30 +38,7 @@ I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;T
     
       <item>
         <title>Experience</title>
-        <description>&lt;h4&gt;Teradata&lt;/h4&gt;
-  &lt;a href=&quot;http://www.teradata.com/&quot;&gt;
-  &lt;img height=&quot;70px&quot; src=&quot;/img/teradata.png&quot;/&gt;
-&lt;/a&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-Developed open source Spark-Teradata connector forked from Databricks’ connector for AWS Redshift in Scala
-  &lt;/li&gt;
-  &lt;li&gt;
-Designed and implemented Teradata stored procedures in Java to mimic Redshift’s UNLOAD and COPY using S3
-  &lt;/li&gt;
-  &lt;li&gt;
-Improved training methodology and architecture of deep learning time series model used internally
-  &lt;/li&gt;
-  &lt;li&gt;
-Implemented system for updating the time series dataset and fine tuning the deep learning model
-  &lt;/li&gt;
-  &lt;li&gt;
-&lt;code&gt;Technologies used:&lt;/code&gt; Scala, SBT, Java, Maven, Teradata SQL, AWS, Python, Tensorflow, Flask
-  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;br/&gt;
-
-&lt;h4&gt;The Cottrell Lab&lt;/h4&gt;
+        <description>&lt;h4&gt;The Cottrell Lab&lt;/h4&gt;
   &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/guru.gif&quot;/&gt;
 &lt;/a&gt;
@@ -85,6 +62,29 @@ Improved quality of image dataset by identifying and handling noisy outliers usi
   &lt;/li&gt;
   &lt;li&gt;
 &lt;code&gt;Technologies used:&lt;/code&gt; Python, Tensorflow, Lasagne, Theano, SciPy, Jupyter Notebook, Matplotlib
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+
+&lt;h4&gt;Teradata&lt;/h4&gt;
+  &lt;a href=&quot;http://www.teradata.com/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/teradata.png&quot;/&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+Developed open source Spark-Teradata connector forked from Databricks’ connector for AWS Redshift in Scala
+  &lt;/li&gt;
+  &lt;li&gt;
+Designed and implemented Teradata stored procedures in Java to mimic Redshift’s UNLOAD and COPY using S3
+  &lt;/li&gt;
+  &lt;li&gt;
+Improved training methodology and architecture of deep learning time series model used internally
+  &lt;/li&gt;
+  &lt;li&gt;
+Implemented system for updating the time series dataset and fine tuning the deep learning model
+  &lt;/li&gt;
+  &lt;li&gt;
+&lt;code&gt;Technologies used:&lt;/code&gt; Scala, SBT, Java, Maven, Teradata SQL, AWS, Python, Tensorflow, Flask
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
