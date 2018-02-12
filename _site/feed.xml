@@ -5,8 +5,8 @@
     <description>I'd like to code with you this Summer, drop me an email at n3robert@ucsd.edu.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Sep 2017 05:19:49 +0000</pubDate>
-    <lastBuildDate>Thu, 28 Sep 2017 05:19:49 +0000</lastBuildDate>
+    <pubDate>Mon, 12 Feb 2018 21:26:12 +0000</pubDate>
+    <lastBuildDate>Mon, 12 Feb 2018 21:26:12 +0000</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -15,14 +15,16 @@
 
 &lt;p&gt;I am a &lt;a href=&quot;/#contact&quot;&gt;UC San Diego&lt;/a&gt; junior pursuing a Bachelor’s Degree in &lt;code class=&quot;highlighter-rouge&quot;&gt;Computer Science&lt;/code&gt; with a minor in Mathematics.&lt;/p&gt;
 
-&lt;p&gt;I have a strong interest in data science and software engineering.
-I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;Teradata&lt;/a&gt;, doing research in &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;The Cottrell Lab&lt;/a&gt;, and lending a technical hand to a nonprofit called &lt;a href=&quot;https://the-comeback-community.appspot.com/&quot;&gt;The Comeback Community&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have a strong interest in machine learning research and software engineering.
+I am currently a deep learning researcher at Altum, doing research in &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;The Cottrell Lab&lt;/a&gt;, and working on a neat computer vision project involving Pokemon with Professor Sanjoy Dasgupta.&lt;/p&gt;
 
-&lt;p&gt;In addition, I am a tutor for DSC 10 (Principles of Data Science) in the new &lt;a href=&quot;http://dsc.ucsd.edu/&quot;&gt;Data Science major at UCSD&lt;/a&gt;, the data analyst for the &lt;a href=&quot;http://tesc.ucsd.edu/&quot;&gt;Triton Engineering Student Council&lt;/a&gt;, a machine learning workshop facilitator for the &lt;a href=&quot;http://ds3.ucsd.edu/&quot;&gt;Data Science Student Society at UCSD&lt;/a&gt;, and a house leader for &lt;a href=&quot;http://tbp.ucsd.edu/&quot;&gt;Tau Beta Pi, California Psi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have tutored for DSC 10 (Principles of Data Science) and DSC 20 (Data Structures for Data Science) in the new &lt;a href=&quot;http://dsc.ucsd.edu/&quot;&gt;Data Science major at UCSD&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;When I’m not coding, I can be found enjoying a shot of espresso, cooking, deep into my music playlist, or attempting to surf.&lt;/p&gt;
+&lt;p&gt;In addition, I am the data analyst for the &lt;a href=&quot;http://tesc.ucsd.edu/&quot;&gt;Triton Engineering Student Council&lt;/a&gt;, a machine learning workshop facilitator for the &lt;a href=&quot;http://ds3.ucsd.edu/&quot;&gt;Data Science Student Society at UCSD&lt;/a&gt;, a house leader for &lt;a href=&quot;http://tbp.ucsd.edu/&quot;&gt;Tau Beta Pi, California Psi&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I am looking for &lt;code class=&quot;highlighter-rouge&quot;&gt;Summer 2018 software engineering internship&lt;/code&gt;, if you are interested, please &lt;a href=&quot;/#contact&quot;&gt;contact me&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;When I’m not coding, I can be found enjoying a shot of espresso, doing photography, pottery, or attempting to surf.&lt;/p&gt;
+
+&lt;p&gt;I am looking for &lt;code class=&quot;highlighter-rouge&quot;&gt;Summer 2019 data science or software engineering internship&lt;/code&gt;, if you are interested, please &lt;a href=&quot;/#contact&quot;&gt;contact me&lt;/a&gt;!&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -38,19 +40,41 @@ I am currently interning at &lt;a href=&quot;http://www.teradata.com/&quot;&gt;T
     
       <item>
         <title>Experience</title>
-        <description>&lt;h4&gt;The Cottrell Lab&lt;/h4&gt;
+        <description>&lt;h4&gt;Altum&lt;/h4&gt; / &lt;code&gt;deep learning researcher&lt;/code&gt;
+  &lt;!--&lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;--&gt;
+  &lt;!--&lt;img height=&quot;70px&quot; src=&quot;/img/guru.gif&quot;/&gt;--&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+More info to come, stay tuned
+  &lt;/li&gt;
+  &lt;li&gt;
+&lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+
+&lt;h4&gt;The Cottrell Lab&lt;/h4&gt; / &lt;code&gt;deep learning researcher&lt;/code&gt;
   &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/guru.gif&quot;/&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-Submitted, &lt;a href=&quot;https://www.nature.com/srep/&quot;&gt;Journal of Nature Scientific Reports&lt;/a&gt;:
+Published, &lt;a href=&quot;https://www.nature.com/srep/&quot;&gt;Journal of Nature Scientific Reports&lt;/a&gt;:
   &lt;/li&gt;
   &lt;ul&gt;
     &lt;li&gt;
-&quot;Small Molecule Accurate Recognition Technology to Enhance Natural Products Research&quot;
+&quot;Small Molecule Accurate Recognition Technology (SMART) to Enhance Natural Products Research&quot;
     &lt;/li&gt;
   &lt;/ul&gt;
+  &lt;li&gt;
+Presented SMART research at the &lt;a href=&quot;https://www.appliedmldays.org/&quot;&gt;Applied Machine Learning Days 2018&lt;/a&gt; conference at &lt;a href=&quot;https://epfl.ch/&quot;&gt;EPFL&lt;/a&gt;, Lausanne, Switzerland
+  &lt;ul&gt;
+    &lt;li&gt;
+Won an award for Best Spotlight Presentation
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;
 Analyzed performance of deep learning system for natural products research with &lt;a href=&quot;https://scripps.ucsd.edu/&quot;&gt;Scripps Institute of Oceanography&lt;/a&gt;
   &lt;/li&gt;
@@ -66,7 +90,7 @@ Improved quality of image dataset by identifying and handling noisy outliers usi
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;h4&gt;Teradata&lt;/h4&gt;
+&lt;h4&gt;Teradata&lt;/h4&gt; / &lt;code&gt;software engineering intern&lt;/code&gt;
   &lt;a href=&quot;http://www.teradata.com/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/teradata.png&quot;/&gt;
 &lt;/a&gt;
@@ -89,7 +113,7 @@ Implemented system for updating the time series dataset and fine tuning the deep
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;h4&gt;The Comeback Community&lt;/h4&gt;
+&lt;h4&gt;The Comeback Community&lt;/h4&gt; / &lt;code&gt;full stack developer&lt;/code&gt;
   &lt;a href=&quot;https://the-comeback-community.appspot.com/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/comeback.png&quot;/&gt;
 &lt;/a&gt;
@@ -106,7 +130,7 @@ Mentored new developers on the team in web development
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;h4&gt;Skqrl&lt;/h4&gt;
+&lt;h4&gt;Skqrl&lt;/h4&gt; / &lt;code&gt;software engineering intern&lt;/code&gt;
   &lt;a href=&quot;http://skqrl.com/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/skqrl.png&quot;/&gt;
 &lt;/a&gt;
@@ -123,7 +147,7 @@ Designed and implemented an extensible product search solution designed to handl
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;h4&gt;ModSpot&lt;/h4&gt;
+&lt;h4&gt;ModSpot&lt;/h4&gt; / &lt;code&gt;software engineering intern&lt;/code&gt;
   &lt;a href=&quot;https://modspotapp.wordpress.com/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/modspot.jpg&quot;/&gt;
 &lt;/a&gt;
@@ -205,7 +229,8 @@ Developed dynamic front-end web interface for conversing with the Graph Speak mo
         <title>Education</title>
         <description>&lt;h4&gt;UC San Diego&lt;/h4&gt;
 B.S. Computer Science, Mathematics minor&lt;br/&gt;
-Major GPA: 3.94, Expected graduation: June 2019&lt;br/&gt;
+Major GPA: 3.9, Expected graduation: June 2019&lt;br/&gt;
+Tutor for Data Science 20 (Data Structures for Data Science)
 Tutor for Data Science 10 (Principles of Data Science)
 &lt;h4&gt;Extracurricular&lt;/h4&gt;
 &lt;ul&gt;
