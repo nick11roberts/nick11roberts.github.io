@@ -5,9 +5,9 @@
 #
 title: nick11roberts
 email: n3robert@ucsd.edu
-description: I'd like to code with you this Summer, drop me an email at n3robert@ucsd.edu.
+description: Drop me an email at n3robert@ucsd.edu.
 url: https://nick11roberts.github.io # the base hostname & protocol for your site
-keywords: ["Programming", "Deep Learning", "Python", "Data Science"]
+keywords: ["Programming", "Deep Learning", "Machine learning", "Python", "Data Science"]
 
 #
 ###################################
@@ -33,15 +33,15 @@ kramdown:
 ####################################
 #
 owner:
-  name: Nicholas Roberts
-  avatar: avatar.jpg
+  name: Nick Roberts
+  avatar: avatar.png
   job: "Student"
-  bio: "<b>UC San Diego</b> junior in <b>Computer Science</b>.<br/><b>Deep learning researcher</b> in <b>The Cottrell Lab</b>.<br/>Looking for <b>Summer 2019 data science or software engineering internship</b>."
-  ext-bio: "Junior at UC San Diego pursuing a Bachelor's Degree in Computer Science. <br/>Undergraduate deep learning researcher in The Cottrell Lab. <br/>Looking for a software engineering or data science internship for Summer 2019, contact me if interested!"
+  bio: "<b>UC San Diego</b> senior in <b>Computer Science</b>.<br/><b>ML researcher</b> in <b>The Cottrell Lab</b>."
+  ext-bio: "Senior at UC San Diego pursuing a Bachelor's Degree in Computer Science. <br/>Undergraduate machine learning researcher in The Cottrell Lab."
   email: n3robert@ucsd.edu
   disqus-shortname:
-  twitter: #username
-  facebook: #username
+  twitter: NikolaiRoberts
+  facebook: nick11roberts
   google:
     plus: #username
     analytics: UA-53407536-3
@@ -53,7 +53,7 @@ owner:
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: nick11roberts #username
   xing: #username
-  instagram: #username
+  instagram: n1cn11c
   lastfm: #username
   tumblr: #username
   pinterest: #username
@@ -61,7 +61,7 @@ owner:
   steam: #username
   dribbble: #username
   youtube: #username
-  soundcloud: #username
+  soundcloud: p o s i t r o n
   weibo: #username
   flickr: #username
   codepen: #username
