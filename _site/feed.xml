@@ -5,8 +5,8 @@
     <description>Drop me an email at n3robert@ucsd.edu.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Dec 2018 08:51:10 +0000</pubDate>
-    <lastBuildDate>Wed, 12 Dec 2018 08:51:10 +0000</lastBuildDate>
+    <pubDate>Wed, 12 Dec 2018 09:03:30 +0000</pubDate>
+    <lastBuildDate>Wed, 12 Dec 2018 09:03:30 +0000</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -16,15 +16,20 @@
 &lt;p&gt;I am a &lt;a href=&quot;/#contact&quot;&gt;UC San Diego&lt;/a&gt; senior pursuing a Bachelor’s Degree in Computer Science with a minor in Mathematics.&lt;/p&gt;
 
 &lt;p&gt;I have a strong interest in machine learning research.
-I am currently doing research in &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;The Cottrell Lab&lt;/a&gt;, led by Professor Gary Cottrell, involving clustering for drug discovery, working with Professor Sanjoy Dasgupta on a new human feedback model (&lt;a href=&quot;http://papers.nips.cc/paper/7651-learning-from-discriminative-feature-feedback.pdf&quot;&gt;check out our paper at NeurIPS 2018&lt;/a&gt;), and exploring new deep probabilistic models in addition to formalizing adversarial examples with Professor David Meyer.&lt;/p&gt;
+On that front, I am currently&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Doing research in &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;The Cottrell Lab&lt;/a&gt;, led by Professor Gary Cottrell, involving clustering for drug discovery&lt;/li&gt;
+  &lt;li&gt;Working with Professor Sanjoy Dasgupta on a new human-in-the-loop feedback model (&lt;a href=&quot;http://papers.nips.cc/paper/7651-learning-from-discriminative-feature-feedback.pdf&quot;&gt;check out our paper at NeurIPS 2018&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Exploring new deep probabilistic models in addition to quantifying adversarial examples with Professor David Meyer.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;I had the exciting opportunity to tutor for both DSC 10 (Principles of Data Science) and DSC 20 (Data Structures for Data Science) in the new &lt;a href=&quot;http://dsc.ucsd.edu/&quot;&gt;Data Science major at UCSD&lt;/a&gt; under Janine Tiefenbruck and Marina Langlois, respectively.&lt;/p&gt;
 
 &lt;p&gt;In addition, I have held positions in several organizations at UCSD, among these, I was the data analyst for the &lt;a href=&quot;http://tesc.ucsd.edu/&quot;&gt;Triton Engineering Student Council&lt;/a&gt;, a machine learning workshop facilitator for the &lt;a href=&quot;http://ds3.ucsd.edu/&quot;&gt;Data Science Student Society at UCSD&lt;/a&gt;, and a house leader for &lt;a href=&quot;http://tbp.ucsd.edu/&quot;&gt;Tau Beta Pi, California Psi&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;When I’m not digitally (and often clumsily) stumbling down high dimensional cost functions, I can be found enjoying a shot (actually, several shots) of espresso, doing photography, pottery, attempting to surf, making music, or unsuccessfully trying to convince myself not to purchase fake Yeezys or additional vintage windbreakers that I don’t need. Oops, I just bought another vintage windbreaker.&lt;/p&gt;
+&lt;p&gt;When I’m not digitally (and often clumsily) stumbling down high dimensional cost functions or tricking thinly sliced silicon (rocks, really) into performing computation on my behalf, I can be found enjoying a shot (actually, several shots) of espresso, doing photography, pottery, attempting to surf, making music, or unsuccessfully trying to convince myself not to purchase fake Yeezys or additional vintage windbreakers that I don’t need. &lt;em&gt;Oops, I just bought another vintage windbreaker.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Outside of academia, internships, attaining a higher state of being via caffeine, and making ill advised online purchases, I enjoy maintaining a car (2013 Toyota Prius) radio volume within the first equivalence class of the congruence modulo 5 relation, and that’s about it really.&lt;/p&gt;
+&lt;p&gt;Outside of academia, internships, attaining a higher state of being by means of caffeine, and making ill advised online purchases, I enjoy maintaining a car (Prius) radio volume within the first equivalence class of the congruence modulo 5 relation, and that’s about it really.&lt;/p&gt;
 
 &lt;p&gt;“&lt;code class=&quot;highlighter-rouge&quot;&gt;My key to dealing with stress is simple: just stay cool and stay focused.&lt;/code&gt;” -Ashton Eaton (found via the first result of a Google search for ‘cool quotes’).&lt;/p&gt;
 
