@@ -5,24 +5,28 @@
     <description>Drop me an email at n3robert@ucsd.edu.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Dec 2018 04:34:15 +0000</pubDate>
-    <lastBuildDate>Wed, 12 Dec 2018 04:34:15 +0000</lastBuildDate>
+    <pubDate>Wed, 12 Dec 2018 08:51:10 +0000</pubDate>
+    <lastBuildDate>Wed, 12 Dec 2018 08:51:10 +0000</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>About</title>
         <description>&lt;h4 id=&quot;hi-im-nick&quot;&gt;Hi, I’m Nick!&lt;/h4&gt;
 
-&lt;p&gt;I am a &lt;a href=&quot;/#contact&quot;&gt;UC San Diego&lt;/a&gt; senior pursuing a Bachelor’s Degree in &lt;code class=&quot;highlighter-rouge&quot;&gt;Computer Science&lt;/code&gt; with a minor in Mathematics.&lt;/p&gt;
+&lt;p&gt;I am a &lt;a href=&quot;/#contact&quot;&gt;UC San Diego&lt;/a&gt; senior pursuing a Bachelor’s Degree in Computer Science with a minor in Mathematics.&lt;/p&gt;
 
 &lt;p&gt;I have a strong interest in machine learning research.
-I am currently doing research in &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;The Cottrell Lab&lt;/a&gt;, led by Professor Gary Cottrell, involving clustering for drug discovery, working with Professor Sanjoy Dasgupta on a new model of interactive learning (&lt;a href=&quot;http://papers.nips.cc/paper/7651-learning-from-discriminative-feature-feedback.pdf&quot;&gt;check out our paper at NeurIPS 2018&lt;/a&gt;), and exploring new deep probabilistic models in addition to addressing adversarial examples with Professor David Meyer in the Mathematics department.&lt;/p&gt;
+I am currently doing research in &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;The Cottrell Lab&lt;/a&gt;, led by Professor Gary Cottrell, involving clustering for drug discovery, working with Professor Sanjoy Dasgupta on a new human feedback model (&lt;a href=&quot;http://papers.nips.cc/paper/7651-learning-from-discriminative-feature-feedback.pdf&quot;&gt;check out our paper at NeurIPS 2018&lt;/a&gt;), and exploring new deep probabilistic models in addition to formalizing adversarial examples with Professor David Meyer.&lt;/p&gt;
 
 &lt;p&gt;I had the exciting opportunity to tutor for both DSC 10 (Principles of Data Science) and DSC 20 (Data Structures for Data Science) in the new &lt;a href=&quot;http://dsc.ucsd.edu/&quot;&gt;Data Science major at UCSD&lt;/a&gt; under Janine Tiefenbruck and Marina Langlois, respectively.&lt;/p&gt;
 
 &lt;p&gt;In addition, I have held positions in several organizations at UCSD, among these, I was the data analyst for the &lt;a href=&quot;http://tesc.ucsd.edu/&quot;&gt;Triton Engineering Student Council&lt;/a&gt;, a machine learning workshop facilitator for the &lt;a href=&quot;http://ds3.ucsd.edu/&quot;&gt;Data Science Student Society at UCSD&lt;/a&gt;, and a house leader for &lt;a href=&quot;http://tbp.ucsd.edu/&quot;&gt;Tau Beta Pi, California Psi&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;When I’m not digitally (and sometimes clumsily) stumbling down high dimensional cost functions, I can be found enjoying a shot (several shots) of espresso, doing photography, pottery, attempting to surf, making music, or unsuccessfully trying to convince myself not to purchase fake Yeezys.&lt;/p&gt;
+&lt;p&gt;When I’m not digitally (and often clumsily) stumbling down high dimensional cost functions, I can be found enjoying a shot (actually, several shots) of espresso, doing photography, pottery, attempting to surf, making music, or unsuccessfully trying to convince myself not to purchase fake Yeezys or additional vintage windbreakers that I don’t need. Oops, I just bought another vintage windbreaker.&lt;/p&gt;
+
+&lt;p&gt;Outside of academia, internships, attaining a higher state of being via caffeine, and making ill advised online purchases, I enjoy maintaining a car (2013 Toyota Prius) radio volume within the first equivalence class of the congruence modulo 5 relation, and that’s about it really.&lt;/p&gt;
+
+&lt;p&gt;“&lt;code class=&quot;highlighter-rouge&quot;&gt;My key to dealing with stress is simple: just stay cool and stay focused.&lt;/code&gt;” -Ashton Eaton (found via the first result of a Google search for ‘cool quotes’).&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -40,7 +44,7 @@ I am currently doing research in &lt;a href=&quot;http://cseweb.ucsd.edu/groups/
         <title>Publications</title>
         <description>&lt;h4&gt;&lt;a href=&quot;https://openreview.net/pdf?id=B1ggosR9Ym&quot;&gt;Using Deep Siamese Neural Networks to Speed up Natural Products Research&lt;/a&gt;&lt;/h4&gt;
 Roberts N., Purushothama P. S., Vasudevan V. T., Ravichandran S., Zhang C., Gerwick W. H., Cottrell G. W.&lt;br/&gt;
- / &lt;code&gt;(Under Review) International Conference on Learning Representations (ICLR) 2019&lt;/code&gt;
+ / &lt;code&gt;(Under Review) ICLR 2019&lt;/code&gt;
   &lt;!--&lt;a href=&quot;https://unify.id/&quot;&gt;--&gt;
   &lt;!--  &lt;img height=&quot;70px&quot; src=&quot;/img/unifyid.png&quot;/&gt;--&gt;
   &lt;!--&lt;/a&gt;--&gt;
@@ -48,7 +52,7 @@ Roberts N., Purushothama P. S., Vasudevan V. T., Ravichandran S., Zhang C., Gerw
 
 &lt;h4&gt;&lt;a href=&quot;http://papers.nips.cc/paper/7651-learning-from-discriminative-feature-feedback.pdf&quot;&gt;Learning from Discriminative Feature Feedback&lt;/a&gt;&lt;/h4&gt;
 Dasgupta S., Dey A., Roberts N., Sabato S.&lt;br/&gt;
- / &lt;code&gt;Neural Information Processing Systems (NeurIPS) 2018&lt;/code&gt;
+ / &lt;code&gt;NeurIPS 2018&lt;/code&gt;
   &lt;!--&lt;a href=&quot;https://unify.id/&quot;&gt;--&gt;
   &lt;!--  &lt;img height=&quot;70px&quot; src=&quot;/img/unifyid.png&quot;/&gt;--&gt;
   &lt;!--&lt;/a&gt;--&gt;
@@ -125,13 +129,13 @@ Zhang C., Idelbayev Y., Roberts N., Tao Y., Nannapaneni Y., Duggan B. M., Min J.
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;h4&gt;The Cottrell Lab&lt;/h4&gt; / &lt;code&gt;deep learning researcher&lt;/code&gt;
+&lt;h4&gt;The Cottrell Lab&lt;/h4&gt; / &lt;code&gt;machine learning researcher&lt;/code&gt;
   &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/guru.gif&quot;/&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-Published, &lt;a href=&quot;https://www.nature.com/srep/&quot;&gt;Journal of Nature Scientific Reports&lt;/a&gt;:
+Published, &lt;a href=&quot;https://www.nature.com/srep/&quot;&gt;Scientific Reports&lt;/a&gt;:
   &lt;/li&gt;
   &lt;ul&gt;
     &lt;li&gt;
