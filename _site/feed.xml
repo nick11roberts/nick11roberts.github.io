@@ -5,8 +5,8 @@
     <description>Drop me an email at n3robert@ucsd.edu.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Dec 2018 20:10:20 +0000</pubDate>
-    <lastBuildDate>Mon, 31 Dec 2018 20:10:20 +0000</lastBuildDate>
+    <pubDate>Thu, 14 Mar 2019 22:04:46 +0000</pubDate>
+    <lastBuildDate>Thu, 14 Mar 2019 22:04:46 +0000</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -31,7 +31,7 @@ On that front, I am currently&lt;/p&gt;
 
 &lt;p&gt;When I’m not stumbling down high dimensional cost functions or shopping for GPUs, I can be found enjoying a shot of espresso, taking photos, making pottery, writing music, or unsuccessfully trying to convince myself to not purchase fake Yeezys or vintage windbreakers I don’t need. Oops, I just bought another vintage windbreaker.&lt;/p&gt;
 
-&lt;p&gt;Besides academia, internships, caffeine, and ill-advised online purchases, I enjoy maintaining my Toyota Prius’ radio volume within the first equivalence class of the congruence modulo 5 relation, and that’s… That’s about it really.&lt;/p&gt;
+&lt;!--Besides academia, internships, caffeine, and ill-advised online purchases, I enjoy maintaining my Toyota Prius' radio volume within the first equivalence class of the congruence modulo 5 relation, and that's... That's about it really.--&gt;
 
 &lt;p&gt;“&lt;code class=&quot;highlighter-rouge&quot;&gt;My key to dealing with stress is simple:&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;just stay cool and stay focused.&lt;/code&gt;” -Ashton Eaton (found via the first result of a Google search for ‘cool quotes’).&lt;/p&gt;
 
@@ -84,13 +84,27 @@ Zhang C., Idelbayev Y., Roberts N., Tao Y., Nannapaneni Y., Duggan B. M., Min J.
     
       <item>
         <title>Experience</title>
-        <description>&lt;h4&gt;UnifyID&lt;/h4&gt; / &lt;code&gt;research intern&lt;/code&gt;
+        <description>&lt;h4&gt;Amazon Web Services&lt;/h4&gt; / &lt;code&gt;applied scientist intern&lt;/code&gt;
+  &lt;a href=&quot;https://aws.amazon.com/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/amazon_full.png&quot;/&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    Starting June 2019
+  &lt;/li&gt;
+  &lt;li&gt;
+&lt;code&gt;Technologies used:&lt;/code&gt; tbd
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+
+&lt;h4&gt;UnifyID&lt;/h4&gt; / &lt;code&gt;ai fellow + machine learner intern&lt;/code&gt;
   &lt;a href=&quot;https://unify.id/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/unifyid.png&quot;/&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    Starting March 2019
+    Starting February 2019
   &lt;/li&gt;
   &lt;li&gt;
 &lt;code&gt;Technologies used:&lt;/code&gt; tbd
@@ -118,8 +132,8 @@ Zhang C., Idelbayev Y., Roberts N., Tao Y., Nannapaneni Y., Duggan B. M., Min J.
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;h4&gt;Altum&lt;/h4&gt; / &lt;code&gt;financial machine learning researcher&lt;/code&gt;
-&lt;a href=&quot;#&quot;&gt;
+&lt;h4&gt;Altum&lt;/h4&gt; / &lt;code&gt;applied scientist intern&lt;/code&gt;
+&lt;a href=&quot;https://altum.io/&quot;&gt;
   &lt;img height
   =&quot;70px&quot; src=&quot;/img/altum.png&quot;/&gt;
 &lt;/a&gt;
@@ -309,24 +323,69 @@ Developed dynamic front-end web interface for conversing with the Graph Speak mo
     
       <item>
         <title>Education</title>
-        <description>&lt;h4&gt;UC San Diego&lt;/h4&gt;
-B.S. Computer Science, Mathematics minor&lt;br/&gt;
-GPA: 3.88, Expected graduation: March 2019&lt;br/&gt;
-Tutor for Data Science 20 (Data Structures for Data Science)&lt;br/&gt;
-Tutor for Data Science 10 (Principles of Data Science)
-&lt;h4&gt;Extracurricular&lt;/h4&gt;
+        <description>&lt;!--
+&lt;h4&gt;Carnegie Mellon University&lt;/h4&gt;
+&lt;a href=&quot;https://www.cmu.edu/&quot;&gt;
+&lt;img height=&quot;30px&quot; src=&quot;/img/cmu.png&quot;/&gt;
+&lt;/a&gt;
+&lt;code&gt;M.S. Machine Learning&lt;/code&gt;&lt;br/&gt;
+August 2019 - May 2021&lt;br/&gt;
+GPA: tbd&lt;br/&gt;
+&lt;br/&gt;
+--&gt;
+
+&lt;h4&gt;University of California, San Diego&lt;/h4&gt;
+&lt;a href=&quot;https://www.ucsd.edu/&quot;&gt;
+&lt;img height=&quot;30px&quot; src=&quot;/img/ucsd.png&quot;/&gt;
+&lt;/a&gt;
+&lt;code&gt;B.S. Computer Science&lt;/code&gt;&lt;br/&gt;
+&lt;code&gt;Mathematics minor&lt;/code&gt;&lt;br/&gt;
+&lt;code&gt;CSE Honors Program&lt;/code&gt;&lt;br/&gt;
+September 2015 - March 2019&lt;br/&gt;
+GPA: 3.88&lt;br/&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    Data analyst, &lt;a href=&quot;http://tesc.ucsd.edu/&quot;&gt;Triton Engineering Student Council&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    Machine learning workshop facilitator, &lt;a href=&quot;http://ds3.ucsd.edu/&quot;&gt;Data Science Student Society at UCSD&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    House leader, &lt;a href=&quot;http://tbp.ucsd.edu/&quot;&gt;Tau Beta Pi, California Psi&lt;/a&gt;
-  &lt;/li&gt;
+&lt;li&gt;
+Tutor for Data Science 20 (Data Structures for Data Science)&lt;br/&gt;
+&lt;/li&gt;
+&lt;li&gt;
+Tutor for Data Science 10 (Principles of Data Science)&lt;br/&gt;
+&lt;/li&gt;
+&lt;li&gt;
+Data analyst, &lt;a href=&quot;http://tesc.ucsd.edu/&quot;&gt;Triton Engineering Student Council&lt;/a&gt;&lt;br/&gt;
+&lt;/li&gt;
+&lt;li&gt;
+Machine learning workshop facilitator, &lt;a href=&quot;http://ds3.ucsd.edu/&quot;&gt;Data Science Student Society at UCSD&lt;/a&gt;&lt;br/&gt;
+&lt;/li&gt;
+&lt;li&gt;
+House leader, &lt;a href=&quot;http://tbp.ucsd.edu/&quot;&gt;Tau Beta Pi, California Psi&lt;/a&gt;&lt;br/&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4&gt;Fresno City College&lt;/h4&gt;
+&lt;a href=&quot;https://www.fresnocitycollege.edu/&quot;&gt;
+&lt;img height=&quot;30px&quot; src=&quot;/img/fcc.png&quot;/&gt;
+&lt;/a&gt;
+&lt;code&gt;Computer Science&lt;/code&gt;&lt;br/&gt;
+&lt;code&gt;Leon S. Peters Honors Program&lt;/code&gt;&lt;br/&gt;
+August 2013 - May 2015&lt;br/&gt;
+GPA: 3.85&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Tutor for CIT 65 (Android Application Development)&lt;br/&gt;
+&lt;/li&gt;
+&lt;li&gt;
+Mathematics Tutor&lt;br/&gt;
+&lt;/li&gt;
+&lt;li&gt;
+Computer Science Tutor&lt;br/&gt;
+&lt;/li&gt;
+&lt;li&gt;
+President/Founder, Google Developer Group Fresno City College&lt;br/&gt;
+&lt;/li&gt;
+&lt;li&gt;
+Treasurer, Science and Engineering Club&lt;br/&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;!--more--&gt;
 </description>
         <pubDate>Fri, 01 Sep 2017 15:07:19 +0000</pubDate>
@@ -340,7 +399,7 @@ Tutor for Data Science 10 (Principles of Data Science)
     
       <item>
         <title>Contact</title>
-        <description>n3robert [the at character] ucsd [the dot character] edu
+        <description>nick.roberts.127.0.0.1 [the at character] gmail [the dot character] com
 &lt;script type=&quot;text/javascript&quot;&gt;
   // based on http://stackoverflow.com/a/10300743/280842
   function gen_mail_to_link(hs, subject) {
