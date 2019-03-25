@@ -5,8 +5,8 @@
     <description>Drop me an email at nick.roberts.127.0.0.1@gmail.com</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Mar 2019 00:11:43 +0000</pubDate>
-    <lastBuildDate>Fri, 15 Mar 2019 00:11:43 +0000</lastBuildDate>
+    <pubDate>Mon, 25 Mar 2019 06:49:33 +0000</pubDate>
+    <lastBuildDate>Mon, 25 Mar 2019 06:49:33 +0000</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -84,7 +84,7 @@ Zhang C., Idelbayev Y., Roberts N., Tao Y., Nannapaneni Y., Duggan B. M., Min J.
     
       <item>
         <title>Experience</title>
-        <description>&lt;h4&gt;Amazon Web Services&lt;/h4&gt; / &lt;code&gt;applied scientist intern&lt;/code&gt;
+        <description>&lt;h4&gt;Amazon Web Services AI&lt;/h4&gt; / &lt;code&gt;applied scientist intern&lt;/code&gt;
   &lt;a href=&quot;https://aws.amazon.com/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/amazon_full.png&quot;/&gt;
 &lt;/a&gt;
@@ -98,7 +98,7 @@ Zhang C., Idelbayev Y., Roberts N., Tao Y., Nannapaneni Y., Duggan B. M., Min J.
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;h4&gt;UnifyID&lt;/h4&gt; / &lt;code&gt;ai fellow + machine learner intern&lt;/code&gt;
+&lt;h4&gt;UnifyID&lt;/h4&gt; / &lt;code&gt;ai fellow &amp;amp; machine learner intern&lt;/code&gt;
   &lt;a href=&quot;https://unify.id/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/unifyid.png&quot;/&gt;
 &lt;/a&gt;
@@ -112,7 +112,7 @@ Zhang C., Idelbayev Y., Roberts N., Tao Y., Nannapaneni Y., Duggan B. M., Min J.
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;h4&gt;Intuit Futures research group&lt;/h4&gt; / &lt;code&gt;software engineering intern&lt;/code&gt;
+&lt;h4&gt;Intuit Futures&lt;/h4&gt; / &lt;code&gt;software engineering intern&lt;/code&gt;
   &lt;a href=&quot;https://www.intuit.com&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/intuit.png&quot;/&gt;
 &lt;/a&gt;
@@ -209,7 +209,7 @@ Implemented system for updating the time series dataset and fine tuning the deep
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;h4&gt;The Comeback Community&lt;/h4&gt; / &lt;code&gt;full stack developer&lt;/code&gt;
+&lt;h4&gt;The Comeback Community&lt;/h4&gt; / &lt;code&gt;volunteer full stack developer&lt;/code&gt;
   &lt;a href=&quot;https://the-comeback-community.appspot.com/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/comeback.png&quot;/&gt;
 &lt;/a&gt;
@@ -218,7 +218,7 @@ Implemented system for updating the time series dataset and fine tuning the deep
 Developed site in Go, gohtml, and CSS on Google App Engine
   &lt;/li&gt;
   &lt;li&gt;
-Mentored new developers on the team in web development
+Mentored new developers in web development
   &lt;/li&gt;
   &lt;li&gt;
 &lt;code&gt;Technologies used:&lt;/code&gt; Go, Google App Engine, gohtml, HTML5, CSS3, JavaScript
@@ -323,7 +323,8 @@ Developed dynamic front-end web interface for conversing with the Graph Speak mo
     
       <item>
         <title>Education</title>
-        <description>&lt;h4&gt;Carnegie Mellon University&lt;/h4&gt;
+        <description>&lt;!--
+&lt;h4&gt;Carnegie Mellon University&lt;/h4&gt;
 &lt;a href=&quot;https://www.cmu.edu/&quot;&gt;
 &lt;img height=&quot;30px&quot; src=&quot;/img/cmu.png&quot;/&gt;
 &lt;/a&gt;
@@ -331,7 +332,7 @@ Developed dynamic front-end web interface for conversing with the Graph Speak mo
 August 2019 - May 2021&lt;br/&gt;
 GPA: tbd&lt;br/&gt;
 &lt;br/&gt;
-
+--&gt;
 
 &lt;h4&gt;University of California, San Diego&lt;/h4&gt;
 &lt;a href=&quot;https://www.ucsd.edu/&quot;&gt;
