@@ -5,8 +5,8 @@
     <description>Drop me an email at nick.roberts.127.0.0.1@gmail.com</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Mar 2019 06:49:33 +0000</pubDate>
-    <lastBuildDate>Mon, 25 Mar 2019 06:49:33 +0000</lastBuildDate>
+    <pubDate>Fri, 29 Mar 2019 05:33:40 +0000</pubDate>
+    <lastBuildDate>Fri, 29 Mar 2019 05:33:40 +0000</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -323,8 +323,7 @@ Developed dynamic front-end web interface for conversing with the Graph Speak mo
     
       <item>
         <title>Education</title>
-        <description>&lt;!--
-&lt;h4&gt;Carnegie Mellon University&lt;/h4&gt;
+        <description>&lt;h4&gt;Carnegie Mellon University&lt;/h4&gt;
 &lt;a href=&quot;https://www.cmu.edu/&quot;&gt;
 &lt;img height=&quot;30px&quot; src=&quot;/img/cmu.png&quot;/&gt;
 &lt;/a&gt;
@@ -332,7 +331,7 @@ Developed dynamic front-end web interface for conversing with the Graph Speak mo
 August 2019 - May 2021&lt;br/&gt;
 GPA: tbd&lt;br/&gt;
 &lt;br/&gt;
---&gt;
+
 
 &lt;h4&gt;University of California, San Diego&lt;/h4&gt;
 &lt;a href=&quot;https://www.ucsd.edu/&quot;&gt;
