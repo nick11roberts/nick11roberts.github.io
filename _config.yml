@@ -36,8 +36,8 @@ owner:
   name: Nick Roberts
   avatar: avatar.png
   job: "Student"
-  bio: "Incoming MSML student <br/>@ Carnegie Mellon University.<br/>-<br/>Applied Scientist Intern <br/>@ Amazon AI."
-  ext-bio: "Incoming CMU MS student in Machine Learning. Applied Scientist Intern at Amazon AI."
+  bio: "MS student in ML <br/>@ Carnegie Mellon University."
+  ext-bio: "MS student in Machine Learning <br/>@ Carnegie Mellon University."
   email: nick.roberts.127.0.0.1@gmail.com
   disqus-shortname:
   twitter: NikolaiRoberts
