@@ -41,7 +41,7 @@ owner:
   email: nick.roberts.127.0.0.1@gmail.com
   disqus-shortname:
   twitter: NikolaiRoberts
-  facebook: nick11roberts
+  facebook: #nick11roberts
   google:
     plus: #username
     analytics: UA-53407536-3
@@ -53,7 +53,7 @@ owner:
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: nick11roberts #username
   xing: #username
-  instagram: n1cn11c
+  instagram: #n1cn11c
   lastfm: #username
   tumblr: #username
   pinterest: #username
@@ -61,7 +61,7 @@ owner:
   steam: #username
   dribbble: #username
   youtube: #username
-  soundcloud: antielectron
+  soundcloud: #antielectron
   weibo: #username
   flickr: #username
   codepen: #username
