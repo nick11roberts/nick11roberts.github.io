@@ -35,10 +35,10 @@ kramdown:
 owner:
   name: Nick Roberts
   avatar: avatar.jpg
-  job: "Student"
-  bio: "PhD student in Computer Science <br/>@ University of Wisconsin-Madison."
-  ext-bio: "PhD student in Computer Science <br/>@ University of Wisconsin-Madison."
-  email: nick11roberts@cs.wisc.edu
+  job: "PhD Student"
+  bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Fred Sala"
+  ext-bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Fred Sala"
+  email: nick11roberts [at] cs [dot] wisc [dot] edu
   disqus-shortname:
   twitter: NikolaiRoberts
   facebook: #nick11roberts
