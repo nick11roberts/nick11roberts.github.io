@@ -38,7 +38,7 @@ owner:
   job: "PhD Student"
   bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Fred Sala"
   ext-bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Fred Sala"
-  email: nick11roberts [at] cs [dot] wisc [dot] edu
+  email: 
   disqus-shortname:
   twitter: NikolaiRoberts
   facebook: #nick11roberts
@@ -51,7 +51,7 @@ owner:
   bing-verify:
   github: nick11roberts #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: nick11roberts #username
+  linkedin: #username
   xing: #username
   instagram: #n1cn11c
   lastfm: #username
