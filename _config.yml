@@ -33,11 +33,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: Nick Roberts
+  name: Nicholas Roberts
   avatar: avatar.png
   job: "PhD Student"
-  bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Fred Sala"
-  ext-bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Fred Sala"
+  bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Frederic Sala"
+  ext-bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Frederic Sala"
   email: 
   disqus-shortname:
   twitter: nick11roberts
