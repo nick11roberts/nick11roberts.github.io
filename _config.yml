@@ -33,7 +33,7 @@ kramdown:
 ####################################
 #
 owner:
-  name: Nicholas Roberts
+  name: "Nicholas<br/>Roberts"
   avatar: avatar.png
   job: "PhD Student"
   bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Frederic Sala"
