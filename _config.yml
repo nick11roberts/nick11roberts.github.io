@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Nick Roberts
+title: Nicholas Roberts
 email: nick.roberts.127.0.0.1@gmail.com
 description: Drop me an email at nick.roberts.127.0.0.1@gmail.com
 url: https://nick11roberts.github.io # the base hostname & protocol for your site
@@ -33,11 +33,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: Nick Roberts
+  name: Nicholas Roberts
   avatar: avatar.png
   job: "PhD Student"
-  bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Fred Sala"
-  ext-bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Fred Sala"
+  bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Frederic Sala"
+  ext-bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Frederic Sala"
   email: 
   disqus-shortname:
   twitter: nick11roberts
