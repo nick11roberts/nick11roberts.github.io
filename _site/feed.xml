@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nick11roberts</title>
+    <title>Nicholas Roberts</title>
     <description>Drop me an email at nick.roberts.127.0.0.1@gmail.com</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Oct 2021 21:04:47 +0000</pubDate>
-    <lastBuildDate>Thu, 07 Oct 2021 21:04:47 +0000</lastBuildDate>
-    <generator>Jekyll v4.2.1</generator>
+    <pubDate>Sun, 18 Sep 2022 23:25:43 +0000</pubDate>
+    <lastBuildDate>Sun, 18 Sep 2022 23:25:43 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>About</title>
-        <description>&lt;h4 id=&quot;hi-im-nick&quot;&gt;Hi, I’m Nick!&lt;/h4&gt;
+        <description>&lt;!--#### Hi, I'm Nick!--&gt;
 
-&lt;p&gt;I am a Ph.D. student in CS at &lt;a href=&quot;https://www.cs.wisc.edu&quot;&gt;University of Wisconsin – Madison&lt;/a&gt; where I am advised by &lt;a href=&quot;https://pages.cs.wisc.edu/~fredsala/&quot;&gt;Fred Sala&lt;/a&gt;. Before that, I had the pleasure of working with &lt;a href=&quot;http://www.cs.cmu.edu/~atalwalk/&quot;&gt;Ameet Talwalkar&lt;/a&gt; and &lt;a href=&quot;http://zacklipton.com&quot;&gt;Zack Lipton&lt;/a&gt; during my MS at &lt;a href=&quot;https://www.cmu.edu/&quot;&gt;Carnegie Mellon University&lt;/a&gt;. As an undergraduate, I was extremely fortunate to work with both &lt;a href=&quot;https://cseweb.ucsd.edu/~dasgupta/&quot;&gt;Sanjoy Dasgupta&lt;/a&gt; and &lt;a href=&quot;https://cseweb.ucsd.edu/~gary/&quot;&gt;Gary Cottrell&lt;/a&gt; at the &lt;a href=&quot;https://ucsd.edu/&quot;&gt;University of California, San Diego&lt;/a&gt;. Before that, I was a community college student at &lt;a href=&quot;https://www.fresnocitycollege.edu&quot;&gt;Fresno City College&lt;/a&gt;, where I was lucky enough to learn calculus, linear algebra, &lt;strong&gt;AND&lt;/strong&gt; C++ from &lt;a href=&quot;https://greg.jamison.cc/home.php&quot;&gt;Greg Jamison&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Academic Bio:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;I am broadly interested in making machine learning more accessible and applicable to new domains. As of recent, I’ve been particularly interested in model selection and automation.&lt;/p&gt;
+&lt;p&gt;I am a Ph.D. student in CS at &lt;a href=&quot;https://www.cs.wisc.edu&quot;&gt;University of Wisconsin – Madison&lt;/a&gt; where I am advised by &lt;a href=&quot;https://pages.cs.wisc.edu/~fredsala/&quot;&gt;Fred Sala&lt;/a&gt;. Before that, I had the pleasure of working with &lt;a href=&quot;http://www.cs.cmu.edu/~atalwalk/&quot;&gt;Ameet Talwalkar&lt;/a&gt; and &lt;a href=&quot;http://zacklipton.com&quot;&gt;Zack Lipton&lt;/a&gt; during my MS at &lt;a href=&quot;https://www.cmu.edu/&quot;&gt;Carnegie Mellon University&lt;/a&gt;. As an undergraduate, I was extremely fortunate to work with both &lt;a href=&quot;https://cseweb.ucsd.edu/~dasgupta/&quot;&gt;Sanjoy Dasgupta&lt;/a&gt; and &lt;a href=&quot;https://cseweb.ucsd.edu/~gary/&quot;&gt;Gary Cottrell&lt;/a&gt; at the &lt;a href=&quot;https://ucsd.edu/&quot;&gt;University of California, San Diego&lt;/a&gt;. Before that, I was a community college student at &lt;a href=&quot;https://www.fresnocitycollege.edu&quot;&gt;Fresno City College&lt;/a&gt;, where I was lucky enough to learn calculus, linear algebra, &lt;em&gt;and&lt;/em&gt; C++ from &lt;a href=&quot;https://greg.jamison.cc/home.php&quot;&gt;Greg Jamison&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Other interests: caffeine (broadly), photography, pottery.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research Interests:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Extracurricular: I’m an &lt;a href=&quot;https://dudeism.com&quot;&gt;ordained Dudeist priest&lt;/a&gt; so I’m pretty sure I can officiate weddings. I’m also the Head Researcher of Margarita Machine Lounge Therapy at &lt;a href=&quot;https://www.vacation.inc&quot;&gt;Vacation Inc.&lt;/a&gt; - I encourage you to check out our awesome selection of luxury sunscreens. &lt;a href=&quot;https://www.instagram.com/p/CQIVWAxg4NX/&quot;&gt;My Toyota Prius is unoffocially the fastest Prius at Bonneville Speedway&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!--DnD class (homebrew rules): `Wizard/Bard/Cobbler` hybrid.  --&gt;
-&lt;!--&quot;`My key to dealing with stress is simple:` `just stay cool and stay focused.`&quot; -Ashton Eaton (cheesy quote courtesy of the first Google search result for &apos;cool quotes&apos;).--&gt;
-
-&lt;!-- Looking to be a more stealthy internetgoer? [Consider opting out of Google Analytics.][analytics] --&gt;
-&lt;!--more--&gt;
+&lt;p&gt;I am interested in making machine learning more accessible and applicable to new domains. Recently, I’ve been working on automated dataset construction and model selection for diverse tasks—i.e., beyond well-explored domains in ML such as vision and language.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 06 Sep 2017 15:07:19 +0000</pubDate>
+        <pubDate>Fri, 08 Sep 2017 15:07:19 +0000</pubDate>
         <link>http://localhost:4000/articles/2017-09/about</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2017-09/about</guid>
         
@@ -38,86 +32,274 @@
       </item>
     
       <item>
-        <title>Publications</title>
-        <description>&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;Universalizing Weak Supervision&lt;/a&gt;&lt;/h4&gt;
-Changho Shin, Winfred Li, Harit Vishwakarma, Nicholas Roberts, Frederic Sala &lt;br/&gt;
-  &lt;code&gt; &gt; (under review) &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
+        <title>Contact</title>
+        <description>&lt;b&gt;Email:&lt;/b&gt; nick11roberts [at] cs [dot] wisc [dot] edu &lt;br /&gt;
+&lt;b&gt;Office:&lt;/b&gt; CS Dept. 5384, 1210 W Dayton St, Madison, WI 53706</description>
+        <pubDate>Thu, 07 Sep 2017 15:07:19 +0000</pubDate>
+        <link>http://localhost:4000/articles/2017-09/contact</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-09/contact</guid>
+        
+        
+        <category>contact</category>
+        
+      </item>
+    
+      <item>
+        <title>News</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Three papers (and a competition) to appear in NeurIPS ‘22:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2110.05668&quot;&gt;Benchmarking neural architecture search on diverse tasks&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2208.14362&quot;&gt;Benchmark for automated weak supervision&lt;/a&gt; across diverse tasks&lt;/li&gt;
+      &lt;li&gt;We lift the favorable theoretical properties of binary weak supervision to structured prediction&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Jointly leading the &lt;a href=&quot;https://www.cs.cmu.edu/~automl-decathlon-22/&quot;&gt;AutoML Decathlon&lt;/a&gt; competition at NeurIPS ‘22: an AutoML competition for diverse tasks!
+    &lt;ul&gt;
+      &lt;li&gt;We are partnering with the &lt;a href=&quot;https://sites.google.com/view/automl-fall-school-2022#h.t6lqyjysy4c4&quot;&gt;AutoML Fall School&lt;/a&gt; to host an &lt;a href=&quot;https://www.cs.cmu.edu/~automl-decathlon-22/&quot;&gt;AutoML Decathlon&lt;/a&gt; hackathon!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Selected for the &lt;a href=&quot;https://sites.google.com/unify.id/ai-fellowship/home-fall-2021-cfp/about-jacquelin-perry&quot;&gt;Jacquelin Perry&lt;/a&gt; &lt;a href=&quot;https://www.prove.com/&quot;&gt;Prove AI Fellowship!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;At ICLR ‘22: our work on lifting weak supervision to diverse settings: &lt;a href=&quot;https://arxiv.org/pdf/2112.03865.pdf&quot;&gt;regression, rankings, manifolds, graphs, and more!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;At NeurIPS ‘21: we re-imagine NAS operation spaces for diverse tasks: &lt;a href=&quot;https://arxiv.org/pdf/2103.15798.pdf&quot;&gt;PDE solvers, protein folding, music modeling, and beyond!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I have started my Ph.D. at UW Madison!&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;NAS-Bench-360: Benchmarking Diverse Tasks for Neural Architecture Search&lt;/a&gt;&lt;/h4&gt;
-Renbo Tu, Mikhail Khodak, Nicholas Roberts, Ameet Talwalkar&lt;br/&gt;
-  &lt;code&gt; &gt; (under review) &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;https://arxiv.org/abs/2103.15798&quot;&gt;Rethinking Neural Operations for Diverse Tasks&lt;/a&gt;&lt;/h4&gt;
-Nicholas Roberts*, Mikhail Khodak*, Tri Dao, Liam Li, Christopher Ré, Ameet Talwalkar&lt;br/&gt;
-  &lt;code&gt; &gt; NeurIPS 2021 &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;https://www.cmu.edu/epp/patents/events/aaai21/aaaicontent/papers/searching-for-convolutions-and-a-more-ambitious-nas.pdf&quot;&gt;Searching for Convolutions and a More Ambitious NAS&lt;/a&gt;&lt;/h4&gt;
-Nicholas Roberts*, Mikhail Khodak*, Tri Dao, Liam Li, Maria-Florina Balcan, Christopher Ré, Ameet Talwalkar&lt;br/&gt;
-  &lt;code&gt; &gt; AAAI 2021 Workshop on Learning Network 
-    &lt;br/&gt; Architecture During Training
-    &lt;br/&gt; (plenary talk) &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;https://arxiv.org/abs/2011.13477&quot;&gt;Decoding and Diversity in Machine Translation&lt;/a&gt;&lt;/h4&gt;
-Nicholas Roberts, Davis Liang, Graham Neubig, Zachary C. Lipton&lt;br/&gt;
-  &lt;code&gt; &gt; NeurIPS 2020 Resistance AI Workshop &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_46.pdf&quot;&gt;A Simple Setting for Understanding Neural Architecture Search with Weight-Sharing&lt;/a&gt;&lt;/h4&gt;
-Mikhail Khodak, Liam Li, Nicholas Roberts, Maria-Florina Balcan, Ameet Talwalkar&lt;br/&gt;
-  &lt;code&gt; &gt; ICML 2020 AutoML Workshop &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;https://liamcli.com/assets/pdf/weight_sharing.pdf&quot;&gt;Weight-Sharing Beyond Neural Architecture Search: Efficient Feature Map Selection and Federated Hyperparameter Tuning&lt;/a&gt;&lt;/h4&gt;
-Mikhail Khodak*, Liam Li*, Nicholas Roberts, Maria-Florina Balcan, Ameet Talwalkar&lt;br/&gt;
-  &lt;code&gt; &gt; MLSys 2020 On-Device Intelligence Workshop &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;https://arxiv.org/abs/1912.08986&quot;&gt;Deep Connectomics Networks: Neural Network Architectures Inspired by Neuronal Networks&lt;/a&gt;&lt;/h4&gt;
-Nicholas Roberts, Dian Ang Yap, Vinay U. Prabhu&lt;br/&gt;
-  &lt;code&gt; &gt; NeurIPS 2019 Real Neurons and &lt;br/&gt;
-        Hidden Units Workshop &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_139.pdf&quot;&gt;Using Deep Siamese Neural Networks to Speed up Natural Products Research&lt;/a&gt;&lt;/h4&gt;
-Nicholas Roberts, Poornav S. Purushothama, Vishal T. Vasudevan, Siddarth Ravichandran, Chen Zhang, William H. Gerwick, Garrison W. Cottrell&lt;br/&gt;
-  &lt;code&gt; &gt; NeurIPS 2019 workshop on Machine Learning &lt;br/&gt;
-        and the Physical Sciences &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;https://arxiv.org/abs/1911.07418&quot;&gt;Grassmannian Packings in Neural Networks: Learning with Maximal Subspace Packings for Diversity and Anti-Sparsity&lt;/a&gt;&lt;/h4&gt;
-Dian Ang Yap, Nicholas Roberts, Vinay U. Prabhu&lt;br/&gt;
-    &lt;code&gt; &gt; NeurIPS 2019 workshop on Bayesian Deep Learning, &lt;br/&gt;
-           &gt; NeurIPS 2019 workshop on Information Theory and &lt;br/&gt;
-           Machine Learning &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;https://arxiv.org/abs/1912.08987&quot;&gt;Model Weight Theft With Just Noise Inputs: The Curious Case of the Petulant Attacker&lt;/a&gt;&lt;/h4&gt;
-Nicholas Roberts, Vinay U. Prabhu, Matthew McAteer&lt;br/&gt;
-   &lt;code&gt; &gt; ICML 2019 workshop on Security and Privacy of &lt;br/&gt;
-         Machine Learning &lt;br/&gt;
-         (spotlight presentation) &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;http://papers.nips.cc/paper/7651-learning-from-discriminative-feature-feedback.pdf&quot;&gt;Learning from Discriminative Feature Feedback&lt;/a&gt;&lt;/h4&gt;
-Sanjoy Dasgupta, Akansha Dey, Nicholas Roberts, Sivan Sabato&lt;br/&gt;
-  &lt;code&gt; &gt; NeurIPS 2018 &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;Small Molecule Accurate Recognition Technology (SMART): A Digital Frontier to Reshape Natural Product Research [poster]&lt;/a&gt;&lt;/h4&gt;
-Chen Zhang*, Yerlan Idelbayev*, Nicholas Roberts (presenter), Yiwen Tao, Yashwanth Nannapaneni, Brendan M. Duggan, Jie Min, Eugene C. Lin, Erik C. Gerwick, Garrison W. Cottrell, William H. Gerwick &lt;br/&gt;
-  &lt;code&gt; &gt; Applied Machine Learning Days 2018 &lt;br/&gt; 
-    (best spotlight presentation award) &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;h4&gt;&lt;a href=&quot;https://www.nature.com/articles/s41598-017-13923-x&quot;&gt;Small Molecule Accurate Recognition Technology (SMART) to Enhance Natural Products Research&lt;/a&gt;&lt;/h4&gt;
-Chen Zhang*, Yerlan Idelbayev*, Nicholas Roberts, Yiwen Tao, Yashwanth Nannapaneni, Brendan M. Duggan, Jie Min, Eugene C. Lin, Erik C. Gerwick, Garrison W. Cottrell, William H. Gerwick &lt;br/&gt;
-  &lt;code&gt; &gt; Scientific Reports 2017 &lt;/code&gt;
-&lt;br/&gt;&lt;br/&gt;
 </description>
+        <pubDate>Wed, 06 Sep 2017 15:07:19 +0000</pubDate>
+        <link>http://localhost:4000/articles/2017-09/news</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-09/news</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Publications</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2208.14362&quot;&gt;&lt;b&gt;AutoWS-Bench-101: Benchmarking Automated Weak Supervision with 100
+          Labels&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Nicholas Roberts*, Xintong Li*, Tzu-Heng Huang, Dyah Adila, Spencer Schoenberg, Cheng-Yu Liu, Lauren Pick, Haotian
+      Ma, Aws Albarghouthi, Frederic Sala. &lt;br&gt;
+      &lt;i&gt;NeurIPS 2022&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://openreview.net/pdf?id=nQZHEunntbJ&quot;&gt;[Paper]&lt;/a&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2208.14362&quot;&gt;[arXiv]&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/Sala-Group/AutoWS-Bench-101&quot;&gt;[Code]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2110.05668&quot;&gt;&lt;b&gt;NAS-Bench-360: Benchmarking Neural Architecture Search on Diverse
+          Tasks&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Renbo Tu*, Nicholas Roberts*, Mikhail Khodak, Junhong Shen, Frederic Sala, Ameet Talwalkar. &lt;br&gt;
+      &lt;i&gt;NeurIPS 2022&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://openreview.net/pdf?id=xUXTbq6gWsB&quot;&gt;[Paper]&lt;/a&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2110.05668&quot;&gt;[arXiv]&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/rtu715/NAS-Bench-360&quot;&gt;[Code]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;#&quot;&gt;&lt;b&gt;Lifting Weak Supervision To Structured Prediction&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Harit Vishwakarma, Nicholas Roberts, Frederic Sala. &lt;br&gt;
+      &lt;i&gt;NeurIPS 2022&lt;/i&gt;. &lt;br&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2203.12023&quot;&gt;&lt;b&gt;Generative Modeling Helps Weak Supervision (and Vice Versa)&lt;/b&gt;&lt;/a&gt;
+      &lt;br&gt;
+      Benedikt Boecking, Nicholas Roberts, Willie Neiswanger, Stefano Ermon, Frederic Sala, Artur Dubrawski. &lt;br&gt;
+      &lt;i&gt;Under review&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2203.12023&quot;&gt;[arXiv]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2206.04615&quot;&gt;&lt;b&gt;Beyond the Imitation Game: Quantifying and extrapolating the
+          capabilities of language models&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Aarohi Srivastava, ..., Nicholas Roberts (276), ..., (442 authors). &lt;br&gt;
+      &lt;i&gt;Preprint&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2206.04615&quot;&gt;[arXiv]&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/google/BIG-bench&quot;&gt;[Code]&lt;/a&gt; &lt;br&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2112.02721&quot;&gt;&lt;b&gt;NL-Augmenter: A Framework for Task-Sensitive Natural Language
+          Augmentation&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Kaustubh D. Dhole, ..., Nicholas Roberts (85), ..., (128 authors). &lt;br&gt;
+      &lt;i&gt;Preprint&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2112.02721&quot;&gt;[arXiv]&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/GEM-benchmark/NL-Augmenter&quot;&gt;[Code]&lt;/a&gt; &lt;br&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2112.03865&quot;&gt;&lt;b&gt;Universalizing Weak Supervision&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Changho Shin, Winfred Li, Harit Vishwakarma, Nicholas Roberts, Frederic Sala. &lt;br&gt;
+      &lt;i&gt;ICLR 2022&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2112.03865&quot;&gt;[arXiv]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2103.15798&quot;&gt;&lt;b&gt;Rethinking Neural Operations for Diverse Tasks&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Nicholas Roberts*, Mikhail Khodak*, Tri Dao, Liam Li, Christopher Ré, Ameet Talwalkar. &lt;br&gt;
+      &lt;i&gt;NeurIPS 2021&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2103.15798&quot;&gt;[arXiv]&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/nick11roberts/xd&quot;&gt;[Code]&lt;/a&gt;
+      &lt;a href=&quot;https://github.com/mkhodak/relax&quot;&gt;[Software Package]&lt;/a&gt;
+      &lt;a href=&quot;https://www.youtube.com/watch?v=ovpo0BdmNT4&quot;&gt;[Talk]&lt;/a&gt; &lt;br&gt;
+      &lt;br&gt;
+      Preliminary version: &lt;a
+        href=&quot;https://www.cmu.edu/epp/patents/events/aaai21/aaaicontent/papers/searching-for-convolutions-and-a-more-ambitious-nas.pdf&quot;&gt;&lt;b&gt;Searching
+          for Convolutions and a More Ambitious NAS&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Nicholas Roberts*, Mikhail Khodak*, Tri Dao, Liam Li, Maria-Florina Balcan, Christopher Ré, Ameet Talwalkar. &lt;br&gt;
+      Plenary Talk: &lt;i&gt;AAAI 2021 Workshop on Learning Network Architecture During Training&lt;/i&gt;. &lt;br&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2011.13477&quot;&gt;&lt;b&gt;Decoding and Diversity in Machine Translation&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Nicholas Roberts, Davis Liang, Graham Neubig, Zachary C. Lipton. &lt;br&gt;
+      &lt;i&gt;NeurIPS 2020 Resistance AI Workshop&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/2011.13477&quot;&gt;[arXiv]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_46.pdf&quot;&gt;&lt;b&gt;A Simple Setting for
+          Understanding Neural Architecture Search with Weight-Sharing&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Mikhail Khodak, Liam Li, Nicholas Roberts, Maria-Florina Balcan, Ameet Talwalkar. &lt;br&gt;
+      &lt;i&gt;ICML 2020 AutoML Workshop&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_46.pdf&quot;&gt;[Paper]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://liamcli.com/assets/pdf/weight_sharing.pdf&quot;&gt;&lt;b&gt;Weight-Sharing Beyond Neural Architecture Search:
+          Efficient Feature Map Selection and Federated Hyperparameter Tuning&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Mikhail Khodak*, Liam Li*, Nicholas Roberts, Maria-Florina Balcan, Ameet Talwalkar. &lt;br&gt;
+      &lt;i&gt;MLSys 2020 On-Device Intelligence Workshop&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://liamcli.com/assets/pdf/weight_sharing.pdf&quot;&gt;[Paper]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/1912.08986&quot;&gt;&lt;b&gt;Deep Connectomics Networks: Neural Network Architectures Inspired by
+          Neuronal Networks&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Nicholas Roberts, Dian Ang Yap, Vinay U. Prabhu. &lt;br&gt;
+      &lt;i&gt;NeurIPS 2019 Real Neurons and Hidden Units Workshop&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/1912.08986&quot;&gt;[arXiv]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_139.pdf&quot;&gt;&lt;b&gt;Using Deep Siamese Neural
+          Networks to Speed up Natural Products Research&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Nicholas Roberts, Poornav S. Purushothama, Vishal T. Vasudevan, Siddarth Ravichandran, Chen Zhang, William H.
+      Gerwick, Garrison W. Cottrell. &lt;br&gt;
+      &lt;i&gt;NeurIPS 2019 workshop on Machine Learning and the Physical Sciences&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_139.pdf&quot;&gt;[Paper]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/1911.07418&quot;&gt;&lt;b&gt;Grassmannian Packings in Neural Networks: Learning with Maximal
+          Subspace Packings for Diversity and Anti-Sparsity&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Dian Ang Yap, Nicholas Roberts, Vinay U. Prabhu. &lt;br&gt;
+      &lt;i&gt;NeurIPS 2019 workshop on Bayesian Deep Learning&lt;/i&gt;. &lt;br&gt;
+      &lt;i&gt;NeurIPS 2019 workshop on Information Theory and Machine Learning&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/1911.07418&quot;&gt;[arXiv]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/1912.08987&quot;&gt;&lt;b&gt;Model Weight Theft With Just Noise Inputs: The Curious Case of the
+          Petulant Attacker&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Nicholas Roberts, Vinay U. Prabhu, Matthew McAteer. &lt;br&gt;
+      Spotlight: &lt;i&gt;ICML 2019 workshop on Security and Privacy of Machine Learning&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://arxiv.org/abs/1912.08987&quot;&gt;[arXiv]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;http://papers.nips.cc/paper/7651-learning-from-discriminative-feature-feedback.pdf&quot;&gt;&lt;b&gt;Learning from
+          Discriminative Feature Feedback&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Sanjoy Dasgupta, Akansha Dey, Nicholas Roberts, Sivan Sabato. &lt;br&gt;
+      &lt;i&gt;NeurIPS 2018&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;http://papers.nips.cc/paper/7651-learning-from-discriminative-feature-feedback.pdf&quot;&gt;[Paper]&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;https://www.nature.com/articles/s41598-017-13923-x&quot;&gt;&lt;b&gt;Small Molecule Accurate Recognition Technology
+          (SMART) to Enhance Natural Products Research&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
+      Chen Zhang*, Yerlan Idelbayev*, Nicholas Roberts, Yiwen Tao, Yashwanth Nannapaneni, Brendan M. Duggan, Jie Min,
+      Eugene C. Lin, Erik C. Gerwick, Garrison W. Cottrell, William H. Gerwick. &lt;br&gt;
+      &lt;i&gt;Scientific Reports 2017&lt;/i&gt;. &lt;br&gt;
+      &lt;a href=&quot;https://www.nature.com/articles/s41598-017-13923-x&quot;&gt;[Paper]&lt;/a&gt; &lt;br&gt;
+      &lt;br&gt;
+      Poster: &lt;b&gt;Small Molecule Accurate Recognition Technology (SMART): A Digital Frontier to Reshape Natural Product
+        Research&lt;/b&gt; &lt;br&gt;
+      Chen Zhang*, Yerlan Idelbayev*, Nicholas Roberts (presenter), Yiwen Tao, Yashwanth Nannapaneni, Brendan M. Duggan,
+      Jie Min, Eugene C. Lin, Erik C. Gerwick, Garrison W. Cottrell, William H. Gerwick. &lt;br&gt;
+      Best Spotlight Presentation Award: &lt;i&gt;Applied Machine Learning Days 2018&lt;/i&gt;. &lt;br&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</description>
         <pubDate>Tue, 05 Sep 2017 15:07:19 +0000</pubDate>
         <link>http://localhost:4000/articles/2017-09/publications</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2017-09/publications</guid>
@@ -130,18 +312,24 @@ Chen Zhang*, Yerlan Idelbayev*, Nicholas Roberts, Yiwen Tao, Yashwanth Nannapane
       <item>
         <title>Education</title>
         <description>&lt;h4&gt;University of Wisconsin–Madison&lt;/h4&gt;
-&lt;a href=&quot;https://www.cs.wisc.edu&quot;&gt;
+&lt;!--&lt;a href=&quot;https://www.cs.wisc.edu&quot;&gt;
 &lt;img height=&quot;60px&quot; src=&quot;/img/uw.png&quot;/&gt;
-&lt;/a&gt;
+&lt;/a&gt;--&gt;
 &lt;code&gt;Ph.D. Computer Science&lt;/code&gt;&lt;br/&gt;
 August 2021 - Present&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Member of the &lt;a href=&quot;https://www.hoofersailing.org/&quot;&gt;Hoofer Sailing Club&lt;/a&gt;&lt;br/&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;br/&gt;
 
 
+
 &lt;h4&gt;Carnegie Mellon University&lt;/h4&gt;
-&lt;a href=&quot;https://www.cmu.edu/&quot;&gt;
+&lt;!--&lt;a href=&quot;https://www.cmu.edu/&quot;&gt;
 &lt;img height=&quot;30px&quot; src=&quot;/img/cmu.png&quot;/&gt;
-&lt;/a&gt;
+&lt;/a&gt;--&gt;
 &lt;code&gt;M.S. Machine Learning&lt;/code&gt;&lt;br/&gt;
 August 2019 - May 2021&lt;br/&gt;
 &lt;ul&gt;
@@ -153,9 +341,9 @@ MSML Student Committee Leader&lt;br/&gt;
 
 
 &lt;h4&gt;University of California, San Diego&lt;/h4&gt;
-&lt;a href=&quot;https://www.ucsd.edu/&quot;&gt;
+&lt;!--&lt;a href=&quot;https://www.ucsd.edu/&quot;&gt;
 &lt;img height=&quot;30px&quot; src=&quot;/img/ucsd.png&quot;/&gt;
-&lt;/a&gt;
+&lt;/a&gt;--&gt;
 &lt;code&gt;B.S. Computer Science&lt;/code&gt;&lt;br/&gt;
 &lt;code&gt;Mathematics minor&lt;/code&gt;&lt;br/&gt;
 &lt;code&gt;CSE Honors Program&lt;/code&gt;&lt;br/&gt;
@@ -164,10 +352,10 @@ Magna Cum Laude&lt;br/&gt;
 CSE Highest Distinction&lt;br/&gt;
 &lt;ul&gt;
 &lt;li&gt;
-Tutor for Data Science 20 (Data Structures for Data Science)&lt;br/&gt;
+Tutor for Data Science 10 (Principles of Data Science)&lt;br/&gt;
 &lt;/li&gt;
 &lt;li&gt;
-Tutor for Data Science 10 (Principles of Data Science)&lt;br/&gt;
+Tutor for Data Science 20 (Data Structures for Data Science)&lt;br/&gt;
 &lt;/li&gt;
 &lt;li&gt;
 Data analyst, &lt;a href=&quot;http://tesc.ucsd.edu/&quot;&gt;Triton Engineering Student Council&lt;/a&gt;&lt;br/&gt;
@@ -179,11 +367,12 @@ Machine learning workshop facilitator, &lt;a href=&quot;http://ds3.ucsd.edu/&quo
 House leader, &lt;a href=&quot;http://tbp.ucsd.edu/&quot;&gt;Tau Beta Pi, California Psi&lt;/a&gt;&lt;br/&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;br/&gt;
 
 &lt;h4&gt;Fresno City College&lt;/h4&gt;
-&lt;a href=&quot;https://www.fresnocitycollege.edu/&quot;&gt;
+&lt;!--&lt;a href=&quot;https://www.fresnocitycollege.edu/&quot;&gt;
 &lt;img height=&quot;30px&quot; src=&quot;/img/fcc.png&quot;/&gt;
-&lt;/a&gt;
+&lt;/a&gt;--&gt;
 &lt;code&gt;Computer Science&lt;/code&gt;&lt;br/&gt;
 &lt;code&gt;Leon S. Peters Honors Program&lt;/code&gt;&lt;br/&gt;
 August 2013 - May 2015&lt;br/&gt;
@@ -217,23 +406,31 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     
       <item>
         <title>Experience</title>
-        <description>&lt;h4&gt;SAGE Lab&lt;/h4&gt; &lt;code&gt;research assistant&lt;/code&gt;
-  &lt;a href=&quot;https://www.cs.cmu.edu/~atalwalk/group.html&quot;&gt;
-  &lt;img height=&quot;30px&quot; src=&quot;/img/cmu.png&quot;/&gt;
+        <description>&lt;h4&gt;Sala Group&lt;/h4&gt; &lt;code&gt;research assistant&lt;/code&gt;
+&lt;a href=&quot;https://www.cs.wisc.edu&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/uw.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    Conducted research related to Neural Architecture Search supervised by Ameet Talwalkar
-  &lt;/li&gt;
-  &lt;li&gt;
-&lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch, AWS
+    Research related to Weak Supervision and Automated Machine Learning supervised by Fred Sala.
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br/&gt;
+&lt;br /&gt;
+
+&lt;h4&gt;SAGE Lab&lt;/h4&gt; &lt;code&gt;research assistant&lt;/code&gt;
+&lt;a href=&quot;https://www.cs.cmu.edu/~atalwalk/group.html&quot;&gt;
+  &lt;img height=&quot;30px&quot; src=&quot;/img/cmu.png&quot; /&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    Research related to Neural Architecture Search supervised by Ameet Talwalkar
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
 
 &lt;h4&gt;Amazon AI&lt;/h4&gt; &lt;code&gt;applied scientist intern&lt;/code&gt;
-  &lt;a href=&quot;https://aws.amazon.com/&quot;&gt;
-  &lt;img height=&quot;70px&quot; src=&quot;/img/amazon_full.png&quot;/&gt;
+&lt;a href=&quot;https://aws.amazon.com/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/amazon_full.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
@@ -243,31 +440,31 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Identified areas for improvement in many existing ASR systems when recognizing rare or zero shot entities
   &lt;/li&gt;
   &lt;li&gt;
-&lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch, RWTH ASR, Kaldi, AWS
+    &lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch, RWTH ASR, Kaldi, AWS
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br/&gt;
+&lt;br /&gt;
 
 &lt;h4&gt;UnifyID&lt;/h4&gt; &lt;code&gt;ai fellow &lt;br/&gt; machine learner intern&lt;/code&gt;
-  &lt;a href=&quot;https://unify.id/&quot;&gt;
-  &lt;img height=&quot;70px&quot; src=&quot;/img/unifyid.png&quot;/&gt;
+&lt;a href=&quot;https://unify.id/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/unifyid.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
-    &lt;li&gt;
-        Researched various ways in which research from network neuroscience could be applied to deep learning
-      &lt;/li&gt;
-      &lt;li&gt;
-          Developed a novel model extraction attack against deep learning models for computer vision using just noise inputs
-      &lt;/li&gt;
   &lt;li&gt;
-&lt;code&gt;Technologies used:&lt;/code&gt; Python, Keras, PyTorch, TensorFlow, MATLAB, AWS
+    Researched various ways in which research from network neuroscience could be applied to deep learning
+  &lt;/li&gt;
+  &lt;li&gt;
+    Developed a novel model extraction attack against deep learning models for computer vision using just noise inputs
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;Technologies used:&lt;/code&gt; Python, Keras, PyTorch, TensorFlow, MATLAB, AWS
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br/&gt;
+&lt;br /&gt;
 
 &lt;h4&gt;Intuit Futures&lt;/h4&gt; &lt;code&gt;software engineering intern&lt;/code&gt;
-  &lt;a href=&quot;https://www.intuit.com&quot;&gt;
-  &lt;img height=&quot;70px&quot; src=&quot;/img/intuit.png&quot;/&gt;
+&lt;a href=&quot;https://www.intuit.com&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/intuit.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
@@ -280,15 +477,14 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Investigated the use of dynamic topic models for customer support tickets to gain actionable insights over time
   &lt;/li&gt;
   &lt;li&gt;
-&lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch, TensorFlow, Gensim, Keras
+    &lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch, TensorFlow, Gensim, Keras
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br/&gt;
+&lt;br /&gt;
 
 &lt;h4&gt;Altum&lt;/h4&gt; &lt;code&gt;applied scientist intern&lt;/code&gt;
 &lt;a href=&quot;https://altum.io/&quot;&gt;
-  &lt;img height
-  =&quot;70px&quot; src=&quot;/img/altum.png&quot;/&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/altum.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
@@ -298,121 +494,122 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Investigated unsupervised learning techniques for extracting sentiment data in real time from online forums
   &lt;/li&gt;
   &lt;li&gt;
-&lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch
+    &lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br/&gt;
+&lt;br /&gt;
 
-&lt;h4&gt;The Cottrell Lab&lt;/h4&gt; &lt;code&gt;machine learning researcher&lt;/code&gt;
-  &lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;
-  &lt;img height=&quot;70px&quot; src=&quot;/img/guru.gif&quot;/&gt;
+&lt;h4&gt;The Cottrell Lab (GURU: Gary's Unbelievable Research Unit)&lt;/h4&gt; &lt;code&gt;undergraduate researcher&lt;/code&gt;
+&lt;a href=&quot;http://cseweb.ucsd.edu/groups/guru/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/guru.gif&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-Published, &lt;a href=&quot;https://www.nature.com/srep/&quot;&gt;Scientific Reports&lt;/a&gt;:
+    Published, &lt;a href=&quot;https://www.nature.com/srep/&quot;&gt;Scientific Reports&lt;/a&gt;:
   &lt;/li&gt;
   &lt;ul&gt;
     &lt;li&gt;
-&quot;Small Molecule Accurate Recognition Technology (SMART) to Enhance Natural Products Research&quot;
+      &quot;Small Molecule Accurate Recognition Technology (SMART) to Enhance Natural Products Research&quot;
     &lt;/li&gt;
   &lt;/ul&gt;
   &lt;li&gt;
-Presented SMART research at the &lt;a href=&quot;https://www.appliedmldays.org/&quot;&gt;Applied Machine Learning Days 2018&lt;/a&gt; conference at &lt;a href=&quot;https://epfl.ch/&quot;&gt;EPFL&lt;/a&gt;, Lausanne, Switzerland
-  &lt;ul&gt;
-    &lt;li&gt;
-Won an award for Best Spotlight Presentation
-    &lt;/li&gt;
-  &lt;/ul&gt;
+    Presented SMART research at the &lt;a href=&quot;https://www.appliedmldays.org/&quot;&gt;Applied Machine Learning Days 2018&lt;/a&gt;
+    conference at &lt;a href=&quot;https://epfl.ch/&quot;&gt;EPFL&lt;/a&gt;, Lausanne, Switzerland
+    &lt;ul&gt;
+      &lt;li&gt;
+        Won an award for Best Spotlight Presentation
+      &lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
-Analyzed performance of deep learning system for natural products research with &lt;a href=&quot;https://scripps.ucsd.edu/&quot;&gt;Scripps Institute of Oceanography&lt;/a&gt;
+    Analyzed performance of deep learning system for natural products research with &lt;a
+      href=&quot;https://scripps.ucsd.edu/&quot;&gt;Scripps Institute of Oceanography&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-Explored the effects of artificial experimental noise added to the dataset and showed resistance to gaussian noise
+    Explored the effects of artificial experimental noise added to the dataset and showed resistance to gaussian noise
   &lt;/li&gt;
   &lt;li&gt;
-Improved quality of image dataset by identifying and handling noisy outliers using principal component analysis
+    Improved quality of image dataset by identifying and handling noisy outliers using principal component analysis
   &lt;/li&gt;
   &lt;li&gt;
-&lt;code&gt;Technologies used:&lt;/code&gt; Python, Tensorflow, Lasagne, Theano, SciPy
+    &lt;code&gt;Technologies used:&lt;/code&gt; Python, Tensorflow, Lasagne, Theano, SciPy
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br/&gt;
+&lt;br /&gt;
 
 &lt;h4&gt;Teradata&lt;/h4&gt; &lt;code&gt;software engineering intern&lt;/code&gt;
-  &lt;a href=&quot;http://www.teradata.com/&quot;&gt;
-  &lt;img height=&quot;70px&quot; src=&quot;/img/teradata.png&quot;/&gt;
+&lt;a href=&quot;http://www.teradata.com/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/teradata.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-Developed open source Spark-Teradata connector forked from Databricks’ connector for AWS Redshift in Scala
+    Developed open source Spark-Teradata connector forked from Databricks’ connector for AWS Redshift in Scala
   &lt;/li&gt;
   &lt;li&gt;
-Designed and implemented Teradata stored procedures in Java to mimic Redshift’s UNLOAD and COPY using S3
+    Designed and implemented Teradata stored procedures in Java to mimic Redshift’s UNLOAD and COPY using S3
   &lt;/li&gt;
   &lt;li&gt;
-Improved training methodology and architecture of deep learning time series model used internally
+    Improved training methodology and architecture of deep learning time series model used internally
   &lt;/li&gt;
   &lt;li&gt;
-Implemented system for updating the time series dataset and fine tuning the deep learning model
+    Implemented system for updating the time series dataset and fine tuning the deep learning model
   &lt;/li&gt;
   &lt;li&gt;
-&lt;code&gt;Technologies used:&lt;/code&gt; Scala, Java, Maven, Teradata SQL, AWS, Tensorflow, Flask
+    &lt;code&gt;Technologies used:&lt;/code&gt; Scala, Java, Maven, Teradata SQL, AWS, Tensorflow, Flask
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br/&gt;
+&lt;br /&gt;
 
 &lt;h4&gt;The Comeback Community&lt;/h4&gt; &lt;code&gt;volunteer full stack developer&lt;/code&gt;
-  &lt;a href=&quot;https://the-comeback-community.appspot.com/&quot;&gt;
-  &lt;img height=&quot;70px&quot; src=&quot;/img/comeback.png&quot;/&gt;
+&lt;a href=&quot;https://the-comeback-community.appspot.com/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/comeback.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-Developed site in Go, gohtml, and CSS on Google App Engine
+    Developed site in Go, gohtml, and CSS on Google App Engine
   &lt;/li&gt;
   &lt;li&gt;
-Mentored new developers in web development
+    Mentored new developers in web development
   &lt;/li&gt;
   &lt;li&gt;
-&lt;code&gt;Technologies used:&lt;/code&gt; Go, Google App Engine, gohtml, HTML5, CSS3, JavaScript
+    &lt;code&gt;Technologies used:&lt;/code&gt; Go, Google App Engine, gohtml, HTML5, CSS3, JavaScript
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br/&gt;
+&lt;br /&gt;
 
 &lt;h4&gt;Skqrl&lt;/h4&gt; &lt;code&gt;software engineering intern&lt;/code&gt;
-  &lt;a href=&quot;http://skqrl.com/&quot;&gt;
-  &lt;img height=&quot;70px&quot; src=&quot;/img/skqrl.png&quot;/&gt;
+&lt;a href=&quot;http://skqrl.com/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/skqrl.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-Developed web crawler to compile needfinding and product data using Scrapy and Selenium
+    Developed web crawler to compile needfinding and product data using Scrapy and Selenium
   &lt;/li&gt;
   &lt;li&gt;
-Designed and implemented an extensible product search solution designed to handle future user search needs
+    Designed and implemented an extensible product search solution designed to handle future user search needs
   &lt;/li&gt;
   &lt;li&gt;
-&lt;code&gt;Technologies used:&lt;/code&gt; Python, Scrapy, Selenium, Django, MySQL, JavaScript
+    &lt;code&gt;Technologies used:&lt;/code&gt; Python, Scrapy, Selenium, Django, MySQL, JavaScript
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br/&gt;
+&lt;br /&gt;
 
 &lt;h4&gt;ModSpot&lt;/h4&gt; &lt;code&gt;software engineering intern&lt;/code&gt;
-  &lt;a href=&quot;https://modspotapp.wordpress.com/&quot;&gt;
-  &lt;img height=&quot;70px&quot; src=&quot;/img/modspot.jpg&quot;/&gt;
+&lt;a href=&quot;https://modspotapp.wordpress.com/&quot;&gt;
+  &lt;img height=&quot;70px&quot; src=&quot;/img/modspot.jpg&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-Implemented new user account, edit profile, and login designs in Objective-C for iOS application
+    Implemented new user account, edit profile, and login designs in Objective-C for iOS application
   &lt;/li&gt;
   &lt;li&gt;
-Refactored analytics code for gathering statistics on app usage, helping designers make more informed choices
+    Refactored analytics code for gathering statistics on app usage, helping designers make more informed choices
   &lt;/li&gt;
   &lt;li&gt;
-&lt;code&gt;Technologies used:&lt;/code&gt; Objective-C, Cocoa Touch, Flurry Analytics
+    &lt;code&gt;Technologies used:&lt;/code&gt; Objective-C, Cocoa Touch, Flurry Analytics
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;!--more--&gt;
-</description>
+&lt;!--more--&gt;</description>
         <pubDate>Sun, 03 Sep 2017 15:07:19 +0000</pubDate>
         <link>http://localhost:4000/articles/2017-09/experience</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2017-09/experience</guid>
@@ -423,40 +620,33 @@ Refactored analytics code for gathering statistics on app usage, helping designe
       </item>
     
       <item>
-        <title>Contact</title>
-        <description>nick.roberts.127.0.0.1 [the at character] gmail [the dot character] com
-&lt;script type=&quot;text/javascript&quot;&gt;
-  // based on http://stackoverflow.com/a/10300743/280842
-  function gen_mail_to_link(hs, subject) {
-    var lhs,rhs;
-    var p = hs.split(&apos;@&apos;);
-    lhs = p[0];
-    rhs = p[1];
-    document.write(&quot;&lt;a class=\&quot;social-link-item\&quot; target=\&quot;_blank\&quot; href=\&quot;mailto&quot;);
-    document.write(&quot;:&quot; + lhs + &quot;@&quot;);
-    document.write(rhs + &quot;?subject=&quot; + subject + &quot;\&quot;&gt;&lt;i class=\&quot;fa fa-fw fa-envelope\&quot;&gt;&lt;/i&gt;&lt;\/a&gt;&quot;);
-  }
-&lt;/script&gt;
-&lt;div class=&quot;social-links&quot;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;
-    &lt;script&gt;gen_mail_to_link(&apos;&apos;, &apos;Hello from website&apos;);&lt;/script&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://linkedin.com/in/&quot; class=&quot;social-link-item&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-fw fa-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://github.com/&quot; class=&quot;social-link-item&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-fw fa-github&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
+        <title>Fun</title>
+        <description>&lt;p&gt;&lt;strong&gt;Extracurricular:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sailing&lt;/li&gt;
+  &lt;li&gt;Photography&lt;/li&gt;
+  &lt;li&gt;Pottery&lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;p&gt;&lt;strong&gt;Extra-Extracurricular:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://dudeism.com&quot;&gt;Ordained Dudeist priest&lt;/a&gt;&lt;/em&gt;. I can legally officiate weddings in the US. If you’d like to book me for your wedding, please free to reach out.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.vacation.inc&quot;&gt;Head Researcher of Margarita Machine Lounge Therapy at Vacation Inc.&lt;/a&gt;&lt;/em&gt; Check out our selection of luxury sunscreens today!&lt;sup&gt;1&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.instagram.com/p/CQIVWAxg4NX/&quot;&gt;Unofficial Toyota Prius landspeed record holder at Bonneville Speedway&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt;Don’t forget to check out &lt;a href=&quot;https://poolsuite.net/&quot;&gt;Poolsuite FM&lt;/a&gt;: the ultra-summer music player for the Macintosh Computer; transporting you to a virtual vacation where the sun never sets.&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;!--DnD class (homebrew rules): `Wizard/Bard/Cobbler` hybrid.  --&gt;
+&lt;!--&quot;`My key to dealing with stress is simple:` `just stay cool and stay focused.`&quot; -Ashton Eaton (cheesy quote courtesy of the first Google search result for 'cool quotes').--&gt;
+
 </description>
         <pubDate>Sat, 02 Sep 2017 15:07:19 +0000</pubDate>
-        <link>http://localhost:4000/articles/2017-09/contact</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2017-09/contact</guid>
+        <link>http://localhost:4000/articles/2017-09/fun</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-09/fun</guid>
         
         
-        <category>contact</category>
+        <category>fun</category>
         
       </item>
     
