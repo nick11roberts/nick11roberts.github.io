@@ -1,21 +1,22 @@
-{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
+{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {%
+endif %}
 
 <div class="cover-card table-cell table-middle">
   {% if author.avatar %}
   <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
   {% endif %}
   <a href="{{ site.url }}/" class="author_name">{{ author.name }}</a>
-  
+
   <span class="author_job">
     <!--{{ author.job }}-->
     PhD Student
   </span>
   <span class="author_bio mbm">
     <a href="https://www.cs.wisc.edu">Department of Computer Sciences</a>
-    <br/>
+    <br />
     <a href="https://www.wisc.edu">University of Wisconsin-Madison</a>
-    <br/>
-    Advisor: 
+    <br />
+    Advisor:
     <a href="https://pages.cs.wisc.edu/~fredsala/">Frederic Sala</a>
     <!--{{ author.bio }}-->
   </span>
@@ -23,7 +24,7 @@
   <nav class="nav">
     <ul class="nav-list">
       <li class="nav-item">
-        <a href="/assets/nicholas-roberts-CV.pdf">CV</a>
+        <a href="/assets/nicholas_roberts_CV.pdf">CV</a>
         <span>/</span>
       </li>
       <li class="nav-item">
@@ -53,7 +54,7 @@
         <span>/</span>
       </li>
       <li class="nav-item">
-        <a href="/assets/nicholas-roberts-CV.pdf">vitae</a>
+        <a href="/assets/nicholas_roberts_CV.pdf">vitae</a>
         <span>/</span>
       </li>
       <li class="nav-item">
