@@ -20,6 +20,11 @@ highlighter:       rouge
 excerpt_separator: <!--more-->
 permalink:         /articles/:year-:month/:title
 
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
