@@ -1,6 +1,13 @@
-<hr style="height:10px;">
-
-**Research Interests** 
+---
+layout: post
+title:  "Research Interests"
+date:   2017-09-08 15:07:19
+categories: [research]
+link: research
+comments: false
+icon: fa-info
+tldr: Research interests
+---
 
 **My research is motivated by the need to accelerate foundation model (FM) adoption toward solving humanity's most challenging problems.** Doing so is a long-term effort requiring substantial community involvement. However, my Ph.D. research has already taken critical steps towards realizing this high-impact vision, categorized roughly into three sub-topics: 
 
@@ -11,4 +18,43 @@
 **While furthering these directions for language, I have had the unique opportunity to pretrain LLMs at industrial scales.** On the other hand, to accelerate adoption of FMs beyond language, I have also worked with a wide array of problems from different scientific domains, which includes solving PDEs, protein folding, climate modelling, and beyond--in doing so, I helped to establish the field of *ML for diverse tasks.* 
 
 
-<hr style="height:10px;">
+<!--
+My research is motivated by the need to democratize machine learning and foundation models to handle the long tail of emerging ML tasks in the sciences and beyond. 
+In order to use these models to solve high-impact problems in the sciences, my work aims to solve two main challenges: 
+1. determine what additional data to provide them and understand how it interacts with pretraining data, and
+2. automate the process of adapting them to new problems.
+   
+To address these challenges, I am focused on the intersection of data-centric ML (which aims to solve 1) and automated machine learning (AutoML; which aims to solve 2), or more concisely *data-centric AutoML*.
+As a result of these motivating challenges, my work on developing the foundations of *data-centric AutoML* has a focus on diverse ML tasks that are far afield from standard ML domains.
+These often include problems related to solving PDEs, protein folding, climate modeling, and beyond.
+-->
+
+<!--I am interested in Data-Centric AutoML--i.e., using AutoML as a data-centric tool to make machine learning more accessible and practically applicable to new domains while reducing human involvement. 
+Recently, this has involved developing Data-Centric ML and AutoML techniques that lower the barrier to entry for the long tail of emerging ML applications. 
+I have also developed benchmarks and competitions as a means of measuring progress on emerging ML applications that are far afield from well-explored domains in ML such as vision and language. -->
+
+
+[sprocket]: https://sprocketlab.github.io/
+[fred]: https://pages.cs.wisc.edu/~fredsala/
+[ameet]: https://www.cs.cmu.edu/~atalwalk/
+[zack]: https://www.zacharylipton.com/
+[sanjoy]: https://cseweb.ucsd.edu/~dasgupta/
+[gary]: https://cseweb.ucsd.edu/~gary/
+[greg]: https://greg.jamison.cc/home.php
+[seb]: http://sbubeck.com/
+[tri]: https://tridao.me/
+[dh]: https://dieuwkehupkes.nl/
+
+[js]: https://www.janestreet.com/join-jane-street/programs-and-events/grf-profiles-2025/
+[meta]: https://ai.meta.com/meta-ai/
+[together]: https://www.together.ai/
+[msr]: https://www.microsoft.com/en-us/research/
+[fcc]: https://www.fresnocitycollege.edu
+[ucsd]: https://ucsd.edu/
+[cmu]: https://www.cmu.edu/
+[wisc]: https://www.cs.wisc.edu
+
+
+[mlsys_rising_stars]: https://mlcommons.org/en/news/rising-stars-2023/
+[mlcommons]: https://mlcommons.org/en/
+[prove]: https://www.prove.com/
