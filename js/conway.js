@@ -1,5 +1,5 @@
 class ConwayGameOfLife {
-  constructor(canvas, width = 60, height = 60, cellSize = 2) {
+  constructor(canvas, width = 50, height = 50, cellSize = 4) {
     this.canvas = canvas;
     this.ctx = canvas.getContext('2d');
     this.width = width;
@@ -70,12 +70,14 @@ class ConwayGameOfLife {
       }
     }
     
-    // Add some interesting patterns
+    // Prefer patterns that cover more area
     const patterns = [
-      this.createGlider,
-      this.createBlinker,
-      this.createBlock,
-      this.createRandom
+      this.createRandom,      // 60% chance - covers whole area
+      this.createRandom,      // 60% chance - covers whole area
+      this.createRandom,      // 60% chance - covers whole area
+      this.createGlider,      // 20% chance - small pattern
+      this.createBlinker,     // 10% chance - small pattern
+      this.createBlock        // 10% chance - small pattern
     ];
     
     const pattern = patterns[Math.floor(Math.random() * patterns.length)];
@@ -116,10 +118,29 @@ class ConwayGameOfLife {
   }
   
   createRandom() {
-    // Random pattern
+    // Random pattern with better coverage
     for (let y = 0; y < this.height; y++) {
       for (let x = 0; x < this.width; x++) {
-        this.grid[y][x] = Math.random() > 0.7 ? 1 : 0;
+        // Higher probability for more cells, ensuring better coverage
+        this.grid[y][x] = Math.random() > 0.6 ? 1 : 0;
+      }
+    }
+    
+    // Ensure we have a minimum number of cells for interesting patterns
+    let cellCount = 0;
+    for (let y = 0; y < this.height; y++) {
+      for (let x = 0; x < this.width; x++) {
+        if (this.grid[y][x]) cellCount++;
+      }
+    }
+    
+    // If we have too few cells, add more randomly
+    const minCells = Math.floor((this.width * this.height) * 0.15); // At least 15% coverage
+    if (cellCount < minCells) {
+      for (let i = 0; i < minCells - cellCount; i++) {
+        const x = Math.floor(Math.random() * this.width);
+        const y = Math.floor(Math.random() * this.height);
+        this.grid[y][x] = 1;
       }
     }
   }
@@ -160,17 +181,16 @@ class ConwayGameOfLife {
   }
   
   draw() {
-    // Clear canvas with very subtle fade effect
-    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.02)';
-    this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+    // Clear canvas completely (no fade effect)
+    this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     
     // Draw cells with yellow color (matching post titles)
     for (let y = 0; y < this.height; y++) {
       for (let x = 0; x < this.width; x++) {
         if (this.grid[y][x]) {
-          // Bright yellow color for better visibility
+          // Red color for better visibility
           const alpha = 0.25 + (Math.random() * 0.15);
-          this.ctx.fillStyle = `rgba(255, 215, 0, ${alpha})`;
+          this.ctx.fillStyle = `rgba(243, 97, 112, ${alpha})`;
           
           this.ctx.fillRect(
             x * this.cellSize,
