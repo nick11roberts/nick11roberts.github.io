@@ -97,3 +97,15 @@ p {
   word-spacing: 0.05em;
   line-height: 1.35em;
 }
+
+//
+// Author highlighting
+//
+
+.author-highlight {
+  background-color: $text-color;
+  color: $background-color;
+  padding: 2px 2px;
+  //border-radius: 3px;
+  font-weight: 600;
+}

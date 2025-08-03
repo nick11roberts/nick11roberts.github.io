@@ -5,8 +5,8 @@
     <description>Drop me an email at nick.roberts.127.0.0.1@gmail.com</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Aug 2025 16:28:41 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Aug 2025 16:28:41 +0000</lastBuildDate>
+    <pubDate>Sun, 03 Aug 2025 22:45:26 +0000</pubDate>
+    <lastBuildDate>Sun, 03 Aug 2025 22:45:26 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -185,7 +185,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2506.10056&quot;&gt;&lt;b&gt;Reward Models Enable Scalable Code Verification by Trading Accuracy for Throughput&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      Gabriel Orlanski, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Aws Albarghouthi, Frederic Sala. &lt;br&gt;
+      Gabriel Orlanski, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Aws Albarghouthi, Frederic Sala. &lt;br&gt;
       &lt;i&gt;Preprint&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2506.10056&quot;&gt;[arXiv]&lt;/a&gt;
     &lt;/p&gt;
@@ -197,7 +197,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2505.00358&quot;&gt;&lt;b&gt;R&amp;B: Domain Regrouping and Data Mixture Balancing for Efficient Foundation Model Training&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      Albert Ge, Tzu-Heng Huang, John Cooper, Avi Trost, Ziyi Chu, Satya Sai Srinath Namburi GNVV, Ziyang Cai, Kendall Park, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Frederic Sala. &lt;br&gt;
+      Albert Ge, Tzu-Heng Huang, John Cooper, Avi Trost, Ziyi Chu, Satya Sai Srinath Namburi GNVV, Ziyang Cai, Kendall Park, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Frederic Sala. &lt;br&gt;
       &lt;i&gt;ICML 2025 DIG-BUGS Workshop&lt;/i&gt; &lt;b&gt;(oral)&lt;/b&gt;. &lt;br&gt;
       &lt;i&gt;ICML 2025 DataWorld Workshop&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2505.00358&quot;&gt;[arXiv]&lt;/a&gt;
@@ -216,7 +216,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2406.00894&quot;&gt;&lt;b&gt;Pretrained Hybrids with MAD Skills&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Samuel Guo, Zhiqi Gao, Satya Sai Srinath Namburi GNVV, Sonia Cromp, Chengjun Wu, Chengyu Duan, Frederic Sala. &lt;br&gt;
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Samuel Guo, Zhiqi Gao, Satya Sai Srinath Namburi GNVV, Sonia Cromp, Chengjun Wu, Chengyu Duan, Frederic Sala. &lt;br&gt;
       &lt;i&gt;COLM 2025&lt;/i&gt;. &lt;br&gt;
       &lt;!-- &lt;i&gt;ICML 2024 Long-Context Foundation Models (LCFM) Workshop&lt;/i&gt;. &lt;br&gt;
       &lt;i&gt;ICML 2024 Next Generation of Sequence Modeling Architectures (NGSM) Workshop&lt;/i&gt;. &lt;br&gt;
@@ -232,7 +232,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2502.14499&quot;&gt;&lt;b&gt;MLGym: A New Framework and Benchmark for Advancing AI Research Agents&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      Deepak Nathani, Lovish Madaan, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Nikolay Bashlykov, Ajay Menon, Vincent Moens, Amar Budhiraja, Despoina Magka, Vladislav Vorotilov, Gaurav Chaurasia, Dieuwke Hupkes, Ricardo Silveira Cabral, Tatiana Shavrina, Jakob Foerster, Yoram Bachrach, William Yang Wang, Roberta Raileanu. &lt;br&gt;
+      Deepak Nathani, Lovish Madaan, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Nikolay Bashlykov, Ajay Menon, Vincent Moens, Amar Budhiraja, Despoina Magka, Vladislav Vorotilov, Gaurav Chaurasia, Dieuwke Hupkes, Ricardo Silveira Cabral, Tatiana Shavrina, Jakob Foerster, Yoram Bachrach, William Yang Wang, Roberta Raileanu. &lt;br&gt;
       &lt;i&gt;COLM 2025&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2502.14499&quot;&gt;[arXiv]&lt;/a&gt;
     &lt;/p&gt;
@@ -244,7 +244,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2503.10061&quot;&gt;&lt;b&gt;Compute Optimal Scaling of Skills: Knowledge vs Reasoning&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Niladri Chatterji, Sharan Narang, Mike Lewis, Dieuwke Hupkes. &lt;br&gt;
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Niladri Chatterji, Sharan Narang, Mike Lewis, Dieuwke Hupkes. &lt;br&gt;
       &lt;i&gt;ACL Findings 2025&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://aclanthology.org/2025.findings-acl.688/&quot;&gt;[Paper]&lt;/a&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2503.10061&quot;&gt;[arXiv]&lt;/a&gt;
@@ -257,7 +257,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2501.0772&quot;&gt;&lt;b&gt;Stronger Than You Think: Benchmarking Weak Supervision on Realistic Tasks&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      Tianyi Zhang*, Linrong Cai*, Jeffrey Li, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Neel Guha, Frederic Sala. &lt;br&gt;
+      Tianyi Zhang*, Linrong Cai*, Jeffrey Li, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Neel Guha, Frederic Sala. &lt;br&gt;
       &lt;i&gt;NeurIPS 2024&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://openreview.net/forum?id=c7SApXZz4b#discussion&quot;&gt;[Paper]&lt;/a&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2501.07727&quot;&gt;[arXiv]&lt;/a&gt;
@@ -270,7 +270,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2307.12226&quot;&gt;&lt;b&gt;Geometry-Aware Adaptation for Pretrained Models&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Xintong Li, Dyah Adila, Sonia Cromp, Tzu-Heng Huang, Jitian Zhao, Frederic Sala. &lt;br&gt;
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Xintong Li, Dyah Adila, Sonia Cromp, Tzu-Heng Huang, Jitian Zhao, Frederic Sala. &lt;br&gt;
       &lt;i&gt;NeurIPS 2023&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://openreview.net/pdf?id=exGOXqxR0L&quot;&gt;[Paper]&lt;/a&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2307.12226&quot;&gt;[arXiv]&lt;/a&gt;
@@ -284,7 +284,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
       &lt;a href=&quot;https://arxiv.org/abs/2307.14430&quot;&gt;&lt;b&gt;Skill-it! A data-driven skills framework for understanding and
           training language models&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      Mayee Chen, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Kush Bhatia, Jue Wang, Ce Zhang, Frederic Sala, Christopher Ré. &lt;br&gt;
+      Mayee Chen, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Kush Bhatia, Jue Wang, Ce Zhang, Frederic Sala, Christopher Ré. &lt;br&gt;
       &lt;i&gt;NeurIPS 2023&lt;/i&gt; &lt;b&gt;(spotlight)&lt;/b&gt;. &lt;br&gt;
       &lt;!--&lt;i&gt;ICML 2023 Data-centric Machine Learning Research Workshop&lt;/i&gt;. &lt;br&gt;--&gt;
       &lt;a href=&quot;https://openreview.net/pdf?id=IoizwO1NLf&quot;&gt;[Paper]&lt;/a&gt;
@@ -298,7 +298,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2203.12023&quot;&gt;&lt;b&gt;Generative Modeling Helps Weak Supervision (and Vice Versa)&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      Benedikt Boecking, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Willie Neiswanger, Stefano Ermon, Frederic Sala, Artur Dubrawski. &lt;br&gt;
+      Benedikt Boecking, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Willie Neiswanger, Stefano Ermon, Frederic Sala, Artur Dubrawski. &lt;br&gt;
       &lt;i&gt;ICLR 2023&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://openreview.net/pdf?id=3OaBBATwsvP&quot;&gt;[Paper]&lt;/a&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2203.12023&quot;&gt;[arXiv]&lt;/a&gt;
@@ -314,7 +314,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2208.14362&quot;&gt;&lt;b&gt;AutoWS-Bench-101: Benchmarking Automated Weak Supervision with 100
           Labels&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts*&lt;/b&gt;, Xintong Li*, Tzu-Heng Huang, Dyah Adila, Spencer Schoenberg, Cheng-Yu Liu, Lauren Pick,
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts*&lt;/span&gt;, Xintong Li*, Tzu-Heng Huang, Dyah Adila, Spencer Schoenberg, Cheng-Yu Liu, Lauren Pick,
       Haotian
       Ma, Aws Albarghouthi, Frederic Sala. &lt;br&gt;
       &lt;i&gt;NeurIPS 2022&lt;/i&gt;. &lt;br&gt;
@@ -331,7 +331,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2110.05668&quot;&gt;&lt;b&gt;NAS-Bench-360: Benchmarking Neural Architecture Search on Diverse
           Tasks&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      Renbo Tu*, &lt;b&gt;Nicholas Roberts*&lt;/b&gt;, Mikhail Khodak, Junhong Shen, Frederic Sala, Ameet Talwalkar. &lt;br&gt;
+      Renbo Tu*, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts*&lt;/span&gt;, Mikhail Khodak, Junhong Shen, Frederic Sala, Ameet Talwalkar. &lt;br&gt;
       &lt;i&gt;NeurIPS 2022&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://openreview.net/pdf?id=xUXTbq6gWsB&quot;&gt;[Paper]&lt;/a&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2110.05668&quot;&gt;[arXiv]&lt;/a&gt;
@@ -346,7 +346,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
   &lt;li&gt;
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2211.13375&quot;&gt;&lt;b&gt;Lifting Weak Supervision To Structured Prediction&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      Harit Vishwakarma, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Frederic Sala. &lt;br&gt;
+      Harit Vishwakarma, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Frederic Sala. &lt;br&gt;
       &lt;i&gt;NeurIPS 2022&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://openreview.net/pdf?id=Cntmos_Ndf0&quot;&gt;[Paper]&lt;/a&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2211.13375&quot;&gt;[arXiv]&lt;/a&gt;
@@ -358,7 +358,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
   &lt;li&gt;
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2112.03865&quot;&gt;&lt;b&gt;Universalizing Weak Supervision&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      Changho Shin, Winfred Li, Harit Vishwakarma, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Frederic Sala. &lt;br&gt;
+      Changho Shin, Winfred Li, Harit Vishwakarma, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Frederic Sala. &lt;br&gt;
       &lt;i&gt;ICLR 2022&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://openreview.net/pdf?id=YpPiNigTzMT&quot;&gt;[Paper]&lt;/a&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2112.03865&quot;&gt;[arXiv]&lt;/a&gt;
@@ -370,7 +370,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
   &lt;li&gt;
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2103.15798&quot;&gt;&lt;b&gt;Rethinking Neural Operations for Diverse Tasks&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts*&lt;/b&gt;, Mikhail Khodak*, Tri Dao, Liam Li, Christopher Ré, Ameet Talwalkar. &lt;br&gt;
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts*&lt;/span&gt;, Mikhail Khodak*, Tri Dao, Liam Li, Christopher Ré, Ameet Talwalkar. &lt;br&gt;
       &lt;i&gt;NeurIPS 2021&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://openreview.net/pdf?id=je4ymjfb5LC&quot;&gt;[Paper]&lt;/a&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2103.15798&quot;&gt;[arXiv]&lt;/a&gt;
@@ -381,7 +381,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
       Preliminary version: &lt;a
         href=&quot;https://www.cmu.edu/epp/patents/events/aaai21/aaaicontent/papers/searching-for-convolutions-and-a-more-ambitious-nas.pdf&quot;&gt;&lt;b&gt;Searching
           for Convolutions and a More Ambitious NAS&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts*&lt;/b&gt;, Mikhail Khodak*, Tri Dao, Liam Li, Maria-Florina Balcan, Christopher Ré, Ameet
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts*&lt;/span&gt;, Mikhail Khodak*, Tri Dao, Liam Li, Maria-Florina Balcan, Christopher Ré, Ameet
       Talwalkar. &lt;br&gt;
       &lt;i&gt;AAAI 2021 Workshop on Learning Network Architecture During Training&lt;/i&gt; &lt;b&gt;(plenary talk)&lt;/b&gt;. &lt;br&gt;
     &lt;/p&gt;
@@ -393,7 +393,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://papers.nips.cc/paper/7651-learning-from-discriminative-feature-feedback.pdf&quot;&gt;&lt;b&gt;Learning from
           Discriminative Feature Feedback&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      Sanjoy Dasgupta, Akansha Dey, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Sivan Sabato. &lt;br&gt;
+      Sanjoy Dasgupta, Akansha Dey, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Sivan Sabato. &lt;br&gt;
       &lt;i&gt;NeurIPS 2018&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://papers.nips.cc/paper/7651-learning-from-discriminative-feature-feedback.pdf&quot;&gt;[Paper]&lt;/a&gt;
     &lt;/p&gt;
@@ -411,7 +411,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2206.04615&quot;&gt;&lt;b&gt;Beyond the Imitation Game: Quantifying and extrapolating the
           capabilities of language models&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      Aarohi Srivastava, ..., &lt;b&gt;Nicholas Roberts&lt;/b&gt; (276), ..., (442 authors). &lt;br&gt;
+      Aarohi Srivastava, ..., &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt; (276), ..., (442 authors). &lt;br&gt;
       &lt;i&gt;Transactions on Machine Learning Research (TMLR) 2023 (Finalist for Outstanding Certification)&lt;/i&gt;. &lt;br&gt;
       &lt;i&gt;ICLR 2025&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2206.04615&quot;&gt;[arXiv]&lt;/a&gt;
@@ -425,7 +425,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2112.02721&quot;&gt;&lt;b&gt;NL-Augmenter: A Framework for Task-Sensitive Natural Language
           Augmentation&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      Kaustubh D. Dhole, ..., &lt;b&gt;Nicholas Roberts&lt;/b&gt; (85), ..., (128 authors). &lt;br&gt;
+      Kaustubh D. Dhole, ..., &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt; (85), ..., (128 authors). &lt;br&gt;
       &lt;i&gt;Northern European Journal of Language Technology (NEJLT) 2023&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2112.02721&quot;&gt;[arXiv]&lt;/a&gt;
       &lt;a href=&quot;https://github.com/GEM-benchmark/NL-Augmenter&quot;&gt;[Code]&lt;/a&gt; &lt;br&gt;
@@ -438,7 +438,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://proceedings.mlr.press/v220/roberts23a/roberts23a.pdf&quot;&gt;&lt;b&gt;AutoML Decathlon: Diverse Tasks, Modern Methods,
           and Efficiency at Scale&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts*&lt;/b&gt;, Samuel Guo*, Cong Xu*, Ameet Talwalkar,
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts*&lt;/span&gt;, Samuel Guo*, Cong Xu*, Ameet Talwalkar,
       David Lander, Lvfang Tao, Linhang Cai, Shuaicheng Niu, Jianyu Heng,
       Hongyang Qin, Minwen Deng, Johannes Hog, Alexander Pfefferle, Sushil Ammanaghatta Shivakumar,
       Arjun Krishnakumar, Yubo Wang, Rhea Sukthanker, Frank Hutter, Euxhen Hasanaj, Tien-Dung Le,
@@ -459,7 +459,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://www.nature.com/articles/s41598-017-13923-x&quot;&gt;&lt;b&gt;Small Molecule Accurate Recognition Technology
           (SMART) to Enhance Natural Products Research&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      Chen Zhang*, Yerlan Idelbayev*, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Yiwen Tao, Yashwanth Nannapaneni, Brendan M. Duggan, Jie
+      Chen Zhang*, Yerlan Idelbayev*, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Yiwen Tao, Yashwanth Nannapaneni, Brendan M. Duggan, Jie
       Min,
       Eugene C. Lin, Erik C. Gerwick, Garrison W. Cottrell, William H. Gerwick. &lt;br&gt;
       &lt;i&gt;Scientific Reports 2017&lt;/i&gt;. &lt;br&gt;
@@ -467,7 +467,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
       &lt;br&gt;
       Poster: &lt;b&gt;Small Molecule Accurate Recognition Technology (SMART): A Digital Frontier to Reshape Natural Product
         Research&lt;/b&gt; &lt;br&gt;
-      Chen Zhang*, Yerlan Idelbayev*, &lt;b&gt;Nicholas Roberts&lt;/b&gt; (presenter), Yiwen Tao, Yashwanth Nannapaneni, Brendan M.
+      Chen Zhang*, Yerlan Idelbayev*, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts (presenter)&lt;/span&gt;, Yiwen Tao, Yashwanth Nannapaneni, Brendan M.
       Duggan,
       Jie Min, Eugene C. Lin, Erik C. Gerwick, Garrison W. Cottrell, William H. Gerwick. &lt;br&gt;
       Best Spotlight Presentation Award: &lt;i&gt;Applied Machine Learning Days 2018&lt;/i&gt;. &lt;br&gt;
@@ -484,7 +484,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;#&quot;&gt;&lt;b&gt;Tabby: Tabular Adaptation for Language Models&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      Sonia Cromp, Satya Sai Srinath Namburi GNVV, Catherine Cao, Mohammed Alkhudhayri, Samuel Guo, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Frederic Sala &lt;br&gt;
+      Sonia Cromp, Satya Sai Srinath Namburi GNVV, Catherine Cao, Mohammed Alkhudhayri, Samuel Guo, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Frederic Sala &lt;br&gt;
       &lt;i&gt;NeurIPS 2024 Table Representation Learning Workshop&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://openreview.net/forum?id=gh3WrztrNC&quot;&gt;[Paper]&lt;/a&gt;
     &lt;/p&gt;
@@ -496,7 +496,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2408.17383&quot;&gt;&lt;b&gt;MoRe Fine-Tuning with 10x Fewer Parameters&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      Wenxuan Tan, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Tzu-Heng Huang, Jitian Zhao, John Cooper, Samuel Guo, Chengyu Duan, Frederic Sala. &lt;br&gt;
+      Wenxuan Tan, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Tzu-Heng Huang, Jitian Zhao, John Cooper, Samuel Guo, Chengyu Duan, Frederic Sala. &lt;br&gt;
       &lt;i&gt;ICML 2024 Efficient Systems for Foundation Models (ES-FoMo) Workshop&lt;/i&gt;. &lt;br&gt;
       &lt;i&gt;ICML 2024 Workshop on Foundation Models in the Wild&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2408.17383&quot;&gt;[arXiv]&lt;/a&gt;
@@ -510,7 +510,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
       &lt;a href=&quot;/assets/NAS-theory.pdf&quot;&gt;&lt;b&gt;Understanding Neural Architecture Search by its
           Architecture Parameters&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Yingyu Liang, Frederic Sala. &lt;br&gt;
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Yingyu Liang, Frederic Sala. &lt;br&gt;
       &lt;i&gt;Midwest Machine Learning Symposium 2023&lt;/i&gt;. &lt;br&gt;
     &lt;/p&gt;
   &lt;/li&gt;
@@ -521,7 +521,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;#&quot;&gt;&lt;b&gt;ScriptoriumWS: A Code Generation Assistant for Weak Supervision&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      Tzu-Heng Huang, Harit Vishwakarma, Catherine Cao, Spencer Schoenberg, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Frederic Sala. &lt;br&gt;
+      Tzu-Heng Huang, Harit Vishwakarma, Catherine Cao, Spencer Schoenberg, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Frederic Sala. &lt;br&gt;
       &lt;i&gt;ICLR 2023 Deep Learning for Code Workshop&lt;/i&gt;. &lt;br&gt;
     &lt;/p&gt;
   &lt;/li&gt;
@@ -532,7 +532,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2210.03324&quot;&gt;&lt;b&gt;AutoML for Climate Change: A Call to Action&lt;/b&gt;&lt;/a&gt;
       &lt;br&gt;
-      Renbo Tu, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Vishak Prasad, Sibasis Nayak, Paarth Jain, Frederic Sala, Ganesh Ramakrishnan,
+      Renbo Tu, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Vishak Prasad, Sibasis Nayak, Paarth Jain, Frederic Sala, Ganesh Ramakrishnan,
       Ameet Talwalkar, Willie Neiswanger, Colin White. &lt;br&gt;
       &lt;i&gt;NeurIPS 2022 Tackling Climate Change with Machine Learning Workshop&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2210.03324&quot;&gt;[arXiv]&lt;/a&gt;
@@ -544,7 +544,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
   &lt;li&gt;
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2011.13477&quot;&gt;&lt;b&gt;Decoding and Diversity in Machine Translation&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Davis Liang, Graham Neubig, Zachary C. Lipton. &lt;br&gt;
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Davis Liang, Graham Neubig, Zachary C. Lipton. &lt;br&gt;
       &lt;i&gt;NeurIPS 2020 Resistance AI Workshop&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://arxiv.org/abs/2011.13477&quot;&gt;[arXiv]&lt;/a&gt;
     &lt;/p&gt;
@@ -556,7 +556,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_46.pdf&quot;&gt;&lt;b&gt;A Simple Setting for
           Understanding Neural Architecture Search with Weight-Sharing&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      Mikhail Khodak, Liam Li, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Maria-Florina Balcan, Ameet Talwalkar. &lt;br&gt;
+      Mikhail Khodak, Liam Li, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Maria-Florina Balcan, Ameet Talwalkar. &lt;br&gt;
       &lt;i&gt;ICML 2020 AutoML Workshop&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_46.pdf&quot;&gt;[Paper]&lt;/a&gt;
     &lt;/p&gt;
@@ -568,7 +568,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://liamcli.com/assets/pdf/weight_sharing.pdf&quot;&gt;&lt;b&gt;Weight-Sharing Beyond Neural Architecture Search:
           Efficient Feature Map Selection and Federated Hyperparameter Tuning&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      Mikhail Khodak*, Liam Li*, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Maria-Florina Balcan, Ameet Talwalkar. &lt;br&gt;
+      Mikhail Khodak*, Liam Li*, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Maria-Florina Balcan, Ameet Talwalkar. &lt;br&gt;
       &lt;i&gt;MLSys 2020 On-Device Intelligence Workshop&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://liamcli.com/assets/pdf/weight_sharing.pdf&quot;&gt;[Paper]&lt;/a&gt;
     &lt;/p&gt;
@@ -580,7 +580,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/1912.08986&quot;&gt;&lt;b&gt;Deep Connectomics Networks: Neural Network Architectures Inspired by
           Neuronal Networks&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Dian Ang Yap, Vinay U. Prabhu. &lt;br&gt;
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Dian Ang Yap, Vinay U. Prabhu. &lt;br&gt;
       &lt;i&gt;NeurIPS 2019 Real Neurons and Hidden Units Workshop&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://arxiv.org/abs/1912.08986&quot;&gt;[arXiv]&lt;/a&gt;
     &lt;/p&gt;
@@ -592,7 +592,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_139.pdf&quot;&gt;&lt;b&gt;Using Deep Siamese Neural
           Networks to Speed up Natural Products Research&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Poornav S. Purushothama, Vishal T. Vasudevan, Siddarth Ravichandran, Chen Zhang, William
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Poornav S. Purushothama, Vishal T. Vasudevan, Siddarth Ravichandran, Chen Zhang, William
       H.
       Gerwick, Garrison W. Cottrell. &lt;br&gt;
       &lt;i&gt;NeurIPS 2019 workshop on Machine Learning and the Physical Sciences&lt;/i&gt;. &lt;br&gt;
@@ -606,7 +606,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/1911.07418&quot;&gt;&lt;b&gt;Grassmannian Packings in Neural Networks: Learning with Maximal
           Subspace Packings for Diversity and Anti-Sparsity&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      Dian Ang Yap, &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Vinay U. Prabhu. &lt;br&gt;
+      Dian Ang Yap, &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Vinay U. Prabhu. &lt;br&gt;
       &lt;i&gt;NeurIPS 2019 workshop on Bayesian Deep Learning&lt;/i&gt;. &lt;br&gt;
       &lt;i&gt;NeurIPS 2019 workshop on Information Theory and Machine Learning&lt;/i&gt;. &lt;br&gt;
       &lt;a href=&quot;https://arxiv.org/abs/1911.07418&quot;&gt;[arXiv]&lt;/a&gt;
@@ -619,7 +619,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
     &lt;p&gt;
       &lt;a href=&quot;https://arxiv.org/abs/1912.08987&quot;&gt;&lt;b&gt;Model Weight Theft With Just Noise Inputs: The Curious Case of the
           Petulant Attacker&lt;/b&gt;&lt;/a&gt; &lt;br&gt;
-      &lt;b&gt;Nicholas Roberts&lt;/b&gt;, Vinay U. Prabhu, Matthew McAteer. &lt;br&gt;
+      &lt;span class=&quot;author-highlight&quot;&gt;Nicholas Roberts&lt;/span&gt;, Vinay U. Prabhu, Matthew McAteer. &lt;br&gt;
       &lt;i&gt;ICML 2019 workshop on Security and Privacy of Machine Learning&lt;/i&gt; &lt;b&gt;(spotlight)&lt;/b&gt;. &lt;br&gt;
       &lt;a href=&quot;https://arxiv.org/abs/1912.08987&quot;&gt;[arXiv]&lt;/a&gt;
     &lt;/p&gt;

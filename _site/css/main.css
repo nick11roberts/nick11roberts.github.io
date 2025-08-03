@@ -1367,6 +1367,13 @@ p {
   line-height: 1.35em;
 }
 
+.author-highlight {
+  background-color: rgba(0, 0, 0, 0.87);
+  color: #f5f5f5;
+  padding: 2px 2px;
+  font-weight: 600;
+}
+
 /* Buttons
    ========================================================================== */
 .btn {
