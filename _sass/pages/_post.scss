@@ -46,13 +46,14 @@ section.post {
 
 // Post title
 .post-title {
-
+	font-family: $font-family-mondwest;
 }
 
 .post-title-link {
 	color: $primary;
-	font-size: 14px;
+	font-size: 1.4rem;
 	margin-left: 10px;
+	font-family: $font-family-mondwest;
 	&:hover,
 	&:focus {
 		color: lighten($primary, 14%);
@@ -61,8 +62,9 @@ section.post {
 
 // Post meta
 .post-meta {
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-family: $font-family-mondwest;
 	.post-date {
 		color: $secondary;
 	}
@@ -88,20 +90,20 @@ a.read-more {
 #post {
   padding-bottom: 50px;
   .post-header {
-    margin: 0 auto 50px;
+    margin: 0 auto 30px;
   }
 }
 
 #post h1 {
-  margin: 0.5em 0 1em;
+  margin: 0.3em 0 0.7em;
 }
 #post h2 {
-  margin: 2em 0 0.8em;
-  padding-bottom: 0.7em;
+  margin: 1.5em 0 0.6em;
+  padding-bottom: 0.5em;
   border-bottom: 1px solid #ddd;
 }
 #post h3 {
-  margin: 1.75em 0 1.2em;
+  margin: 1.2em 0 0.8em;
   position: relative;
 }
 

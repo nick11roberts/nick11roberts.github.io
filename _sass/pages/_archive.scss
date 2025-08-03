@@ -20,8 +20,10 @@
   .archive-title {
     position: relative;
     margin: 2em auto 1em;
+    font-family: $font-family-mondwest;
     .archive-year {
       margin-left: 1em;
+      font-family: $font-family-mondwest;
       &:before {
         content: " ";
         position: absolute;

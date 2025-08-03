@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Font Face Declarations
+   ========================================================================== */
+
+@font-face {
+  font-family: 'PPMondwest';
+  src: url('../fonts/mondwest-neuebit-font-1754194274-0/ppmondwest-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPNeuebit';
+  src: url('../fonts/mondwest-neuebit-font-1754194274-0/ppneuebit-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+} 

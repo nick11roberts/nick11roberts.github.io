@@ -106,6 +106,7 @@ a {
 footer {
   text-align: center;
   padding: 3em 0;
+  font-family: $font-family-mondwest;
   .heart-icon {
     color: $danger;
     text-shadow: 0 0 5px $white, 0 0 10px $danger;
@@ -114,7 +115,7 @@ footer {
 .related-articles {
   margin-top: 2em;
   h4 {
-    font-family: $font-family-base;
+    font-family: $font-family-mondwest;
   }
   ul {
     margin: 0;
