@@ -5,8 +5,8 @@
     <description>Drop me an email at nick.roberts.127.0.0.1@gmail.com</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Aug 2025 14:58:45 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Aug 2025 14:58:45 +0000</lastBuildDate>
+    <pubDate>Sun, 03 Aug 2025 16:28:41 +0000</pubDate>
+    <lastBuildDate>Sun, 03 Aug 2025 16:28:41 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -113,7 +113,8 @@ I have also developed benchmarks and competitions as a means of measuring progre
       <item>
         <title>Contact</title>
         <description>&lt;b&gt;Email:&lt;/b&gt; nick11roberts [at] cs [dot] wisc [dot] edu &lt;br /&gt;
-&lt;b&gt;Office:&lt;/b&gt; CS Dept. 5378, 1210 W Dayton St, Madison, WI 53706
+&lt;b&gt;Office:&lt;/b&gt; TBD, moving to the new building!
+&lt;!-- CS Dept. 5378, 1210 W Dayton St, Madison, WI 53706 --&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 15:07:19 +0000</pubDate>
         <link>http://localhost:4000/articles/2017-09/contact</link>
@@ -127,16 +128,16 @@ I have also developed benchmarks and competitions as a means of measuring progre
       <item>
         <title>News</title>
         <description>&lt;ul&gt;
-  &lt;li&gt;Excited to release two papers from my internship at Meta!
+  &lt;li&gt;Excited to visit &lt;a href=&quot;https://hazyresearch.stanford.edu/&quot;&gt;Chris Ré’s lab&lt;/a&gt; at &lt;a href=&quot;#&quot;&gt;Stanford University&lt;/a&gt; this August!&lt;/li&gt;
+  &lt;li&gt;Two papers accepted to &lt;a href=&quot;#&quot;&gt;COLM 2025&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2406.00894&quot;&gt;Mancticore&lt;/a&gt; for constructing pretrained hybrids from non-hybrid base models without pretraining!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2502.14499&quot;&gt;Meta MLGym&lt;/a&gt;: a framework for benchmarking and developing agents for AI research!&lt;/li&gt;
+  &lt;li&gt;Presented at &lt;a href=&quot;#&quot;&gt;ACL 2025&lt;/a&gt;:
     &lt;ul&gt;
       &lt;li&gt;We discover a &lt;a href=&quot;https://arxiv.org/abs/2503.10061&quot;&gt;new scaling law phenomenon&lt;/a&gt;! &lt;strong&gt;Compute optima for knowledge favor larger models, whereas those for reasoning favor more data.&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;We release &lt;a href=&quot;https://arxiv.org/abs/2502.14499&quot;&gt;Meta MLGym&lt;/a&gt;: a framework for benchmarking and developing agents for AI research!&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;I am extremely fortunate to have received an honorable mention for the &lt;a href=&quot;https://www.janestreet.com/join-jane-street/programs-and-events/grf-profiles-2025/&quot;&gt;Jane Street Graduate Research Fellowship&lt;/a&gt;! Thank you, &lt;a href=&quot;https://www.janestreet.com/&quot;&gt;Jane Street&lt;/a&gt;!&lt;/li&gt;
-  &lt;li&gt;At NeurIPS ‘24, &lt;a href=&quot;https://arxiv.org/abs/2501.07727&quot;&gt;we improve Weak Supervision benchmarking&lt;/a&gt; and show that WS is stronger than was thought in prior work&lt;/li&gt;
-  &lt;li&gt;I moved to London for my internship with the Llama pretraining team 🦙 at &lt;a href=&quot;https://ai.meta.com/meta-ai/&quot;&gt;Meta&lt;/a&gt;, working on scaling laws and skills!&lt;/li&gt;
-  &lt;li&gt;I moved to San Francisco to intern at &lt;a href=&quot;https://www.together.ai/&quot;&gt;Together AI&lt;/a&gt; 🐍, working on hybrid LLMs!&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!--
@@ -176,7 +177,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
       <item>
         <title>Publications</title>
         <description>&lt;p&gt;
-  &lt;strong&gt;Fresh off the Press&lt;/strong&gt;
+  &lt;h6&gt;Fresh off the Press&lt;/h6&gt;
 &lt;/p&gt;
 
 &lt;ul&gt;
@@ -207,7 +208,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
 
 
 &lt;p&gt;
-  &lt;strong&gt;Conference Publications&lt;/strong&gt;
+  &lt;h6&gt;Conference Publications&lt;/h6&gt;
 &lt;/p&gt;
 
 &lt;ul&gt;
@@ -402,7 +403,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
 
 
 &lt;p&gt;
-  &lt;strong&gt;Journal Publications&lt;/strong&gt;
+  &lt;h6&gt;Journal Publications&lt;/h6&gt;
 &lt;/p&gt;
 
 &lt;ul&gt;
@@ -475,7 +476,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
 &lt;/ul&gt;
 
 &lt;p&gt;
-  &lt;strong&gt;Workshop Publications and Preprints&lt;/strong&gt;
+  &lt;h6&gt;Workshop Publications and Preprints&lt;/h6&gt;
 &lt;/p&gt;
 
 &lt;ul&gt;
@@ -640,10 +641,14 @@ I have also developed benchmarks and competitions as a means of measuring progre
 &lt;!--&lt;a href=&quot;https://www.cs.wisc.edu&quot;&gt;
 &lt;img height=&quot;60px&quot; src=&quot;/img/uw.png&quot;/&gt;
 &lt;/a&gt;--&gt;
-&lt;code&gt;Ph.D. Computer Science&lt;/code&gt;&lt;br/&gt;
-&lt;code&gt;Mathematics minor&lt;/code&gt;&lt;br/&gt;
-August 2021 - Present&lt;br/&gt;
+&lt;h6&gt;Ph.D. Computer Science&lt;br/&gt;
+Mathematics minor&lt;/h6&gt;
+August 2021 - Present
 &lt;ul&gt;
+&lt;li&gt;
+Visiting student with &lt;a href=&quot;#&quot;&gt;Chris Ré&apos;s lab&lt;/a&gt; at &lt;a href=&quot;#&quot;&gt;Stanford University&lt;/a&gt; (August 2025) 
+&lt;br/&gt;
+&lt;/li&gt;
 &lt;li&gt;
 Member of the &lt;a href=&quot;https://wisconsintriathlonteam.weebly.com/&quot;&gt;Wisconsin Triathlon Team&lt;/a&gt;&lt;br/&gt;
 &lt;/li&gt;
@@ -662,8 +667,8 @@ Member of the &lt;a href=&quot;https://www.hoofersailing.org/&quot;&gt;Hoofer Sa
 &lt;!--&lt;a href=&quot;https://www.cmu.edu/&quot;&gt;
 &lt;img height=&quot;30px&quot; src=&quot;/img/cmu.png&quot;/&gt;
 &lt;/a&gt;--&gt;
-&lt;code&gt;M.S. Machine Learning&lt;/code&gt;&lt;br/&gt;
-August 2019 - May 2021&lt;br/&gt;
+&lt;h6&gt;M.S. Machine Learning&lt;/h6&gt;
+August 2019 - May 2021
 &lt;ul&gt;
 &lt;li&gt;
 MSML Student Committee Leader&lt;br/&gt;
@@ -679,12 +684,11 @@ MSML Admissions Committee Member&lt;br/&gt;
 &lt;!--&lt;a href=&quot;https://www.ucsd.edu/&quot;&gt;
 &lt;img height=&quot;30px&quot; src=&quot;/img/ucsd.png&quot;/&gt;
 &lt;/a&gt;--&gt;
-&lt;code&gt;B.S. Computer Science&lt;/code&gt;&lt;br/&gt;
-&lt;code&gt;Mathematics minor&lt;/code&gt;&lt;br/&gt;
-&lt;code&gt;CSE Honors Program&lt;/code&gt;&lt;br/&gt;
+&lt;h6&gt;B.S. Computer Science&lt;br/&gt;
+Mathematics minor&lt;br/&gt;
+CSE Honors Program&lt;/h6&gt;
 September 2015 - March 2019&lt;br/&gt;
-Magna Cum Laude&lt;br/&gt;
-CSE Highest Distinction&lt;br/&gt;
+Magna Cum Laude and CSE Highest Distinction honors
 &lt;ul&gt;
 &lt;li&gt;
 Tutor for Data Science 10 (Principles of Data Science)&lt;br/&gt;
@@ -708,9 +712,9 @@ House leader, &lt;a href=&quot;https://tbp.ucsd.edu/&quot;&gt;Tau Beta Pi, Calif
 &lt;!--&lt;a href=&quot;https://www.fresnocitycollege.edu/&quot;&gt;
 &lt;img height=&quot;30px&quot; src=&quot;/img/fcc.png&quot;/&gt;
 &lt;/a&gt;--&gt;
-&lt;code&gt;Computer Science&lt;/code&gt;&lt;br/&gt;
-&lt;code&gt;Leon S. Peters Honors Program&lt;/code&gt;&lt;br/&gt;
-August 2013 - May 2015&lt;br/&gt;
+&lt;h6&gt;Computer Science&lt;br/&gt;
+Leon S. Peters Honors Program&lt;/h6&gt;
+August 2013 - May 2015
 &lt;ul&gt;
 &lt;li&gt;
 Tutor for CIT 65 (Android Application Development)&lt;br/&gt;
@@ -764,33 +768,33 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
 &lt;br /&gt; --&gt;
 
 
-&lt;h4&gt;Meta AI&lt;/h4&gt; &lt;code&gt;Research Scientist Intern 🦙&lt;br/&gt;(London, UK)&lt;/code&gt;
+&lt;h4&gt;Meta AI&lt;/h4&gt; &lt;h6&gt;Research Scientist Intern 🦙&lt;br/&gt;(London, UK)&lt;/h6&gt;
 &lt;a href=&quot;https://research.facebook.com/&quot;&gt;
   &lt;img height=&quot;140px&quot; src=&quot;/img/meta.svg&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;code&gt;Llama Generative AI pretraining team&lt;/code&gt; with &lt;a href=&quot;https://dieuwkehupkes.nl/&quot;&gt;Dieuwke Hupkes&lt;/a&gt;
+    Llama Generative AI pretraining team with &lt;a href=&quot;https://dieuwkehupkes.nl/&quot;&gt;Dieuwke Hupkes&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     Discovered a new phenomenon: knowledge and reasoning skills have different scaling behavior 
   &lt;/li&gt;
   &lt;li&gt;
-    Evangelized the usage of the AUP score, originally used in the AutoML Decathlon, for use within Meta MLGym 
+    Incorporated the AUP score, originally used in our AutoML Decathlon competition, into Meta MLGym 
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch 
+    Technologies used: Python, PyTorch 
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 
-&lt;h4&gt;Together AI&lt;/h4&gt; &lt;code&gt;Research Intern 🐍&lt;br/&gt;(San Francisco, CA)&lt;/code&gt;
+&lt;h4&gt;Together AI&lt;/h4&gt; &lt;h6&gt;Research Intern 🐍&lt;br/&gt;(San Francisco, CA)&lt;/h6&gt;
 &lt;a href=&quot;https://www.together.ai/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/together.svg&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;code&gt;Research&lt;/code&gt; with &lt;a href=&quot;https://tridao.me/&quot;&gt;Tri Dao&lt;/a&gt;
+    Research with &lt;a href=&quot;https://tridao.me/&quot;&gt;Tri Dao&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     Analyzed the role of specific attention heads for long-range retrieval tasks in hybrid LLMs 
@@ -799,19 +803,19 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Investigated the mechanisms behind what makes hybrid LLMs good at in-context recall 
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch, HuggingFace
+    Technologies used: Python, PyTorch, HuggingFace
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 
 
-&lt;h4&gt;Microsoft Research&lt;/h4&gt; &lt;code&gt;Research Intern 🦄&lt;br/&gt;(Redmond, WA)&lt;/code&gt;
+&lt;h4&gt;Microsoft Research&lt;/h4&gt; &lt;h6&gt;Research Intern 🦄&lt;br/&gt;(Redmond, WA)&lt;/h6&gt;
 &lt;a href=&quot;https://www.microsoft.com/en-us/research/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/msr.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;code&gt;Physics of AGI research group&lt;/code&gt; led by &lt;a href=&quot;http://sbubeck.com/&quot;&gt;Sébastien Bubeck&lt;/a&gt;
+    Physics of AGI research group led by &lt;a href=&quot;http://sbubeck.com/&quot;&gt;Sébastien Bubeck&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     Developed activation function search techniques for large-scale LLM pretraining
@@ -820,18 +824,18 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Developed learning curve extrapolation techniques to ablate architectural choices in transformers
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch, HuggingFace
+    Technologies used: Python, PyTorch, HuggingFace
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 
-&lt;h4&gt;Amazon AI&lt;/h4&gt; &lt;code&gt;Applied Scientist Intern &lt;br/&gt;(Seattle, WA)&lt;/code&gt;
+&lt;h4&gt;Amazon AI&lt;/h4&gt; &lt;h6&gt;Applied Scientist Intern &lt;br/&gt;(Seattle, WA)&lt;/h6&gt;
 &lt;a href=&quot;https://aws.amazon.com/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/amazon_full.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;code&gt;AWS Transcribe research group&lt;/code&gt; led by &lt;a
+    AWS Transcribe research group led by &lt;a
       href=&quot;https://www.linkedin.com/in/katrin-kirchhoff-19388049/&quot;&gt;Katrin Kirchhoff&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -841,18 +845,18 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Identified areas for improvement in many existing ASR systems when recognizing rare or zero shot entities
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch, RWTH ASR, Kaldi, AWS
+    Technologies used: Python, PyTorch, RWTH ASR, Kaldi, AWS
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 
-&lt;h4&gt;UnifyID&lt;/h4&gt; &lt;code&gt;AI Fellow &lt;br/&gt; Machine Learner Intern &lt;br/&gt;(Redwood City, CA)&lt;/code&gt;
+&lt;h4&gt;UnifyID&lt;/h4&gt; &lt;h6&gt;AI Fellow &lt;br/&gt; Machine Learner Intern &lt;br/&gt;(Redwood City, CA)&lt;/h6&gt;
 &lt;a href=&quot;https://unify.id/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/unifyid.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;code&gt;UnifyID research lab&lt;/code&gt; fearlessly led by &lt;a href=&quot;https://www.vinayprabhu.com/&quot;&gt;Vinay Uday Prabhu&lt;/a&gt;
+    UnifyID research lab led by &lt;a href=&quot;https://www.vinayprabhu.com/&quot;&gt;Vinay Uday Prabhu&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     Researched various ways in which research from network neuroscience could be applied to deep learning
@@ -861,18 +865,18 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Developed a novel model extraction attack against deep learning models for computer vision using just noise inputs
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Python, Keras, PyTorch, TensorFlow, MATLAB, AWS
+    Technologies used: Python, Keras, PyTorch, TensorFlow, MATLAB, AWS
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 
-&lt;h4&gt;Intuit&lt;/h4&gt; &lt;code&gt;Software Engineering Intern &lt;br/&gt;(Mountain View, CA)&lt;/code&gt;
+&lt;h4&gt;Intuit&lt;/h4&gt; &lt;h6&gt;Software Engineering Intern &lt;br/&gt;(Mountain View, CA)&lt;/h6&gt;
 &lt;a href=&quot;https://www.intuit.com&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/intuit.png&quot; /&gt;
 &lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;code&gt;Intuit Technology Futures research group&lt;/code&gt;
+    Intuit Technology Futures research group
   &lt;/li&gt;
   &lt;li&gt;
     Researched and implemented a novel deep learning model for controllable text generation as a service within Intuit
@@ -884,12 +888,12 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Investigated the use of dynamic topic models for customer support tickets to gain actionable insights over time
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch, TensorFlow, Gensim, Keras
+    Technologies used: Python, PyTorch, TensorFlow, Gensim, Keras
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 
-&lt;h4&gt;Altum&lt;/h4&gt; &lt;code&gt;Applied Scientist Intern &lt;br/&gt;(La Jolla, CA)&lt;/code&gt;
+&lt;h4&gt;Altum&lt;/h4&gt; &lt;h6&gt;Applied Scientist Intern &lt;br/&gt;(La Jolla, CA)&lt;/h6&gt;
 &lt;a href=&quot;https://altum.io/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/altum.png&quot; /&gt;
 &lt;/a&gt;
@@ -901,7 +905,7 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Investigated unsupervised learning techniques for extracting sentiment data in real time from online forums
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Python, PyTorch
+    Technologies used: Python, PyTorch
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
@@ -940,13 +944,13 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Improved quality of image dataset by identifying and handling noisy outliers using principal component analysis
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Python, Tensorflow, Lasagne, Theano, SciPy
+    Technologies used: Python, Tensorflow, Lasagne, Theano, SciPy
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 --&gt;
 
-&lt;h4&gt;Teradata&lt;/h4&gt; &lt;code&gt;Software Engineering Intern &lt;br/&gt;(San Diego, CA)&lt;/code&gt;
+&lt;h4&gt;Teradata&lt;/h4&gt; &lt;h6&gt;Software Engineering Intern &lt;br/&gt;(San Diego, CA)&lt;/h6&gt;
 &lt;a href=&quot;https://www.teradata.com/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/teradata.png&quot; /&gt;
 &lt;/a&gt;
@@ -964,12 +968,12 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Implemented system for updating the time series dataset and fine tuning the deep learning model
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Scala, Java, Maven, Teradata SQL, AWS, Tensorflow, Flask
+    Technologies used: Scala, Java, Maven, Teradata SQL, AWS, Tensorflow, Flask
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 
-&lt;h4&gt;The Comeback Community&lt;/h4&gt; &lt;code&gt;Volunteer Full Stack Developer &lt;br/&gt;(remote/Fresno, CA)&lt;/code&gt;
+&lt;h4&gt;The Comeback Community&lt;/h4&gt; &lt;h6&gt;Volunteer Full Stack Developer &lt;br/&gt;(Remote)&lt;/h6&gt;
 &lt;a href=&quot;https://the-comeback-community.appspot.com/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/comeback.png&quot; /&gt;
 &lt;/a&gt;
@@ -981,12 +985,12 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Mentored new developers in web development
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Go, Google App Engine, gohtml, HTML5, CSS3, JavaScript
+    Technologies used: Go, Google App Engine, gohtml, HTML5, CSS3, JavaScript
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 
-&lt;h4&gt;Skqrl&lt;/h4&gt; &lt;code&gt;Software Engineering Intern &lt;br/&gt;(La Jolla, CA)&lt;/code&gt;
+&lt;h4&gt;Skqrl&lt;/h4&gt; &lt;h6&gt;Software Engineering Intern &lt;br/&gt;(La Jolla, CA)&lt;/h6&gt;
 &lt;a href=&quot;https://skqrl.com/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/skqrl.png&quot; /&gt;
 &lt;/a&gt;
@@ -998,12 +1002,12 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Designed and implemented an extensible product search solution designed to handle future user search needs
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Python, Scrapy, Selenium, Django, MySQL, JavaScript
+    Technologies used: Python, Scrapy, Selenium, Django, MySQL, JavaScript
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 
-&lt;h4&gt;ModSpot&lt;/h4&gt; &lt;code&gt;Software Engineering Intern &lt;br/&gt;(remote)&lt;/code&gt;
+&lt;h4&gt;ModSpot&lt;/h4&gt; &lt;h6&gt;Software Engineering Intern &lt;br/&gt;(Remote)&lt;/h6&gt;
 &lt;a href=&quot;https://modspotapp.wordpress.com/&quot;&gt;
   &lt;img height=&quot;70px&quot; src=&quot;/img/modspot.jpg&quot; /&gt;
 &lt;/a&gt;
@@ -1015,7 +1019,7 @@ Treasurer, Science and Engineering Club&lt;br/&gt;
     Refactored analytics code for gathering statistics on app usage, helping designers make more informed choices
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;Technologies used:&lt;/code&gt; Objective-C, Cocoa Touch, Flurry Analytics
+    Technologies used: Objective-C, Cocoa Touch, Flurry Analytics
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--more--&gt;
