@@ -3,38 +3,46 @@
 /* Conway's Game of Life Background */
 .conway-background {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: -30px;
+  left: -30px;
+  width: calc(100% + 60px);
+  height: calc(100% + 60px);
+  min-width: 200px;
+  min-height: 200px;
   z-index: -1;
   opacity: 0.6;
   pointer-events: none;
+  border-radius: 8px;
+  filter: blur(0.5px);
+  background: transparent;
 }
 
 .cover {
   background-color: $background-color;
-  position: fixed;
   text-align: center;
   width: 100%;
   min-height: 400px;
   padding: 30px 15px 20px;
   z-index: 1;
-  position: relative; /* Added for canvas positioning */
+  position: relative; /* For canvas positioning */
+  overflow: visible;
   @include media-query($small-screen) {
     background-position: center;
     padding: 30px;
+    position: fixed;
   }
   @include media-query($medium-screen) {
     height: 100vh;
-    position: initial;
+    position: relative;
     width: 100%;
   }
 }
 .cover-card {
   color: $text-color;
-  padding: 0 30px;
+  padding: 30px;
   font-family: $font-family-mondwest;
+  position: relative;
+  overflow: visible;
   .avatar {
     border-radius: 50%;
     width: 100px;

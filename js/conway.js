@@ -1,14 +1,13 @@
 class ConwayGameOfLife {
-  constructor(canvas, width = 50, height = 50, cellSize = 4) {
+  constructor(canvas, width = 60, height = 60, cellSize = 2) {
     this.canvas = canvas;
     this.ctx = canvas.getContext('2d');
     this.width = width;
     this.height = height;
     this.cellSize = cellSize;
     
-    // Set canvas size
-    this.canvas.width = width * cellSize;
-    this.canvas.height = height * cellSize;
+    // Set canvas size to match container
+    this.resizeCanvas();
     
     // Initialize grid
     this.grid = this.createGrid();
@@ -19,11 +18,37 @@ class ConwayGameOfLife {
     
     // Animation settings
     this.isRunning = true;
-    this.speed = 150; // milliseconds between generations
+    this.speed = 200; // slower for subtlety
     this.lastUpdate = 0;
     
     // Start animation
     this.animate();
+    
+    // Handle window resize
+    window.addEventListener('resize', () => this.resizeCanvas());
+  }
+  
+  resizeCanvas() {
+    const container = this.canvas.parentElement;
+    
+    if (container) {
+      const rect = container.getBoundingClientRect();
+      
+      // Extend canvas beyond container bounds to fill edges
+      const extendedWidth = rect.width + 60; // 30px on each side
+      const extendedHeight = rect.height + 60; // 30px on each side
+      
+      this.canvas.width = extendedWidth;
+      this.canvas.height = extendedHeight;
+      
+      // Recalculate grid dimensions based on new canvas size
+      this.width = Math.floor(extendedWidth / this.cellSize);
+      this.height = Math.floor(extendedHeight / this.cellSize);
+      
+      this.grid = this.createGrid();
+      this.nextGrid = this.createGrid();
+      this.randomize();
+    }
   }
   
   createGrid() {
@@ -135,17 +160,17 @@ class ConwayGameOfLife {
   }
   
   draw() {
-    // Clear canvas with semi-transparent background for fade effect
-    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+    // Clear canvas with very subtle fade effect
+    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.02)';
     this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
     
-    // Draw cells with subtle gradient effect
+    // Draw cells with yellow color (matching post titles)
     for (let y = 0; y < this.height; y++) {
       for (let x = 0; x < this.width; x++) {
         if (this.grid[y][x]) {
-          // Create a subtle gradient effect
-          const alpha = 0.2 + (Math.random() * 0.2);
-          this.ctx.fillStyle = `rgba(243, 97, 112, ${alpha})`;
+          // Bright yellow color for better visibility
+          const alpha = 0.25 + (Math.random() * 0.15);
+          this.ctx.fillStyle = `rgba(255, 215, 0, ${alpha})`;
           
           this.ctx.fillRect(
             x * this.cellSize,
@@ -171,6 +196,16 @@ class ConwayGameOfLife {
     requestAnimationFrame((time) => this.animate(time));
   }
   
+  // Pause animation when page is not visible
+  pause() {
+    this.isRunning = false;
+  }
+  
+  resume() {
+    this.isRunning = true;
+    this.animate(performance.now());
+  }
+  
   toggle() {
     this.isRunning = !this.isRunning;
     if (this.isRunning) {
@@ -185,27 +220,44 @@ class ConwayGameOfLife {
 
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
+  initializeConway();
+});
+
+// Also try after a short delay in case DOM isn't fully ready
+setTimeout(initializeConway, 100);
+
+function initializeConway() {
   const canvas = document.getElementById('conway-canvas');
+  
   if (canvas) {
-    const game = new ConwayGameOfLife(canvas, 60, 60, 3);
+    const game = new ConwayGameOfLife(canvas);
     
-    // Add some interesting patterns periodically
+    // Add some interesting patterns periodically (less frequently for subtlety)
     setInterval(() => {
-      if (Math.random() > 0.8) {
+      if (Math.random() > 0.9) {
         game.reset();
       }
-    }, 10000); // Reset every 10 seconds with 20% probability
+    }, 15000); // Reset every 15 seconds with 10% probability
     
-    // Add hover effect to speed up animation
+    // Add hover effect to speed up animation slightly
     const coverCard = document.querySelector('.cover-card');
     if (coverCard) {
       coverCard.addEventListener('mouseenter', () => {
-        game.speed = 80; // Faster on hover
+        game.speed = 120; // Slightly faster on hover
       });
       
       coverCard.addEventListener('mouseleave', () => {
-        game.speed = 150; // Normal speed
+        game.speed = 200; // Normal speed
       });
     }
+    
+    // Pause animation when page is not visible (performance optimization)
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        game.pause();
+      } else {
+        game.resume();
+      }
+    });
   }
-}); 
+} 
