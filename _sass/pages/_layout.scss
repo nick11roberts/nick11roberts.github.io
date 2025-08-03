@@ -30,14 +30,12 @@
     display: block;
     color: #F36170;
     font-size: 1.75em;
-    text-transform: lowercase;
   }
   .author_job {
     display: block;
     color: $secondary;
     font-size: 0.8em;
     font-weight: 700;
-    text-transform: uppercase;
     margin: -5px auto 10px;
   }
   .author_bio {
@@ -79,7 +77,6 @@
     zoom: 1;
     & a {
       margin-top: 1em;
-      text-transform: lowercase;
       font-size: 85%;
       color: $secondary;
       &:hover,

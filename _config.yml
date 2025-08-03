@@ -7,7 +7,7 @@ title: Nicholas Roberts
 email: nick.roberts.127.0.0.1@gmail.com
 description: Drop me an email at nick.roberts.127.0.0.1@gmail.com
 url: https://nick11roberts.github.io # the base hostname & protocol for your site
-keywords: ["Programming", "Deep Learning", "Machine learning", "Python", "Data Science"]
+keywords: ["Programming", "Deep Learning", "Machine Learning", "Python", "Data Science"]
 
 #
 ###################################
@@ -40,7 +40,7 @@ kramdown:
 owner:
   name: "Nicholas Roberts"
   avatar: avatar.png
-  job: "PhD Student"
+  job: "Ph.D. Student"
   bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Frederic Sala"
   ext-bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Frederic Sala"
   email: 
