@@ -1464,7 +1464,9 @@ p {
 .twitter.btn,
 .facebook.btn,
 .hacker-news.btn,
-.reddit.btn {
+.reddit.btn,
+.bluesky.btn,
+.linkedin.btn {
   background-color: #42b983;
   color: #fff;
   border-color: #42b983;
@@ -1472,14 +1474,18 @@ p {
 .twitter.btn:visited,
 .facebook.btn:visited,
 .hacker-news.btn:visited,
-.reddit.btn:visited {
+.reddit.btn:visited,
+.bluesky.btn:visited,
+.linkedin.btn:visited {
   color: #fff;
   border-color: #42b983;
 }
 .twitter.btn:hover,
 .facebook.btn:hover,
 .hacker-news.btn:hover,
-.reddit.btn:hover {
+.reddit.btn:hover,
+.bluesky.btn:hover,
+.linkedin.btn:hover {
   background-color: #fff;
   color: #42b983;
   border-color: #42b983;
