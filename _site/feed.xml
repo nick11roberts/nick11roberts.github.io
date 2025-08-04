@@ -5,164 +5,143 @@
     <description>Drop me an email at nick.roberts.127.0.0.1@gmail.com</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Aug 2025 00:48:06 +0000</pubDate>
-    <lastBuildDate>Mon, 04 Aug 2025 00:48:06 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Aug 2025 01:30:21 +0000</pubDate>
+    <lastBuildDate>Mon, 04 Aug 2025 01:30:21 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
-        <title>Machine Learning Trends in 2024</title>
-        <description>&lt;h1 id=&quot;machine-learning-trends-in-2024&quot;&gt;Machine Learning Trends in 2024&lt;/h1&gt;
+        <title>AutoWS-Bench-101: Benchmarking Automated Weak Supervision on Diverse Tasks</title>
+        <description>&lt;p&gt;It’s no secret that large-scale supervised machine learning is expensive and that one of the biggest challenges is in obtaining the labeled data required for training machine learning  models. 
+Weak Supervision (WS) a popular and quite successful technique for reducing this need for labeled data. 
+WS relies on access to noisy, heuristic functions that produce reasonable label guesses–these are called labeling functions, or LFs for short. 
+Given a handful of these LFs, WS attempts to learn the relationships between the LFs and the true but &lt;em&gt;unobserved&lt;/em&gt; label–the component that does this is called the Label Model. 
+WS is fairly easy to apply to text data, it’s harder to apply to data with more complex features. 
+Automated Weak Supervision (AutoWS) solves this problem by instead &lt;em&gt;learning&lt;/em&gt; the LFs using a small amount of labeled data. 
+The beauty of all of this is that WS and AutoWS can be combined with other ways of dealing with a lack of labeled data, like zero-shot learning with foundation models, or self-supervised learning. 
+In this blog post, we will shed some light on AutoWS and explain the motivation behind our AutoWS-Bench-101 benchmark, the first-ever benchmark for AutoWS!&lt;/p&gt;
 
-&lt;p&gt;The field of machine learning continues to evolve rapidly, with several key trends emerging this year. Let me share my observations on what’s driving innovation in AI.&lt;/p&gt;
+&lt;h1 id=&quot;weak-supervision-by-example-rotten-tomatoes&quot;&gt;Weak Supervision by example: Rotten Tomatoes&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://sprocketlab.github.io/images/blogposts/autowsbench101/ws.jpg&quot; alt=&quot;Weak Supervision Pipeline&quot; title=&quot;Weak Supervision Pipeline&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;key-trends&quot;&gt;Key Trends&lt;/h2&gt;
+&lt;p&gt;Let’s step through a quick example of WS on movie review data… 
+Here, the goal is to classify Rotten Tomatoes reviews as either “Fresh (+)” or “Rotten (-)”
+Suppose we start off with three LFs, and for simplicity, we will use majority voting as our Label Model:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;LF1 returns “Fresh” if the movie review contains the word “amazing,” otherwise don’t vote,&lt;/li&gt;
+  &lt;li&gt;LF2 returns “Rotten” if the movie review contains the word “nightmare,” otherwise don’t vote, and&lt;/li&gt;
+  &lt;li&gt;LF3 returns “Fresh” or “Rotten” depending on the prediction of an off-the-shelf sentiment classifier.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3 id=&quot;1-large-language-models-llms&quot;&gt;1. Large Language Models (LLMs)&lt;/h3&gt;
-&lt;p&gt;The development of increasingly sophisticated language models continues to dominate the landscape. We’re seeing:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;More efficient training methods&lt;/li&gt;
-  &lt;li&gt;Better reasoning capabilities&lt;/li&gt;
-  &lt;li&gt;Improved multimodal understanding&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-edge-ai&quot;&gt;2. Edge AI&lt;/h3&gt;
-&lt;p&gt;Deployment of AI models on edge devices is becoming more prevalent:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Reduced latency&lt;/li&gt;
-  &lt;li&gt;Privacy preservation&lt;/li&gt;
-  &lt;li&gt;Cost efficiency&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;3-federated-learning&quot;&gt;3. Federated Learning&lt;/h3&gt;
-&lt;p&gt;Privacy-preserving machine learning is gaining traction:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Collaborative model training&lt;/li&gt;
-  &lt;li&gt;Data privacy protection&lt;/li&gt;
-  &lt;li&gt;Distributed computing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;technical-deep-dive&quot;&gt;Technical Deep Dive&lt;/h2&gt;
-
-&lt;p&gt;Let’s explore one of these trends in more detail. Federated learning, for instance, allows multiple parties to collaboratively train a model without sharing their raw data.&lt;/p&gt;
-
-&lt;h3 id=&quot;federated-learning-example&quot;&gt;Federated Learning Example&lt;/h3&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;torch&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;torch.nn&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nn&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FederatedModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;nf&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FederatedModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fc1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Linear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;784&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;128&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fc2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Linear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;128&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;torch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;relu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;fc1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;fc2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Client-side training
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;train_on_client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;local_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;optimizer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;torch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;optim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SGD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;parameters&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# Training loop here
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;state_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;p&gt;Now let’s apply these LFs to the following review of the 2019 movie Cats:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;At best, it’s an ambitious misfire. At worst, it’s straight-up nightmare fuel that will haunt generations. Enter into the world of the Jellicles at your own peril.&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Most people would probably assign this review the label “Rotten,” though since we’re doing WS, let’s check to see if our LFs agree… 
+LF1 doesn’t vote because the word “amazing” does not appear in the text, LF2 votes “Rotten,” and for the sake of argument, suppose that LF3 also votes “Rotten.” 
+Since we’re aggregating these LF outputs using majority vote, WS correctly labels this review as “Rotten.”&lt;/p&gt;
 
-&lt;h2 id=&quot;industry-impact&quot;&gt;Industry Impact&lt;/h2&gt;
+&lt;p&gt;The purpose of this example was twofold: first, if you aren’t familiar with WS, this example was hopefully illuminating. And second, that &lt;em&gt;it’s easy to write LFs for text data!&lt;/em&gt; 
+The “features” that come with text (i.e., words) are more intuitive for humans to reason about, which makes it easier to come up with fairly general rules for text tasks.&lt;/p&gt;
 
-&lt;p&gt;These trends are reshaping how organizations approach AI:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Healthcare&lt;/strong&gt;: Improved diagnostic tools with privacy protection&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Finance&lt;/strong&gt;: Better fraud detection and risk assessment&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Manufacturing&lt;/strong&gt;: Predictive maintenance and quality control&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;But what about data with more complex features, such as images? 
+To our knowledge, traditional WS hasn’t even been applied to MNIST, because writing LFs from scratch for raw pixel data is simply not practical.&lt;/p&gt;
 
-&lt;h2 id=&quot;looking-ahead&quot;&gt;Looking Ahead&lt;/h2&gt;
+&lt;h1 id=&quot;from-ws-to-autows&quot;&gt;From WS to AutoWS&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://sprocketlab.github.io/images/blogposts/autowsbench101/autows-bench-101-banner.jpg&quot; alt=&quot;Automated Weak Supervision Pipeline&quot; title=&quot;Automated Weak Supervision Pipeline&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;As we move through 2024, I expect to see:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;More sophisticated multimodal models&lt;/li&gt;
-  &lt;li&gt;Increased focus on AI ethics and governance&lt;/li&gt;
-  &lt;li&gt;Broader adoption of federated learning&lt;/li&gt;
-  &lt;li&gt;Advances in quantum machine learning&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Fortunately, dealing with more complex features only requires a few extra steps… 
+The general idea is to &lt;em&gt;learn&lt;/em&gt; the LFs using a small set of labeled examples instead of writing the LFs by hand. 
+This technique is called Automated Weak Supervision, or AutoWS, and the pipeline illustrating this process is shown in the above diagram. 
+What makes traditional weak supervision difficult for things like images is that they are typically represented as tensors of pixel values, and it is challenging for a human to write explicit LFs on the pixel level to classify these data. 
+Of course, this is true of other data types as well–including things like PDEs, which are often used for physics simulations, medical data, and featurized tabular data.&lt;/p&gt;
 
-&lt;p&gt;Stay tuned for more detailed analysis of these trends in future posts!&lt;/p&gt;
+&lt;p&gt;The first step in most AutoWS techniques is to obtain a more useful representation of the complex data.
+This is typically done by using some form of dimensionality reduction, by either using a classical technique such as PCA or by using an embedding obtained from a modern foundation model.&lt;/p&gt;
+
+&lt;p&gt;Next, AutoWS techniques often use some small set of existing labeled examples to train simple models in this feature representation–these are called weak learners, and these will be used in place of the hand-designed LFs used in traditional WS.&lt;/p&gt;
+
+&lt;p&gt;Finally, we proceed with the rest of the original WS pipeline by learning the parameters of the LM and we generate training data! Except now, we can generate training data for &lt;em&gt;much more complex and diverse domains, including a large variety of previously challenging scientific domains&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Armed with the two key takeaways from our deep dive into AutoWS methods,&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;AutoWS methods mostly comprise two steps: feature representation, and obtaining weak learners&lt;/li&gt;
+  &lt;li&gt;AutoWS methods unlock a huge variety of diverse applications for WS 
+we developed our first-ever benchmark for AutoWS methods: AutoWS-Bench-101.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;autows-bench-101&quot;&gt;AutoWS-Bench-101&lt;/h1&gt;
+&lt;p&gt;With AutoWS-Bench-101, we benchmark AutoWS methods using only 100 initial labeled examples, which gives our benchmark its name, as our goal is to generate the 101st label onward! 
+We do so by applying the two previously-mentioned takeaways–we evaluate the cross product of a set of feature representation methods with a set of AutoWS methods, and we do so on a diverse set of applications.&lt;/p&gt;
+
+&lt;p&gt;In particular, we tried a wide range of feature representation techniques, of varying complexity–simply using raw features, PCA, an ImageNet-trained ResNet-18, and features from CLIP–a modern foundation model. 
+We plug each of these into a handful of AutoWS techniques, including &lt;a href=&quot;https://www.vldb.org/pvldb/vol12/p223-varma.pdf&quot;&gt;Snuba&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/2012.06046&quot;&gt;Interactive Weak Supervision&lt;/a&gt;, and &lt;a href=&quot;https://arxiv.org/abs/1903.04552&quot;&gt;GOGGLES&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our benchmark comprises three main categories of datases:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Image tasks&lt;/li&gt;
+  &lt;li&gt;NLP tasks&lt;/li&gt;
+  &lt;li&gt;diverse tasks&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In the first category, we include MNIST, CIFAR-10, a &lt;a href=&quot;https://arxiv.org/abs/1801.10130&quot;&gt;spherically-projected version of MNIST&lt;/a&gt;, and MNIST with permuted pixels. 
+Next, for backward compatibility with &lt;a href=&quot;https://arxiv.org/abs/2109.11377&quot;&gt;WRENCH&lt;/a&gt;, a benchmark for WS, we include three of the NLP datasets from their benchmark: YouTube, Yelp, and IMDb. 
+Finally, we include three datasets from diverse application domains, where we think that AutoWS is quite promising: electrocardiograms (ECG), classifying the turbulence of a PDE (Navier-Stokes), and malware detection (EMBER).&lt;/p&gt;
+
+&lt;h1 id=&quot;key-takeaways-from-autows-bench-101&quot;&gt;Key takeaways from AutoWS-Bench-101&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://sprocketlab.github.io/images/blogposts/autowsbench101/perfprof.png&quot; alt=&quot;Performance profile curves&quot; title=&quot;Performance Profile Curves&quot; /&gt;
+The standard of evaluation for AutoWS-Bench-101 relies on &lt;a href=&quot;https://arxiv.org/abs/cs/0102001&quot;&gt;performance profile curves&lt;/a&gt;, which are a holistic way to evaluate different methods across various settings or “environments.” 
+We won’t go into too many details of how these are computed here, and instead, I’ll refer you to &lt;a href=&quot;http://www.argmin.net/2018/03/26/performance-profiles/&quot;&gt;a nice blog post by Ben Recht&lt;/a&gt; on the topic. 
+The key idea of performance profiles is that the higher curves are better for most tasks, or at least close to the best method for a given task, and the curves themselves are able to express situations in which a method is actually dramatically worse than the best method.&lt;/p&gt;
+
+&lt;p&gt;Using performance profiles, we were able to see several interesting trends across our three categories of datases:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;few shot learning actually does better on vision and NLP tasks than many AutoWS methods, however, on diverse tasks, AutoWS catches up,&lt;/li&gt;
+  &lt;li&gt;CLIP is very useful for vision tasks, but not for diverse or NLP tasks, in part due to a lack of compatibility,&lt;/li&gt;
+  &lt;li&gt;an ImageNet-trained ResNet-18 model is surprisingly helpful for diverse tasks, despite being far afield from ImageNet.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using our benchmark, we also came away with these other key findings:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Foundation models &lt;strong&gt;are only helpful to AutoWS for in-distribution or related tasks,&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;LFs that output multiple classes &lt;strong&gt;might be better than class-specialized LFs,&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Foundation model usage can &lt;strong&gt;hurt coverage,&lt;/strong&gt; the fraction of points labeled by AutoWS.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For more details about these findings, and our ablation studies of the various AutoWS methods that we tried, check out &lt;a href=&quot;https://arxiv.org/abs/2208.14362&quot;&gt;our paper!&lt;/a&gt; 😃&lt;/p&gt;
+
+&lt;p&gt;And if you arrived at this page by scanning our QR code at NeurIPS, and you made it all the way here, here’s a cookie. 🍪&lt;/p&gt;
+
+&lt;h1 id=&quot;whats-next-for-ws-and-autows-benchmarking-concluding-thoughts-and-ideas&quot;&gt;What’s next for WS and AutoWS benchmarking? Concluding thoughts and ideas…&lt;/h1&gt;
+&lt;p&gt;We’re excited to add more functionality and methods to AutoWS-Bench-101! 
+But beyond this benchmark and WRENCH, what is left to do? 
+I mentioned before that WS and AutoWS can be combined with zero-shot learning with foundation models and self-supervised learning… 
+But how do we find out which methods, or combination of methods, are actually the most useful for different types of tasks?&lt;/p&gt;
+
+&lt;p&gt;I am personally excited about the idea leveraging community involvement to answer these big questions.
+As an organizer of the &lt;a href=&quot;https://www.cs.cmu.edu/~automl-decathlon-22/&quot;&gt;AutoML Decathlon&lt;/a&gt; competition at NeurIPS 2022, one idea that I’m excited about is to run a Weak Supervision &lt;em&gt;coopetition&lt;/em&gt;–a cooperative competition. 
+The idea behind this is to solcit LFs for a set of diverse tasks with mostly unobserved labeles from the community–and cooperatively solve the challenge of programmatically-labeleing large datasets via a Kaggle-like interface. 
+I like this idea because it is goal-driven: the community must find a way to label these datasets by any means necessary, and everyone can help one another out by contributing to a shared GitHub repository. 
+I think that this could be similar to something like &lt;a href=&quot;https://github.com/google/BIG-bench&quot;&gt;Google Big-Bench&lt;/a&gt;, with the promise of publishing a paper with many authors, and the eternal glory of having contributed to a large-scale (possibly registered + peer-reviewed) supervision experiment.&lt;/p&gt;
+
+&lt;p&gt;Whether the next steps for WS benchmarking end up being related to this idea of a coopetition or something entirely different, I’m super excited to see where we go next with reducing the need for labeled data!&lt;/p&gt;
+
+&lt;p&gt;Nicholas Roberts &lt;a href=&quot;mailto:nick11roberts@cs.wisc.edu]&quot;&gt;nick11roberts@cs.wisc.edu&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/2024-01/machine-learning-trends</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2024-01/machine-learning-trends</guid>
+        <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/posts/2022/11/autows-bench-101/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/2022/11/autows-bench-101/</guid>
         
-        <category>AI</category>
+        <category>Research</category>
         
-        <category>trends</category>
+        <category>Weak Supervision</category>
         
-        <category>research</category>
+        <category>AutoML</category>
         
-        
-        <category>blog</category>
-        
-        <category>machine-learning</category>
-        
-      </item>
-    
-      <item>
-        <title>My First Blog Post</title>
-        <description>&lt;h1 id=&quot;welcome-to-my-blog&quot;&gt;Welcome to My Blog!&lt;/h1&gt;
-
-&lt;p&gt;This is my first blog post on my new dedicated blog page. Here I’ll be sharing:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Technical insights and tutorials&lt;/li&gt;
-  &lt;li&gt;Research updates and findings&lt;/li&gt;
-  &lt;li&gt;Personal thoughts and experiences&lt;/li&gt;
-  &lt;li&gt;Industry observations&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;what-to-expect&quot;&gt;What to Expect&lt;/h2&gt;
-
-&lt;p&gt;I plan to write about:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Machine learning and AI developments&lt;/li&gt;
-  &lt;li&gt;Programming tips and tricks&lt;/li&gt;
-  &lt;li&gt;Academic research updates&lt;/li&gt;
-  &lt;li&gt;Career advice and experiences&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Stay tuned for more content coming soon!&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;This is the full content of the blog post that will appear when you click to read more. You can add much more detailed content here, including code examples, images, and detailed explanations.&lt;/p&gt;
-
-&lt;h2 id=&quot;code-example&quot;&gt;Code Example&lt;/h2&gt;
-
-&lt;p&gt;Here’s a simple Python example:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello_world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Hello, Blog World!&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Success!&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Run the function
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello_world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
-
-&lt;p&gt;I’ll be posting regularly, so make sure to check back often. You can also follow me on social media for updates.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/2024-01/my-first-blog-post</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2024-01/my-first-blog-post</guid>
-        
-        <category>personal</category>
-        
-        <category>introduction</category>
+        <category>Diverse Tasks</category>
         
         
-        <category>blog</category>
+        <category>weak supervision</category>
+        
+        <category>automl</category>
         
       </item>
     

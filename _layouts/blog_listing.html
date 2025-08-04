@@ -27,14 +27,9 @@ layout: default
       </h4>
     </header>
 
-    {% if post.excerpt %}
     <div class="post-description">
-      <p>
-        {{ post.excerpt }}
-      </p>
-      <a href="{{ site.url }}{{ post.url }}" class="read-more">Read more...</a>
+      <a href="{{ site.url }}{{ post.url }}" class="read-more">Read full post →</a>
     </div>
-    {% endif %}
 
     {% if post.image.feature %}
     <div class="post-image-feature">

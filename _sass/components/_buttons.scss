@@ -15,7 +15,7 @@
   border-style: solid !important;
   border-color: $primary;
   text-decoration: none !important;
-  border-radius: 5px;
+  border-radius: 0;
   &:visited {
     color: $white;
     border-color: $primary;
@@ -88,5 +88,24 @@
     background-color: $white;
     color: $info;
     border-color: $info;
+  }
+}
+
+// Share buttons - all use the same green color as home button
+.twitter.btn,
+.facebook.btn,
+.hacker-news.btn,
+.reddit.btn {
+  background-color: $primary;
+  color: $white;
+  border-color: $primary;
+  &:visited {
+    color: $white;
+    border-color: $primary;
+  }
+  &:hover {
+    background-color: $white;
+    color: $primary;
+    border-color: $primary;
   }
 }
