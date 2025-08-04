@@ -5,8 +5,8 @@
     <description>Drop me an email at nick.roberts.127.0.0.1@gmail.com</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Aug 2025 00:30:16 +0000</pubDate>
-    <lastBuildDate>Mon, 04 Aug 2025 00:30:16 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Aug 2025 00:48:06 +0000</pubDate>
+    <lastBuildDate>Mon, 04 Aug 2025 00:48:06 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -174,17 +174,25 @@
 **Academic Bio** 
 --&gt;
 
-&lt;p&gt;I am a Ph.D. candidate in CS at &lt;a href=&quot;https://www.cs.wisc.edu&quot;&gt;University of Wisconsin–Madison&lt;/a&gt; where I am advised by &lt;a href=&quot;https://pages.cs.wisc.edu/~fredsala/&quot;&gt;Fred Sala&lt;/a&gt; along with my many talented colleagues in the &lt;a href=&quot;https://sprocketlab.github.io/&quot;&gt;Sprocket Lab&lt;/a&gt;.&lt;/p&gt;
+&lt;!--
+I am a Ph.D. candidate in CS at [University of Wisconsin--Madison][wisc] where I am advised by [Fred Sala][fred] along with my many talented colleagues in the [Sprocket Lab][sprocket]. 
 
-&lt;p&gt;This past Fall, I interned with the &lt;a href=&quot;https://ai.meta.com/meta-ai/&quot;&gt;Llama Generative AI&lt;/a&gt; team at Meta in London, where I worked with &lt;a href=&quot;https://dieuwkehupkes.nl/&quot;&gt;Dieuwke Hupkes&lt;/a&gt; on language model pretraining and evaluation. 
-This past Summer, I interned at &lt;a href=&quot;https://www.together.ai/&quot;&gt;Together AI&lt;/a&gt; in San Francisco with &lt;a href=&quot;https://tridao.me/&quot;&gt;Tri Dao&lt;/a&gt;, where I worked on hybrid language models. 
-In Summer 2023, I interned with the Physics of AGI research group at &lt;a href=&quot;https://www.microsoft.com/en-us/research/&quot;&gt;Microsoft Research&lt;/a&gt; led by &lt;a href=&quot;http://sbubeck.com/&quot;&gt;Sébastien Bubeck&lt;/a&gt;, where I also worked on language models.&lt;/p&gt;
+This past Fall, I interned with the [Llama Generative AI][meta] team at Meta in London, where I worked with [Dieuwke Hupkes][dh] on language model pretraining and evaluation. 
+This past Summer, I interned at [Together AI][together] in San Francisco with [Tri Dao][tri], where I worked on hybrid language models. 
+In Summer 2023, I interned with the Physics of AGI research group at [Microsoft Research][msr] led by [Sébastien Bubeck][seb], where I also worked on language models.
 
-&lt;p&gt;Before starting my Ph.D., I had the pleasure of working with &lt;a href=&quot;https://www.cs.cmu.edu/~atalwalk/&quot;&gt;Ameet Talwalkar&lt;/a&gt; and &lt;a href=&quot;https://www.zacharylipton.com/&quot;&gt;Zack Lipton&lt;/a&gt; during my M.S. in the Machine Learning Department at &lt;a href=&quot;https://www.cmu.edu/&quot;&gt;Carnegie Mellon University&lt;/a&gt;. 
-As an undergraduate, I was extremely fortunate to work with both &lt;a href=&quot;https://cseweb.ucsd.edu/~dasgupta/&quot;&gt;Sanjoy Dasgupta&lt;/a&gt; and &lt;a href=&quot;https://cseweb.ucsd.edu/~gary/&quot;&gt;Gary Cottrell&lt;/a&gt; at the &lt;a href=&quot;https://ucsd.edu/&quot;&gt;University of California, San Diego&lt;/a&gt;. 
-Prior to all of this, I was a community college student at &lt;a href=&quot;https://www.fresnocitycollege.edu&quot;&gt;Fresno City College&lt;/a&gt;, where I was lucky enough to learn calculus, linear algebra, &lt;em&gt;and&lt;/em&gt; C++ from &lt;a href=&quot;https://greg.jamison.cc/home.php&quot;&gt;Greg Jamison&lt;/a&gt;.&lt;/p&gt;
+Before starting my Ph.D., I had the pleasure of working with [Ameet Talwalkar][ameet] and [Zack Lipton][zack] during my M.S. in the Machine Learning Department at [Carnegie Mellon University][cmu]. 
+As an undergraduate, I was extremely fortunate to work with both [Sanjoy Dasgupta][sanjoy] and [Gary Cottrell][gary] at the [University of California, San Diego][ucsd]. 
+Prior to all of this, I was a community college student at [Fresno City College][fcc], where I was lucky enough to learn calculus, linear algebra, *and* C++ from [Greg Jamison][greg]. 
 
-&lt;p&gt;In 2025 I received an honorable mention for the &lt;a href=&quot;https://www.janestreet.com/join-jane-street/programs-and-events/grf-profiles-2025/&quot;&gt;Jane Street Graduate Research Fellowship&lt;/a&gt; and in 2023, I was named an &lt;a href=&quot;https://mlcommons.org/en/&quot;&gt;MLCommons&lt;/a&gt; &lt;a href=&quot;https://mlcommons.org/en/news/rising-stars-2023/&quot;&gt;Rising Star&lt;/a&gt;. I have also been awarded the Prove AI and UnifyID AI Fellowships in 2021 and 2019, respectively.&lt;/p&gt;
+In 2025 I received an honorable mention for the [Jane Street Graduate Research Fellowship][js] and in 2023, I was named an [MLCommons][mlcommons] [Rising Star][mlsys_rising_stars]. I have also been awarded the Prove AI and UnifyID AI Fellowships in 2021 and 2019, respectively. 
+--&gt;
+
+&lt;p&gt;I am a Ph.D. candidate in Computer Science at &lt;a href=&quot;https://www.cs.wisc.edu&quot;&gt;University of Wisconsin–Madison&lt;/a&gt;, advised by &lt;a href=&quot;https://pages.cs.wisc.edu/~fredsala/&quot;&gt;Fred Sala&lt;/a&gt; in the &lt;a href=&quot;https://sprocketlab.github.io/&quot;&gt;Sprocket Lab&lt;/a&gt;, developing methods for efficient foundation model training and adaptation.&lt;/p&gt;
+
+&lt;p&gt;I have completed research internships at &lt;a href=&quot;https://ai.meta.com/meta-ai/&quot;&gt;Meta’s Llama team&lt;/a&gt; (working on scaling laws with &lt;a href=&quot;https://dieuwkehupkes.nl/&quot;&gt;Dieuwke Hupkes&lt;/a&gt;), &lt;a href=&quot;https://www.together.ai/&quot;&gt;Together AI&lt;/a&gt; (hybrid language models with &lt;a href=&quot;https://tridao.me/&quot;&gt;Tri Dao&lt;/a&gt;), and &lt;a href=&quot;https://www.microsoft.com/en-us/research/&quot;&gt;Microsoft Research&lt;/a&gt; (Physics of AGI group with &lt;a href=&quot;http://sbubeck.com/&quot;&gt;Sébastien Bubeck&lt;/a&gt;). I received an honorable mention for the &lt;a href=&quot;https://www.janestreet.com/join-jane-street/programs-and-events/grf-profiles-2025/&quot;&gt;Jane Street Graduate Research Fellowship&lt;/a&gt; (2025) and was named an &lt;a href=&quot;https://mlcommons.org/en/&quot;&gt;MLCommons&lt;/a&gt; &lt;a href=&quot;https://mlcommons.org/en/news/rising-stars-2023/&quot;&gt;Rising Star&lt;/a&gt; (2023).&lt;/p&gt;
+
+&lt;p&gt;My academic path began at &lt;a href=&quot;https://www.fresnocitycollege.edu&quot;&gt;Fresno City College&lt;/a&gt; before earning my B.S. at &lt;a href=&quot;https://ucsd.edu/&quot;&gt;UC San Diego&lt;/a&gt; (working with &lt;a href=&quot;https://cseweb.ucsd.edu/~dasgupta/&quot;&gt;Sanjoy Dasgupta&lt;/a&gt; and &lt;a href=&quot;https://cseweb.ucsd.edu/~gary/&quot;&gt;Gary Cottrell&lt;/a&gt;) and M.S. at &lt;a href=&quot;https://www.cmu.edu/&quot;&gt;Carnegie Mellon University&lt;/a&gt; (working with &lt;a href=&quot;https://www.cs.cmu.edu/~atalwalk/&quot;&gt;Ameet Talwalkar&lt;/a&gt; and &lt;a href=&quot;https://www.zacharylipton.com/&quot;&gt;Zack Lipton&lt;/a&gt;).&lt;/p&gt;
 
 &lt;!--
 
@@ -232,15 +240,24 @@ I have also developed benchmarks and competitions as a means of measuring progre
     
       <item>
         <title>Research Interests</title>
-        <description>&lt;p&gt;&lt;strong&gt;My research is motivated by the need to accelerate foundation model (FM) adoption toward solving humanity’s most challenging problems.&lt;/strong&gt; Doing so is a long-term effort requiring substantial community involvement. The goal of my Ph.D. research is to take steps towards realizing this high-impact vision, categorized roughly into three sub-topics:&lt;/p&gt;
+        <description>&lt;!-- **My research is motivated by the need to accelerate foundation model (FM) adoption toward solving humanity&apos;s most challenging problems.** Doing so is a long-term effort requiring substantial community involvement. The goal of my Ph.D. research is to take steps towards realizing this high-impact vision, categorized roughly into three sub-topics: 
 
+1. The science of scaling laws,
+2. Automation for improving FMs beyond naive scaling, and
+3. Determining how FMs interact with data. 
+   
+**While furthering these directions for language, I have had the unique opportunity to pretrain LLMs at industrial scales.** On the other hand, to accelerate adoption of FMs beyond language, I have also worked with a wide array of problems from different scientific domains, which includes solving PDEs, protein folding, climate modelling, and beyond.  --&gt;
+
+&lt;p&gt;My research develops principled methods for training and adapting foundation models to scientific domains. I focus on three interconnected areas:&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;The science of scaling laws,&lt;/li&gt;
-  &lt;li&gt;Automation for improving FMs beyond naive scaling, and&lt;/li&gt;
-  &lt;li&gt;Determining how FMs interact with data.&lt;/li&gt;
+  &lt;li&gt;discovering optimal data-compute tradeoffs during pretraining,&lt;/li&gt;
+  &lt;li&gt;automating model improvement beyond naive scaling, and&lt;/li&gt;
+  &lt;li&gt;understanding how foundation models interact with specialized data.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;While furthering these directions for language, I have had the unique opportunity to pretrain LLMs at industrial scales.&lt;/strong&gt; On the other hand, to accelerate adoption of FMs beyond language, I have also worked with a wide array of problems from different scientific domains, which includes solving PDEs, protein folding, climate modelling, and beyond.&lt;/p&gt;
+&lt;p&gt;Through scaling laws research with Meta, I have shown that knowledge acquisition and reasoning tasks require fundamentally different compute allocation strategies—challenging the assumption of uniform scaling. I complement this with automated ML techniques that adapt general models to domains like protein folding and climate modeling, where labeled data is scarce and expert knowledge is critical.&lt;/p&gt;
+
+&lt;p&gt;My goal is enabling scientists to leverage state-of-the-art AI without requiring extensive ML expertise, accelerating discovery across fields from biology to physics.&lt;/p&gt;
 
 &lt;!--
 My research is motivated by the need to democratize machine learning and foundation models to handle the long tail of emerging ML tasks in the sciences and beyond. 
