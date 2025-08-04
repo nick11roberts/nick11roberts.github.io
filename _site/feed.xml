@@ -5,9 +5,166 @@
     <description>Drop me an email at nick.roberts.127.0.0.1@gmail.com</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Aug 2025 23:29:36 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Aug 2025 23:29:36 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Aug 2025 00:30:16 +0000</pubDate>
+    <lastBuildDate>Mon, 04 Aug 2025 00:30:16 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Machine Learning Trends in 2024</title>
+        <description>&lt;h1 id=&quot;machine-learning-trends-in-2024&quot;&gt;Machine Learning Trends in 2024&lt;/h1&gt;
+
+&lt;p&gt;The field of machine learning continues to evolve rapidly, with several key trends emerging this year. Let me share my observations on what’s driving innovation in AI.&lt;/p&gt;
+
+&lt;h2 id=&quot;key-trends&quot;&gt;Key Trends&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-large-language-models-llms&quot;&gt;1. Large Language Models (LLMs)&lt;/h3&gt;
+&lt;p&gt;The development of increasingly sophisticated language models continues to dominate the landscape. We’re seeing:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;More efficient training methods&lt;/li&gt;
+  &lt;li&gt;Better reasoning capabilities&lt;/li&gt;
+  &lt;li&gt;Improved multimodal understanding&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-edge-ai&quot;&gt;2. Edge AI&lt;/h3&gt;
+&lt;p&gt;Deployment of AI models on edge devices is becoming more prevalent:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reduced latency&lt;/li&gt;
+  &lt;li&gt;Privacy preservation&lt;/li&gt;
+  &lt;li&gt;Cost efficiency&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-federated-learning&quot;&gt;3. Federated Learning&lt;/h3&gt;
+&lt;p&gt;Privacy-preserving machine learning is gaining traction:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Collaborative model training&lt;/li&gt;
+  &lt;li&gt;Data privacy protection&lt;/li&gt;
+  &lt;li&gt;Distributed computing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;technical-deep-dive&quot;&gt;Technical Deep Dive&lt;/h2&gt;
+
+&lt;p&gt;Let’s explore one of these trends in more detail. Federated learning, for instance, allows multiple parties to collaboratively train a model without sharing their raw data.&lt;/p&gt;
+
+&lt;h3 id=&quot;federated-learning-example&quot;&gt;Federated Learning Example&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;torch&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;torch.nn&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nn&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FederatedModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FederatedModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fc1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Linear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;784&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;128&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fc2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Linear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;128&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;torch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;relu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;fc1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;fc2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Client-side training
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;train_on_client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;local_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;optimizer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;torch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;optim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SGD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;parameters&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# Training loop here
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;state_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;industry-impact&quot;&gt;Industry Impact&lt;/h2&gt;
+
+&lt;p&gt;These trends are reshaping how organizations approach AI:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Healthcare&lt;/strong&gt;: Improved diagnostic tools with privacy protection&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Finance&lt;/strong&gt;: Better fraud detection and risk assessment&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Manufacturing&lt;/strong&gt;: Predictive maintenance and quality control&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;looking-ahead&quot;&gt;Looking Ahead&lt;/h2&gt;
+
+&lt;p&gt;As we move through 2024, I expect to see:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;More sophisticated multimodal models&lt;/li&gt;
+  &lt;li&gt;Increased focus on AI ethics and governance&lt;/li&gt;
+  &lt;li&gt;Broader adoption of federated learning&lt;/li&gt;
+  &lt;li&gt;Advances in quantum machine learning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Stay tuned for more detailed analysis of these trends in future posts!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/articles/2024-01/machine-learning-trends</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2024-01/machine-learning-trends</guid>
+        
+        <category>AI</category>
+        
+        <category>trends</category>
+        
+        <category>research</category>
+        
+        
+        <category>blog</category>
+        
+        <category>machine-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>My First Blog Post</title>
+        <description>&lt;h1 id=&quot;welcome-to-my-blog&quot;&gt;Welcome to My Blog!&lt;/h1&gt;
+
+&lt;p&gt;This is my first blog post on my new dedicated blog page. Here I’ll be sharing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Technical insights and tutorials&lt;/li&gt;
+  &lt;li&gt;Research updates and findings&lt;/li&gt;
+  &lt;li&gt;Personal thoughts and experiences&lt;/li&gt;
+  &lt;li&gt;Industry observations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-to-expect&quot;&gt;What to Expect&lt;/h2&gt;
+
+&lt;p&gt;I plan to write about:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Machine learning and AI developments&lt;/li&gt;
+  &lt;li&gt;Programming tips and tricks&lt;/li&gt;
+  &lt;li&gt;Academic research updates&lt;/li&gt;
+  &lt;li&gt;Career advice and experiences&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Stay tuned for more content coming soon!&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;This is the full content of the blog post that will appear when you click to read more. You can add much more detailed content here, including code examples, images, and detailed explanations.&lt;/p&gt;
+
+&lt;h2 id=&quot;code-example&quot;&gt;Code Example&lt;/h2&gt;
+
+&lt;p&gt;Here’s a simple Python example:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello_world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Hello, Blog World!&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Success!&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Run the function
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello_world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
+
+&lt;p&gt;I’ll be posting regularly, so make sure to check back often. You can also follow me on social media for updates.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/articles/2024-01/my-first-blog-post</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2024-01/my-first-blog-post</guid>
+        
+        <category>personal</category>
+        
+        <category>introduction</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Academic Bio</title>
