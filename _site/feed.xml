@@ -5,9 +5,34 @@
     <description>Drop me an email at nick.roberts.127.0.0.1@gmail.com</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Aug 2025 03:13:24 +0000</pubDate>
-    <lastBuildDate>Mon, 04 Aug 2025 03:13:24 +0000</lastBuildDate>
+    <pubDate>Mon, 29 Sep 2025 18:41:02 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Sep 2025 18:41:02 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Pretrained Hybrids with MAD Skills</title>
+        <description>&lt;p&gt;Coming soon, stay tuned for updates!&lt;/p&gt;
+
+&lt;p&gt;Nicholas Roberts &lt;a href=&quot;mailto:nick11roberts@cs.wisc.edu]&quot;&gt;nick11roberts@cs.wisc.edu&lt;/a&gt;, Srinath Namburi &lt;a href=&quot;mailto:namburisrinath@gmail.com&quot;&gt;namburisrinath@gmail.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/posts/2025/9/manticore/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/2025/9/manticore/</guid>
+        
+        <category>Research</category>
+        
+        <category>Hybrids</category>
+        
+        <category>AutoML</category>
+        
+        <category>NAS</category>
+        
+        
+        <category>hybrids</category>
+        
+        <category>automl</category>
+        
+      </item>
     
       <item>
         <title>AutoWS-Bench-101: Benchmarking Automated Weak Supervision on Diverse Tasks</title>
@@ -167,7 +192,7 @@ Prior to all of this, I was a community college student at [Fresno City College]
 In 2025 I received an honorable mention for the [Jane Street Graduate Research Fellowship][js] and in 2023, I was named an [MLCommons][mlcommons] [Rising Star][mlsys_rising_stars]. I have also been awarded the Prove AI and UnifyID AI Fellowships in 2021 and 2019, respectively. 
 --&gt;
 
-&lt;p&gt;I am a Ph.D. candidate in Computer Science at &lt;a href=&quot;https://www.cs.wisc.edu&quot;&gt;University of Wisconsin–Madison&lt;/a&gt;, advised by &lt;a href=&quot;https://pages.cs.wisc.edu/~fredsala/&quot;&gt;Fred Sala&lt;/a&gt; in the &lt;a href=&quot;https://sprocketlab.github.io/&quot;&gt;Sprocket Lab&lt;/a&gt;, developing methods for efficient foundation model training and adaptation.&lt;/p&gt;
+&lt;p&gt;I am a Ph.D. candidate in Computer Science at &lt;a href=&quot;https://www.cs.wisc.edu&quot;&gt;University of Wisconsin–Madison&lt;/a&gt;, advised by &lt;a href=&quot;https://pages.cs.wisc.edu/~fredsala/&quot;&gt;Fred Sala&lt;/a&gt; in the &lt;a href=&quot;https://sprocketlab.github.io/&quot;&gt;Sprocket Lab&lt;/a&gt;, where I develop methods for efficient foundation model training and adaptation.&lt;/p&gt;
 
 &lt;p&gt;I have completed research internships at &lt;a href=&quot;https://ai.meta.com/meta-ai/&quot;&gt;Meta’s Llama team&lt;/a&gt; (working on scaling laws with &lt;a href=&quot;https://dieuwkehupkes.nl/&quot;&gt;Dieuwke Hupkes&lt;/a&gt;), &lt;a href=&quot;https://www.together.ai/&quot;&gt;Together AI&lt;/a&gt; (hybrid language models with &lt;a href=&quot;https://tridao.me/&quot;&gt;Tri Dao&lt;/a&gt;), and &lt;a href=&quot;https://www.microsoft.com/en-us/research/&quot;&gt;Microsoft Research&lt;/a&gt; (Physics of AGI group with &lt;a href=&quot;http://sbubeck.com/&quot;&gt;Sébastien Bubeck&lt;/a&gt;). I received an honorable mention for the &lt;a href=&quot;https://www.janestreet.com/join-jane-street/programs-and-events/grf-profiles-2025/&quot;&gt;Jane Street Graduate Research Fellowship&lt;/a&gt; (2025) and was named an &lt;a href=&quot;https://mlcommons.org/en/&quot;&gt;MLCommons&lt;/a&gt; &lt;a href=&quot;https://mlcommons.org/en/news/rising-stars-2023/&quot;&gt;Rising Star&lt;/a&gt; (2023).&lt;/p&gt;
 
@@ -266,7 +291,7 @@ I have also developed benchmarks and competitions as a means of measuring progre
       <item>
         <title>Contact</title>
         <description>&lt;b&gt;Email:&lt;/b&gt; nick11roberts [at] cs [dot] wisc [dot] edu &lt;br /&gt;
-&lt;b&gt;Office:&lt;/b&gt; TBD, moving to the new building!
+&lt;b&gt;Office:&lt;/b&gt; Morgridge Hall 5548
 &lt;!-- CS Dept. 5378, 1210 W Dayton St, Madison, WI 53706 --&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 15:07:19 +0000</pubDate>
@@ -282,9 +307,12 @@ I have also developed benchmarks and competitions as a means of measuring progre
         <title>News</title>
         <description>&lt;ul&gt;
   &lt;li&gt;Excited to visit &lt;a href=&quot;https://hazyresearch.stanford.edu/&quot;&gt;Chris Ré’s lab&lt;/a&gt; at &lt;a href=&quot;#&quot;&gt;Stanford University&lt;/a&gt; this August!&lt;/li&gt;
-  &lt;li&gt;Two papers accepted to &lt;a href=&quot;#&quot;&gt;COLM 2025&lt;/a&gt;!&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2406.00894&quot;&gt;Mancticore&lt;/a&gt; for constructing pretrained hybrids from non-hybrid base models without pretraining!&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2502.14499&quot;&gt;Meta MLGym&lt;/a&gt;: a framework for benchmarking and developing agents for AI research!&lt;/li&gt;
+  &lt;li&gt;Two papers accepted to &lt;a href=&quot;#&quot;&gt;COLM 2025&lt;/a&gt;!
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2406.00894&quot;&gt;Mancticore&lt;/a&gt; for constructing pretrained hybrids from non-hybrid base models without pretraining!&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2502.14499&quot;&gt;Meta MLGym&lt;/a&gt;: a framework for benchmarking and developing agents for AI research!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;Presented at &lt;a href=&quot;#&quot;&gt;ACL 2025&lt;/a&gt;:
     &lt;ul&gt;
       &lt;li&gt;We discover a &lt;a href=&quot;https://arxiv.org/abs/2503.10061&quot;&gt;new scaling law phenomenon&lt;/a&gt;! &lt;strong&gt;Compute optima for knowledge favor larger models, whereas those for reasoning favor more data.&lt;/strong&gt;&lt;/li&gt;
