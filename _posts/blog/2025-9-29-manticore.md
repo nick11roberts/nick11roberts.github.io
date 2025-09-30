@@ -3,6 +3,9 @@ layout: post
 title: 'Introducing Manticore: Building Pretrained Hybrids with MAD Skills'
 date: 2025-9-29
 permalink: /posts/2025/9/manticore/
+authors:
+  - nick11roberts
+  - srinath
 tags:
   - Research
   - Hybrids
@@ -62,10 +65,7 @@ The field no longer revolves around a single architecture. Transformers remain d
 
 If you arrived at this page by scanning our QR code at COLM, and you stuck with it until the end, here are two of our finest cookies for your browser caching pleasure. 🍪🍪
 
-As always, if you’re interested in reading more about Manticore, please check out our paper!
+As always, if you're interested in reading more about Manticore, please check out our paper!
 
 - *Paper:* [Pretrained Hybrids with MAD Skills](https://openreview.net/forum?id=8xSbwT3763)  
 - *Thread:* [X/Twitter link](https://x.com/nick11roberts/status/1944880136597475640)
-
-Nicholas Roberts ([nick11roberts@cs.wisc.edu](mailto:nick11roberts@cs.wisc.edu)),  
-Srinath Namburi ([namburisrinath@gmail.com](mailto:namburisrinath@gmail.com))

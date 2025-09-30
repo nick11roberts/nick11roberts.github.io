@@ -75,7 +75,15 @@ section.post {
 		color: $warning;
 	}
   .read-time {
-    color: $primary;
+    color: $warning;
+    .read-time-icon {
+      color: $secondary;
+      margin-right: 4px;
+    }
+    .read-time-separator {
+      color: $text-color;
+      margin: 0 4px 0 2px;
+    }
   }
 }
 
