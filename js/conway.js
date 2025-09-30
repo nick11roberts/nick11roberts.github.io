@@ -23,6 +23,13 @@ class ConwayGameOfLife {
     this.speed = this.getOptimalSpeed();
     this.lastUpdate = 0;
     
+    // Check for saved state before starting animation
+    const savedState = localStorage.getItem('conway-animation-state');
+    if (savedState === 'paused') {
+      this.manuallyPaused = true;
+      this.isRunning = false;
+    }
+    
     // Start animation
     this.animate();
     
@@ -288,11 +295,13 @@ class ConwayGameOfLife {
   manualPause() {
     this.manuallyPaused = true;
     this.pause();
+    localStorage.setItem('conway-animation-state', 'paused');
   }
   
   manualResume() {
     this.manuallyPaused = false;
     this.resume();
+    localStorage.setItem('conway-animation-state', 'running');
   }
   
   toggle() {
@@ -340,10 +349,16 @@ function initializeConway() {
       });
     }
     
-    // Add toggle button functionality
+    // Add toggle button functionality with persistence
     const toggleButton = document.getElementById('toggle-animation');
     if (toggleButton) {
       const icon = toggleButton.querySelector('.animation-icon');
+      
+      // Set initial button state based on game state
+      if (!game.isRunning && game.manuallyPaused) {
+        icon.className = 'fa fa-play animation-icon';
+        toggleButton.title = 'Resume background animation';
+      }
       
       toggleButton.addEventListener('click', () => {
         if (game.isRunning) {
