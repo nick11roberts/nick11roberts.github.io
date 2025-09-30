@@ -1,11 +1,11 @@
 {% if page.title %}
   {% if page.authors %}
-    {% capture author_names %}
-      {% for author_key in page.authors %}
-        {% assign author = site.data.authors[author_key] %}
-        {% if author %}{{ author.name }}{% unless forloop.last %}, {% endunless %}{% endif %}
-      {% endfor %}
-    {% endcapture %}
+    {%- capture author_names -%}
+    {%- for author_key in page.authors -%}
+    {%- assign author = site.data.authors[author_key] -%}
+    {%- if author -%}{{ author.name }}{%- unless forloop.last -%}, {%- endunless -%}{%- endif -%}
+    {%- endfor -%}
+    {%- endcapture -%}
     {% capture title %}{{ page.title }} | {{ author_names | strip }}{% endcapture %}
   {% else %}
     {% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
