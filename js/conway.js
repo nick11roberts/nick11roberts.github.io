@@ -34,16 +34,27 @@ class ConwayGameOfLife {
     if (container) {
       const rect = container.getBoundingClientRect();
       
-      // Extend canvas beyond container bounds to fill edges
-      const extendedWidth = rect.width + 60; // 30px on each side
-      const extendedHeight = rect.height + 60; // 30px on each side
+      // Check if we're on mobile (small screen)
+      const isMobile = window.innerWidth <= 599; // Mobile breakpoint
       
-      this.canvas.width = extendedWidth;
-      this.canvas.height = extendedHeight;
+      let canvasWidth, canvasHeight;
+      
+      if (isMobile) {
+        // On mobile, fit within container bounds (no horizontal extension)
+        canvasWidth = rect.width;
+        canvasHeight = rect.height + 60; // Still extend vertically for visual effect
+      } else {
+        // On desktop, extend canvas beyond container bounds to fill edges
+        canvasWidth = rect.width + 60; // 30px on each side
+        canvasHeight = rect.height + 60; // 30px on each side
+      }
+      
+      this.canvas.width = canvasWidth;
+      this.canvas.height = canvasHeight;
       
       // Recalculate grid dimensions based on new canvas size
-      this.width = Math.floor(extendedWidth / this.cellSize);
-      this.height = Math.floor(extendedHeight / this.cellSize);
+      this.width = Math.floor(canvasWidth / this.cellSize);
+      this.height = Math.floor(canvasHeight / this.cellSize);
       
       this.grid = this.createGrid();
       this.nextGrid = this.createGrid();
