@@ -166,3 +166,20 @@
   object-fit: contain;
   margin: 1rem auto;
 }
+
+// Apply initial letter styling to the Blog listing page title
+#post .post-header h1.blog-initial::first-letter {
+  float: left;
+  font-size: 2em;
+  line-height: 0.8;
+  margin: 0.05em 0.05em 0 0;
+  padding: 0.1em 0.15em;
+  font-weight: normal;
+  color: #ffffff;
+  background: #F36170;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  text-shadow: none;
+  font-family: "Jacquard 12", "Georgia", "Times New Roman", serif;
+}

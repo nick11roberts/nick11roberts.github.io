@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<a class="btn" href= "{{ site.url }}/blog" >
+<!-- <a class="btn" href= "{{ site.url }}/blog" >
   ← Back to Blog
-</a>
+</a> -->
 {% if page.image.feature %}
 <div class="post-image-feature">
-  <img class="feature-image" src=
+  <img class="feature-image" loading="lazy" src=
   {% if page.image.feature contains 'https' or page.image.feature contains 'http' %}
   "{{ page.image.feature }}"
   {% else %}
