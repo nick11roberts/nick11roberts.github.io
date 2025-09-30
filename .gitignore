@@ -3,4 +3,5 @@ _site
 _drafts
 .ruby-version
 .DS_Store
-.jekyll-cache
+.jekyll-cache/
+.jekyll-metadata

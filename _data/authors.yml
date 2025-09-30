@@ -1,0 +1,13 @@
+nick11roberts:
+  name: "Nicholas Roberts"
+  email: "nick11roberts@cs.wisc.edu"
+  avatar: "avatar.png"
+  bio: "Ph.D. Candidate at University of Wisconsin-Madison"
+  twitter: "nick11roberts"
+  github: "nick11roberts"
+
+srinath:
+  name: "Srinath Namburi"
+  email: "namburisrinath@gmail.com"
+  avatar: "avatar.png"  # You can add a specific avatar later
+  bio: "Research Collaborator"
