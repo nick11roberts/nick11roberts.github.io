@@ -19,6 +19,7 @@ class ConwayGameOfLife {
     // Animation settings - optimized for battery life
     this.isRunning = true;
     this.isVisible = true;
+    this.manuallyPaused = false; // Track if user manually paused
     this.speed = this.getOptimalSpeed();
     this.lastUpdate = 0;
     
@@ -44,7 +45,10 @@ class ConwayGameOfLife {
       if (document.hidden) {
         this.pause();
       } else {
-        this.resume();
+        // Only resume if user didn't manually pause it
+        if (!this.manuallyPaused) {
+          this.resume();
+        }
       }
     });
     
@@ -55,7 +59,7 @@ class ConwayGameOfLife {
           this.isVisible = entry.isIntersecting;
           if (!this.isVisible) {
             this.pause();
-          } else if (!document.hidden) {
+          } else if (!document.hidden && !this.manuallyPaused) {
             this.resume();
           }
         });
@@ -280,6 +284,17 @@ class ConwayGameOfLife {
     this.animate(performance.now());
   }
   
+  // Manual pause/resume methods
+  manualPause() {
+    this.manuallyPaused = true;
+    this.pause();
+  }
+  
+  manualResume() {
+    this.manuallyPaused = false;
+    this.resume();
+  }
+  
   toggle() {
     this.isRunning = !this.isRunning;
     if (this.isRunning) {
@@ -332,11 +347,11 @@ function initializeConway() {
       
       toggleButton.addEventListener('click', () => {
         if (game.isRunning) {
-          game.pause();
+          game.manualPause();
           icon.className = 'fa fa-play animation-icon';
           toggleButton.title = 'Resume background animation';
         } else {
-          game.resume();
+          game.manualResume();
           icon.className = 'fa fa-pause animation-icon';
           toggleButton.title = 'Pause background animation';
         }
