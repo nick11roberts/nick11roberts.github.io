@@ -16,16 +16,64 @@ class ConwayGameOfLife {
     // Initialize with random pattern
     this.randomize();
     
-    // Animation settings
+    // Animation settings - optimized for battery life
     this.isRunning = true;
-    this.speed = 200; // slower for subtlety
+    this.isVisible = true;
+    this.manuallyPaused = false; // Track if user manually paused
+    this.speed = this.getOptimalSpeed();
     this.lastUpdate = 0;
+    
+    // Check for saved state before starting animation
+    const savedState = localStorage.getItem('conway-animation-state');
+    if (savedState === 'paused') {
+      this.manuallyPaused = true;
+      this.isRunning = false;
+    }
     
     // Start animation
     this.animate();
     
     // Handle window resize
     window.addEventListener('resize', () => this.resizeCanvas());
+    
+    // Battery optimization: pause when not visible
+    this.setupVisibilityHandlers();
+  }
+  
+  getOptimalSpeed() {
+    // Slower animation on mobile for better battery life
+    const isMobile = window.innerWidth <= 599;
+    return isMobile ? 500 : 200; // 500ms on mobile, 200ms on desktop
+  }
+  
+  setupVisibilityHandlers() {
+    // Pause animation when page is not visible
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        this.pause();
+      } else {
+        // Only resume if user didn't manually pause it
+        if (!this.manuallyPaused) {
+          this.resume();
+        }
+      }
+    });
+    
+    // Use Intersection Observer to pause when not visible on screen
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          this.isVisible = entry.isIntersecting;
+          if (!this.isVisible) {
+            this.pause();
+          } else if (!document.hidden && !this.manuallyPaused) {
+            this.resume();
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      observer.observe(this.canvas);
+    }
   }
   
   resizeCanvas() {
@@ -34,20 +82,34 @@ class ConwayGameOfLife {
     if (container) {
       const rect = container.getBoundingClientRect();
       
-      // Extend canvas beyond container bounds to fill edges
-      const extendedWidth = rect.width + 60; // 30px on each side
-      const extendedHeight = rect.height + 60; // 30px on each side
+      // Check if we're on mobile (small screen)
+      const isMobile = window.innerWidth <= 599; // Mobile breakpoint
       
-      this.canvas.width = extendedWidth;
-      this.canvas.height = extendedHeight;
+      let canvasWidth, canvasHeight;
+      
+      if (isMobile) {
+        // On mobile, fit within container bounds (no horizontal extension)
+        canvasWidth = rect.width;
+        canvasHeight = rect.height + 60; // Still extend vertically for visual effect
+      } else {
+        // On desktop, extend canvas beyond container bounds to fill edges
+        canvasWidth = rect.width + 60; // 30px on each side
+        canvasHeight = rect.height + 60; // 30px on each side
+      }
+      
+      this.canvas.width = canvasWidth;
+      this.canvas.height = canvasHeight;
       
       // Recalculate grid dimensions based on new canvas size
-      this.width = Math.floor(extendedWidth / this.cellSize);
-      this.height = Math.floor(extendedHeight / this.cellSize);
+      this.width = Math.floor(canvasWidth / this.cellSize);
+      this.height = Math.floor(canvasHeight / this.cellSize);
       
       this.grid = this.createGrid();
       this.nextGrid = this.createGrid();
       this.randomize();
+      
+      // Update speed based on new screen size
+      this.speed = this.getOptimalSpeed();
     }
   }
   
@@ -204,7 +266,10 @@ class ConwayGameOfLife {
   }
   
   animate(currentTime) {
-    if (!this.isRunning) return;
+    if (!this.isRunning || !this.isVisible) {
+      // Stop the animation loop when paused or not visible
+      return;
+    }
     
     // Update at specified speed
     if (currentTime - this.lastUpdate > this.speed) {
@@ -224,6 +289,19 @@ class ConwayGameOfLife {
   resume() {
     this.isRunning = true;
     this.animate(performance.now());
+  }
+  
+  // Manual pause/resume methods
+  manualPause() {
+    this.manuallyPaused = true;
+    this.pause();
+    localStorage.setItem('conway-animation-state', 'paused');
+  }
+  
+  manualResume() {
+    this.manuallyPaused = false;
+    this.resume();
+    localStorage.setItem('conway-animation-state', 'running');
   }
   
   toggle() {
@@ -252,32 +330,47 @@ function initializeConway() {
   if (canvas) {
     const game = new ConwayGameOfLife(canvas);
     
-    // Add some interesting patterns periodically (less frequently for subtlety)
+    // Add some interesting patterns periodically (less frequently for battery life)
     setInterval(() => {
-      if (Math.random() > 0.9) {
+      if (Math.random() > 0.95) { // Reduced frequency from 0.9 to 0.95
         game.reset();
       }
-    }, 15000); // Reset every 15 seconds with 10% probability
+    }, 30000); // Increased interval from 15s to 30s
     
-    // Add hover effect to speed up animation slightly
+    // Add hover effect to speed up animation slightly (desktop only)
     const coverCard = document.querySelector('.cover-card');
-    if (coverCard) {
+    if (coverCard && window.innerWidth > 599) { // Only on desktop
       coverCard.addEventListener('mouseenter', () => {
-        game.speed = 120; // Slightly faster on hover
+        game.speed = 150; // Slightly faster on hover
       });
       
       coverCard.addEventListener('mouseleave', () => {
-        game.speed = 200; // Normal speed
+        game.speed = game.getOptimalSpeed(); // Return to optimal speed
       });
     }
     
-    // Pause animation when page is not visible (performance optimization)
-    document.addEventListener('visibilitychange', () => {
-      if (document.hidden) {
-        game.pause();
-      } else {
-        game.resume();
+    // Add toggle button functionality with persistence
+    const toggleButton = document.getElementById('toggle-animation');
+    if (toggleButton) {
+      const icon = toggleButton.querySelector('.animation-icon');
+      
+      // Set initial button state based on game state
+      if (!game.isRunning && game.manuallyPaused) {
+        icon.className = 'fa fa-play animation-icon';
+        toggleButton.title = 'Resume background animation';
       }
-    });
+      
+      toggleButton.addEventListener('click', () => {
+        if (game.isRunning) {
+          game.manualPause();
+          icon.className = 'fa fa-play animation-icon';
+          toggleButton.title = 'Resume background animation';
+        } else {
+          game.manualResume();
+          icon.className = 'fa fa-pause animation-icon';
+          toggleButton.title = 'Pause background animation';
+        }
+      });
+    }
   }
 } 

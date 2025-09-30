@@ -15,6 +15,14 @@
   border-radius: 8px;
   filter: blur(0.5px);
   background: transparent;
+  
+  /* Fix horizontal overflow on mobile devices */
+  @media only screen and (max-width: 599px) {
+    left: 0;
+    top: -30px;
+    width: 100%;
+    height: calc(100% + 60px);
+  }
 }
 
 .cover {
@@ -114,5 +122,30 @@
         color: lighten($secondary, 14%);
       }
     }
+  }
+}
+
+.animation-toggle {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 85%;
+  color: #F36170;
+  padding: 8px;
+  font-family: $font-family-mondwest;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+  
+  &:hover,
+  &:focus {
+    color: lighten(#F36170, 14%);
+    opacity: 1;
+  }
+  
+  .animation-icon {
+    font-size: 1.2em;
   }
 }
