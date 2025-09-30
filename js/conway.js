@@ -16,9 +16,10 @@ class ConwayGameOfLife {
     // Initialize with random pattern
     this.randomize();
     
-    // Animation settings
+    // Animation settings - optimized for battery life
     this.isRunning = true;
-    this.speed = 200; // slower for subtlety
+    this.isVisible = true;
+    this.speed = this.getOptimalSpeed();
     this.lastUpdate = 0;
     
     // Start animation
@@ -26,6 +27,42 @@ class ConwayGameOfLife {
     
     // Handle window resize
     window.addEventListener('resize', () => this.resizeCanvas());
+    
+    // Battery optimization: pause when not visible
+    this.setupVisibilityHandlers();
+  }
+  
+  getOptimalSpeed() {
+    // Slower animation on mobile for better battery life
+    const isMobile = window.innerWidth <= 599;
+    return isMobile ? 500 : 200; // 500ms on mobile, 200ms on desktop
+  }
+  
+  setupVisibilityHandlers() {
+    // Pause animation when page is not visible
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        this.pause();
+      } else {
+        this.resume();
+      }
+    });
+    
+    // Use Intersection Observer to pause when not visible on screen
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          this.isVisible = entry.isIntersecting;
+          if (!this.isVisible) {
+            this.pause();
+          } else if (!document.hidden) {
+            this.resume();
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      observer.observe(this.canvas);
+    }
   }
   
   resizeCanvas() {
@@ -59,6 +96,9 @@ class ConwayGameOfLife {
       this.grid = this.createGrid();
       this.nextGrid = this.createGrid();
       this.randomize();
+      
+      // Update speed based on new screen size
+      this.speed = this.getOptimalSpeed();
     }
   }
   
@@ -215,7 +255,10 @@ class ConwayGameOfLife {
   }
   
   animate(currentTime) {
-    if (!this.isRunning) return;
+    if (!this.isRunning || !this.isVisible) {
+      // Stop the animation loop when paused or not visible
+      return;
+    }
     
     // Update at specified speed
     if (currentTime - this.lastUpdate > this.speed) {
@@ -263,32 +306,41 @@ function initializeConway() {
   if (canvas) {
     const game = new ConwayGameOfLife(canvas);
     
-    // Add some interesting patterns periodically (less frequently for subtlety)
+    // Add some interesting patterns periodically (less frequently for battery life)
     setInterval(() => {
-      if (Math.random() > 0.9) {
+      if (Math.random() > 0.95) { // Reduced frequency from 0.9 to 0.95
         game.reset();
       }
-    }, 15000); // Reset every 15 seconds with 10% probability
+    }, 30000); // Increased interval from 15s to 30s
     
-    // Add hover effect to speed up animation slightly
+    // Add hover effect to speed up animation slightly (desktop only)
     const coverCard = document.querySelector('.cover-card');
-    if (coverCard) {
+    if (coverCard && window.innerWidth > 599) { // Only on desktop
       coverCard.addEventListener('mouseenter', () => {
-        game.speed = 120; // Slightly faster on hover
+        game.speed = 150; // Slightly faster on hover
       });
       
       coverCard.addEventListener('mouseleave', () => {
-        game.speed = 200; // Normal speed
+        game.speed = game.getOptimalSpeed(); // Return to optimal speed
       });
     }
     
-    // Pause animation when page is not visible (performance optimization)
-    document.addEventListener('visibilitychange', () => {
-      if (document.hidden) {
-        game.pause();
-      } else {
-        game.resume();
-      }
-    });
+    // Add toggle button functionality
+    const toggleButton = document.getElementById('toggle-animation');
+    if (toggleButton) {
+      const icon = toggleButton.querySelector('.animation-icon');
+      
+      toggleButton.addEventListener('click', () => {
+        if (game.isRunning) {
+          game.pause();
+          icon.className = 'fa fa-play animation-icon';
+          toggleButton.title = 'Resume background animation';
+        } else {
+          game.resume();
+          icon.className = 'fa fa-pause animation-icon';
+          toggleButton.title = 'Pause background animation';
+        }
+      });
+    }
   }
 } 
