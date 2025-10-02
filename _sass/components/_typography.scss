@@ -84,7 +84,12 @@ hr {
 
 em { font-style: italic; }
 
-strong { font-weight: 600; }
+strong { 
+  font-weight: normal; 
+  font-family: "PPNeuebit", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 0.5px 0 0 currentColor, 1px 0 0 currentColor;
+  letter-spacing: 0.02em;
+}
 
 small,
 .small {
@@ -92,10 +97,52 @@ small,
   font-weight: normal;
 }
 
+//
+// Alternative emphasis styles
+//
+
+.emphasis-color {
+  color: $primary;
+}
+
+.emphasis-shadow {
+  text-shadow: 0.5px 0 0 currentColor, 1px 0 0 currentColor;
+}
+
+.emphasis-spacing {
+  letter-spacing: 0.05em;
+}
+
+.emphasis-underline {
+  text-decoration: underline;
+  text-decoration-color: $primary;
+  text-underline-offset: 2px;
+}
+
+.emphasis-background {
+  background-color: rgba($primary, 0.1);
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
+}
+
+.emphasis-border {
+  border-left: 3px solid $primary;
+  padding-left: 0.5em;
+  margin-left: 0.5em;
+}
+
 p {
   margin: 1em 0;
   word-spacing: 0.05em;
   line-height: 1.35em;
+}
+
+//
+// Blog post specific styling
+//
+
+.blog-post-content {
+  font-size: 21px; // Increased from 19px (base) by 2 points
 }
 
 //
