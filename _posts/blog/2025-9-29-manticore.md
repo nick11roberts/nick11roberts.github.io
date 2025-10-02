@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Introducing Manticore: Building Pretrained Hybrids with MAD Skills'
+title: 'Manticore: Automated Hybrid Design Minus Pretraining'
 date: 2025-9-29
 permalink: /posts/2025/9/manticore/
 authors:
