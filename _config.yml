@@ -4,17 +4,17 @@
 ####################################
 #
 title: Nicholas Roberts
-email: nick.roberts.127.0.0.1@gmail.com
-description: Drop me an email at nick.roberts.127.0.0.1@gmail.com
-url: https://nick11roberts.github.io # the base hostname & protocol for your site
-keywords: ["Programming", "Deep Learning", "Machine Learning", "Python", "Data Science"]
+email: nicholas11roberts@gmail.com
+description: Drop me an email at nicholas11roberts@gmail.com
+url: https://nick11roberts.science # the base hostname & protocol for your site
+keywords: ["Foundation Models", "Deep Learning", "Machine Learning", "Large Language Models", "AI for Science"]
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          United States/California
+timezone:          United States/New_York
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -42,9 +42,9 @@ kramdown:
 owner:
   name: "Nicholas Roberts"
   avatar: avatar.png
-  job: "Ph.D."
-  bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Frederic Sala"
-  ext-bio: "Department of Computer Sciences <br/>University of Wisconsin-Madison <br/>Advisor: Frederic Sala"
+  job: "Postdoctoral Research Fellow (incoming)"
+  bio: "Princeton Language and Intelligence <br/>Princeton University"
+  ext-bio: "Princeton Language and Intelligence <br/>Princeton University"
   email: nick11roberts@cs.wisc.edu
   disqus-shortname:
   twitter: nick11roberts
