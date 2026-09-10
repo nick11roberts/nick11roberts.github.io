@@ -4,8 +4,8 @@
 ####################################
 #
 title: Nicholas Roberts
-email: nr2756@princeton.edu
-description: Drop me an email at nr2756@princeton.edu
+email: nick11roberts@princeton.edu
+description: Drop me an email at nick11roberts@princeton.edu
 url: https://nick11roberts.science # the base hostname & protocol for your site
 keywords: ["Foundation Models", "Deep Learning", "Machine Learning", "Large Language Models", "AI for Science"]
 
@@ -45,7 +45,7 @@ owner:
   job: "Postdoctoral Research Fellow"
   bio: "Princeton Language and Intelligence <br/>Princeton University"
   ext-bio: "Princeton Language and Intelligence <br/>Princeton University"
-  email: nr2756@princeton.edu
+  email: nick11roberts@princeton.edu
   disqus-shortname:
   twitter: nick11roberts
   facebook: #nick11roberts
